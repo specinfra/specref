@@ -6654,6 +6654,17 @@
         "date": "2008",
         "isoNumber": "ISO 639-5:2008"
     },
+    "iso-639-2023": {
+        "authors": [
+            "ISO/TC 37/SC 2"
+        ],
+        "href": "https://www.iso.org/standard/74575.html",
+        "title": "Code for individual languages and language groups",
+        "publisher": "ISO",
+        "status": "International Standard",
+        "date": "2023",
+        "isoNumber": "ISO 639:2023"
+    },
     "json-patch": {
         "aliasOf": "rfc6902"
     },
