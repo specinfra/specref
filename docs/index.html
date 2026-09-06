@@ -151,18 +151,10 @@
                 </div>
             </footer>
         </div>
-        <script src="./js/jquery-2.1.3.min.js"></script>
         <script src="./js/search.js"></script>
-        <script src="./js/bootstrap.min.js"></script>
         <script>
-            setup($("#search"));
-            metadata($("#refcount"), $("#lastupdate"));
-            $("dl").delegate("dt a", "click", function(e) {
-                var $dd = $(this).parent().next("dd");
-                $dd.find("div").toggle();
-                $dd.find("pre").toggle();
-                return false;
-            });
+            setup(document.querySelector("#search"));
+            metadata(document.querySelector("#refcount"), document.querySelector("#lastupdate"));
         </script>
     </body>
 </html>

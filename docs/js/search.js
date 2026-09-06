@@ -63,10 +63,10 @@ function buildResults(json) {
 
 function labels(obj) {
     if (obj.obsoletedBy) {
-        return " <span class=\"label label-warning\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Obsoleted by " + obj.obsoletedBy.map(function(k) { return "[" + k + "]"; }).join(", ") + ".\">Obsolete</span>";
+        return " <span class=\"label label-warning\" title=\"Obsoleted by " + obj.obsoletedBy.map(function(k) { return "[" + k + "]"; }).join(", ") + ".\">Obsolete</span>";
     }
     if (obj.aliasOf) {
-        return " <span class=\"label label-default\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Alias of [" + obj.aliasOf + "].\">Alias</span>";
+        return " <span class=\"label label-default\" title=\"Alias of [" + obj.aliasOf + "].\">Alias</span>";
     }
     return "";
 }
@@ -82,62 +82,75 @@ function msg(query, count) {
     return 'Your search for "' + query + '" did not match any references in the Specref database.\nSorry. :\'(';
 }
 
+function getJSON(url, params) {
+    var target = new URL(url);
+    for (var k in params) target.searchParams.set(k, params[k]);
+    return fetch(target).then(function(response) {
+        if (!response.ok) throw new Error(response.status + " " + response.statusText);
+        return response.json();
+    });
+}
 
-function setup($root) {
-    var $search = $root.find("input[type=search]");
-    var $status = $("#status");
-    var $results = $root.find("dl");
-    
-    function fetch(query, callback) {
-        $.when(
-            $.getJSON("https://api.specref.org/search-refs", { q: query }),
-            $.getJSON("https://api.specref.org/reverse-lookup", { urls: query })
-        ).then(function(search, revLookup) {
+function toggle(el) {
+    el.style.display = getComputedStyle(el).display === "none" ? "" : "none";
+}
+
+function setup(root) {
+    var searchField = root.querySelector("input[type=search]");
+    var status = document.querySelector("#status");
+    var results = root.querySelector("dl");
+
+    function fetchRefs(query) {
+        return Promise.all([
+            getJSON("https://api.specref.org/search-refs", { q: query }),
+            getJSON("https://api.specref.org/reverse-lookup", { urls: query })
+        ]).then(function(responses) {
+            var search = responses[0];
+            var revLookup = responses[1];
             var ref;
-            search = search[0],
-            revLookup = revLookup[0];
             for (var k in revLookup) {
                 ref = revLookup[k];
                 search[ref.id] = ref;
             }
 
-            var results = buildResults(search);
-            results.raw = search;
-            callback(null, results);
+            var output = buildResults(search);
+            output.raw = search;
+            return output;
         }, function(error) {
-            $status.text("Oops! Something didn't work out as planned. :(");
+            status.textContent = "Oops! Something didn't work out as planned. :(";
         });
     }
-    $root.find("form").on("submit", function() {
-        var query = $search.val();
+    root.querySelector("form").addEventListener("submit", function(e) {
+        e.preventDefault();
+        var query = searchField.value;
         if (query) {
-            $status.text("Searching…");
-            fetch(query, function(err, output) {
+            status.textContent = "Searching…";
+            fetchRefs(query).then(function(output) {
+                if (!output) return;
                 window.history && window.history.pushState(null, '', queryToUrl(query));
                 update(query, output);
             });
         }
-        return false;
     });
-    
+
     function update(query, output) {
-        $results.html(highlight(output.html, query));
-        $status.text(msg(query, output.count));
-        $search.select();
-        $('[data-toggle="tooltip"]').tooltip();
+        results.innerHTML = highlight(output.html, query);
+        status.textContent = msg(query, output.count);
+        searchField.select();
     }
-    
+
     function search() {
-        query = queryFromLocation();
+        var query = queryFromLocation();
         if (!query) return;
-        $search.val(query);
-        $status.text("Searching…");
-        fetch(query, function(err, output) {
+        searchField.value = query;
+        status.textContent = "Searching…";
+        fetchRefs(query).then(function(output) {
+            if (!output) return;
             update(query, output);
         });
     }
     window.onpopstate = search;
-    
+
     function queryFromLocation() {
         var obj = {};
         (window.location.href.split('?')[1] || '').split("#")[0].split('&').forEach(function(str) {
@@ -146,13 +159,22 @@ function setup($root) {
         });
         return obj.q ? decodeURIComponent(obj.q) : null;
     }
-    
+
     function queryToUrl(query) {
         return location.pathname + "?q=" + encodeURIComponent(query);
     }
-    
+
+    results.addEventListener("click", function(e) {
+        var link = e.target.closest("dt a");
+        if (!link || !results.contains(link)) return;
+        e.preventDefault();
+        var dd = link.parentNode.nextElementSibling;
+        if (!dd || dd.tagName !== "DD") return;
+        Array.prototype.forEach.call(dd.querySelectorAll("div, pre"), toggle);
+    });
+
     search();
-    $search.focus();
+    searchField.focus();
 }
 
 function metadata(refcount, timeago) {
@@ -161,7 +183,7 @@ function metadata(refcount, timeago) {
         var l = n.length;
         return n.substr(0, l - 3) +  "," + n.substr(l - 3, l);
     }
-    
+
     function formatTime(delta) {
         delta = Math.floor(delta / 60000); // minutes
         if (delta < 1) return "less than a minute ago";
@@ -177,12 +199,12 @@ function metadata(refcount, timeago) {
         if (delta == 1) return "a week ago";
         return delta + " weeks ago";
     }
-    
-    $.getJSON("https://api.specref.org/metadata").then(function(data) {
-        refcount.text(formatRefCount(data.refCount));
+
+    getJSON("https://api.specref.org/metadata").then(function(data) {
+        refcount.textContent = formatRefCount(data.refCount);
     });
-    
-    $.getJSON("https://api.github.com/repos/tobie/specref/commits?path=refs&per_page=1").then(function(data) {
-        timeago.html(" (last one <a href=\"" + data[0].html_url + "\">" + formatTime(new Date - Date.parse(data[0].commit.committer.date)) + "</a>)");
+
+    getJSON("https://api.github.com/repos/tobie/specref/commits", { path: "refs", per_page: 1 }).then(function(data) {
+        timeago.innerHTML = " (last one <a href=\"" + data[0].html_url + "\">" + formatTime(new Date - Date.parse(data[0].commit.committer.date)) + "</a>)";
     });
 }
