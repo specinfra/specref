@@ -4,11 +4,11 @@
   "description": "A list of spec references and related API.",
   "main": "index.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.6",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "errorhandler": "^1.5.1",
-    "express": "^4.21.2",
+    "express": "^4.22.2",
     "express-ipfilter": "^1.2.0",
     "multer": "^1.4.2"
   },
