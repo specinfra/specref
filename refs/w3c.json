@@ -35296,10 +35296,10 @@
         "aliasOf": "wai-aria-roadmap"
     },
     "aria-role": {
-        "aliasOf": "wai-aria"
+        "aliasOf": "wai-aria-1.0"
     },
     "aria-state": {
-        "aliasOf": "wai-aria"
+        "aliasOf": "wai-aria-1.0"
     },
     "attribution": {
         "rawDate": "2026-08-20",
@@ -217663,6 +217663,47 @@
         "source": "https://api.w3.org/specifications/wai-age-literature"
     },
     "wai-aria": {
+        "aliasOf": "wai-aria-1.2",
+        "isSeriesAlias": true
+    },
+    "wai-aria-20060926": {
+        "aliasOf": "wai-aria-1.0-20060926"
+    },
+    "wai-aria-20061220": {
+        "aliasOf": "wai-aria-1.0-20061220"
+    },
+    "wai-aria-20070601": {
+        "aliasOf": "wai-aria-1.0-20070601"
+    },
+    "wai-aria-20071019": {
+        "aliasOf": "wai-aria-1.0-20071019"
+    },
+    "wai-aria-20080204": {
+        "aliasOf": "wai-aria-1.0-20080204"
+    },
+    "wai-aria-20080806": {
+        "aliasOf": "wai-aria-1.0-20080806"
+    },
+    "wai-aria-20090224": {
+        "aliasOf": "wai-aria-1.0-20090224"
+    },
+    "wai-aria-20091215": {
+        "aliasOf": "wai-aria-1.0-20091215"
+    },
+    "wai-aria-20100916": {
+        "aliasOf": "wai-aria-1.0-20100916"
+    },
+    "wai-aria-20110118": {
+        "aliasOf": "wai-aria-1.0-20110118"
+    },
+    "wai-aria-20140206": {
+        "aliasOf": "wai-aria-1.0-20140206"
+    },
+    "wai-aria-20140320": {
+        "aliasOf": "wai-aria-1.0-20140320"
+    },
+
+    "wai-aria-1.0": {
         "authors": [
             "James Craig",
             "Michael Cooper"
@@ -217865,9 +217906,6 @@
         },
         "rawDate": "2014-03-20",
         "source": "https://api.w3.org/specifications/wai-aria"
-    },
-    "wai-aria-1.0": {
-        "aliasOf": "wai-aria"
     },
     "wai-aria-1.1": {
         "authors": [
@@ -218265,7 +218303,7 @@
         "repository": "https://github.com/w3c/aria"
     },
     "wai-aria-10": {
-        "aliasOf": "wai-aria"
+        "aliasOf": "wai-aria-1.0"
     },
     "wai-aria-11": {
         "aliasOf": "wai-aria-1.1"
