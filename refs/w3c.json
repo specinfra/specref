@@ -8699,6 +8699,31 @@
         ]
     },
     "MathML": {
+        "aliasOf": "MathML3",
+        "isSeriesAlias": true
+    },
+    "MathML-19970515": {
+        "aliasOf": "MathML1-19970515"
+    },
+    "MathML-19970710": {
+        "aliasOf": "MathML1-19970710"
+    },
+    "MathML-19980106": {
+        "aliasOf": "MathML1-19980106"
+    },
+    "MathML-19980224": {
+        "aliasOf": "MathML1-19980224"
+    },
+    "MathML-19980407": {
+        "aliasOf": "MathML1-19980407"
+    },
+    "MathML-19990707": {
+        "aliasOf": "MathML1-19990707"
+    },
+    "MathML-20230307": {
+        "aliasOf": "MathML1-20230307"
+    },
+    "MathML1": {
         "authors": [
             "Patrick D F Ion",
             "Robert R Miner"
