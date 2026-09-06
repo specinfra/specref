@@ -7695,6 +7695,40 @@
         "title": "Internet Privacy Working Group Privacy Practices for the Web"
     },
     "IndexedDB": {
+        "aliasOf": "IndexedDB-3",
+        "isSeriesAlias": true
+    },
+    "IndexedDB-20090929": {
+        "aliasOf": "IndexedDB-1-20090929"
+    },
+    "IndexedDB-20100105": {
+        "aliasOf": "IndexedDB-1-20100105"
+    },
+    "IndexedDB-20100819": {
+        "aliasOf": "IndexedDB-1-20100819"
+    },
+    "IndexedDB-20110419": {
+        "aliasOf": "IndexedDB-1-20110419"
+    },
+    "IndexedDB-20111206": {
+        "aliasOf": "IndexedDB-1-20111206"
+    },
+    "IndexedDB-20120524": {
+        "aliasOf": "IndexedDB-1-20120524"
+    },
+    "IndexedDB-20130516": {
+        "aliasOf": "IndexedDB-1-20130516"
+    },
+    "IndexedDB-20130704": {
+        "aliasOf": "IndexedDB-1-20130704"
+    },
+    "IndexedDB-20141120": {
+        "aliasOf": "IndexedDB-1-20141120"
+    },
+    "IndexedDB-20150108": {
+        "aliasOf": "IndexedDB-1-20150108"
+    },
+    "IndexedDB-1": {
         "authors": [
             "Nikunj Mehta",
             "Jonas Sicking",
@@ -24580,7 +24614,7 @@
         }
     },
     "WebSimpleDB": {
-        "aliasOf": "IndexedDB"
+        "aliasOf": "IndexedDB-1"
     },
     "Window": {
         "authors": [
