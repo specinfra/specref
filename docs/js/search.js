@@ -204,7 +204,7 @@ function metadata(refcount, timeago) {
         refcount.textContent = formatRefCount(data.refCount);
     });
 
-    getJSON("https://api.github.com/repos/tobie/specref/commits", { path: "refs", per_page: 1 }).then(function(data) {
+    getJSON("https://api.github.com/repos/specinfra/specref/commits", { path: "refs", per_page: 1 }).then(function(data) {
         timeago.innerHTML = " (last one <a href=\"" + data[0].html_url + "\">" + formatTime(new Date - Date.parse(data[0].commit.committer.date)) + "</a>)";
     });
 }
