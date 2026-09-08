@@ -13,6 +13,7 @@ Specref API
   * [Obsoleted references](#obsoleted-references)
   * [CORS](#cors)
   * [Examples](#examples)
+* [Deployment](#deployment)
 * [Contributing](#contributing)
 * [Licenses](#licenses)
 
@@ -220,6 +221,14 @@ Some examples should help:
     GET https://api.specref.org/bibrefs?refs=SVG,REX,DAHUT&callback=yourFunctionName
 
 If you need to find a reference ID (for either bibliographic or cross-references) you need to look for it on [specref.org](http://specref.org).
+
+## Deployment
+
+The API is hosted on [Clever Cloud](https://www.clever-cloud.com/). The server exposes a lightweight health check endpoint at `/health` which always responds with `200 OK` and `{ "status": "ok" }`, without touching the reference database.
+
+Clever Cloud must be configured to poll this endpoint (rather than `/`, which returns a 404) so that it can tell whether the instance is up during deployment and while it is running, and only restarts it when it actually stops responding. Set the following environment variable on the Clever Cloud application:
+
+    CC_HEALTH_CHECK_PATH=/health
 
 ## Contributing
 
