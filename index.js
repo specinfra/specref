@@ -11,6 +11,18 @@ if (process.env.NODE_ENV == "dev" || process.env.NODE_ENV == "development") {
     errorhandlerOptions.showStack = true;
 }
 app.enable("etag");
+
+// Health check. Registered before the IP filter, compression and body
+// parsing middleware so that it stays cheap and can never be blocked or
+// slowed down by them. Clever Cloud polls this path (see
+// CC_HEALTH_CHECK_PATH in the README) both during deployment and while
+// the app is running, and restarts the instance if it fails to respond
+// with a 2xx status code.
+app.get('/health', function (req, res) {
+    res.setHeader("Cache-Control", "no-store");
+    res.status(200).json({ status: "ok" });
+});
+
 var bannedIPs = [
 	// Palo Alto Networks bot
 	"34.96.130.0/24", "34.77.162.0/24", "34.86.35.0/24"
@@ -130,8 +142,10 @@ app.get('/xrefs', function (req, res, next) {
     res.status(410).jsonp({ message: "xrefs are no longer supported." });
 });
 
-var port = process.env.PORT || 5000;
-app.listen(port, function () {
-    console.log("Express server listening on port %d in %s mode", port, app.settings.env);
-    console.log("App started in", (Date.now() - t0) + "ms.");
-});
+if (require.main === module) {
+    var port = process.env.PORT || 5000;
+    app.listen(port, function () {
+        console.log("Express server listening on port %d in %s mode", port, app.settings.env);
+        console.log("App started in", (Date.now() - t0) + "ms.");
+    });
+}
