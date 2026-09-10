@@ -119332,6 +119332,28 @@
         ]
     },
     "json-ld": {
+        "aliasOf": "json-ld11",
+        "isSeriesAlias": true
+    },
+    "json-ld-20120712": {
+        "aliasOf": "json-ld10-20120712"
+    },
+    "json-ld-20130411": {
+        "aliasOf": "json-ld10-20130411"
+    },
+    "json-ld-20130910": {
+        "aliasOf": "json-ld10-20130910"
+    },
+    "json-ld-20131105": {
+        "aliasOf": "json-ld10-20131105"
+    },
+    "json-ld-20140116": {
+        "aliasOf": "json-ld10-20140116"
+    },
+    "json-ld-20201103": {
+        "aliasOf": "json-ld10-20201103"
+    },
+    "json-ld10": {
         "authors": [
             "Manu Sporny",
             "Gregg Kellogg",
@@ -119448,6 +119470,34 @@
         "isRetired": true
     },
     "json-ld-api": {
+        "aliasOf": "json-ld11-api",
+        "isSeriesAlias": true
+    },
+    "json-ld-api1": {
+        "aliasOf": "json-ld10-api"
+    },
+    "json-ld-api-20120712": {
+        "aliasOf": "json-ld10-api-20120712"
+    },
+    "json-ld-api-20130411": {
+        "aliasOf": "json-ld10-api-20130411"
+    },
+    "json-ld-api-20130516": {
+        "aliasOf": "json-ld10-api-20130516"
+    },
+    "json-ld-api-20130910": {
+        "aliasOf": "json-ld10-api-20130910"
+    },
+    "json-ld-api-20131105": {
+        "aliasOf": "json-ld10-api-20131105"
+    },
+    "json-ld-api-20140116": {
+        "aliasOf": "json-ld10-api-20140116"
+    },
+    "json-ld-api-20201103": {
+        "aliasOf": "json-ld10-api-20201103"
+    },
+    "json-ld10-api": {
         "authors": [
             "Markus Lanthaler",
             "Gregg Kellogg",
@@ -119580,9 +119630,6 @@
         },
         "isRetired": true
     },
-    "json-ld-api1": {
-        "aliasOf": "json-ld-api"
-    },
     "json-ld-framing": {
         "aliasOf": "json-ld11-framing",
         "isSeriesAlias": true
@@ -119592,10 +119639,10 @@
         "isSeriesAlias": true
     },
     "json-ld-syntax": {
-        "aliasOf": "json-ld"
+        "aliasOf": "json-ld10"
     },
     "json-ld1": {
-        "aliasOf": "json-ld"
+        "aliasOf": "json-ld10"
     },
     "json-ld11": {
         "authors": [
