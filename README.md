@@ -224,11 +224,7 @@ If you need to find a reference ID (for either bibliographic or cross-references
 
 ## Deployment
 
-The API is hosted on [Clever Cloud](https://www.clever-cloud.com/). The server exposes a lightweight health check endpoint at `/health` which always responds with `200 OK` and `{ "status": "ok" }`, without touching the reference database.
-
-Clever Cloud must be configured to poll this endpoint (rather than `/`, which returns a 404) so that it can tell whether the instance is up during deployment and while it is running, and only restarts it when it actually stops responding. Set the following environment variable on the Clever Cloud application:
-
-    CC_HEALTH_CHECK_PATH=/health
+The website (www.specref.org) is hosted on GitHub Pages and the API (api.specref.org) on Clever Cloud. See [DEPLOYMENT.md](./DEPLOYMENT.md) for how both are deployed and how the `specref.org` DNS is set up.
 
 ## Contributing
 
