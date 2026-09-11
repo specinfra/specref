@@ -90,11 +90,6 @@ The zone points at both hosting providers:
   the application. Clever Cloud provisions and renews the TLS certificate
   automatically once the record resolves.
 
-The exact record values are not listed here because they would drift: use
-the ones each provider currently documents
-([GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site),
-[Clever Cloud](https://www.clever-cloud.com/developers/doc/administrate/domain-names/)).
-
 Each provider only ever sees the hostname it is responsible for, so moving
 one part (e.g. the API to a different host) only requires changing that
 hostname's record at Namecheap.
