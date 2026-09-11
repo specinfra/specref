@@ -19,8 +19,6 @@ There is no manual deployment step.
   * [Health check](#health-check)
 * [Website (GitHub Pages)](#website-github-pages)
 * [DNS for specref.org](#dns-for-specreforg)
-  * [Records](#records)
-  * [Changing the DNS](#changing-the-dns)
 
 ## API (Clever Cloud)
 
@@ -33,6 +31,10 @@ environment variable, which Clever Cloud sets automatically.
 The application is linked to the GitHub repository, so every push to `main`
 triggers a new build and deployment. Once the new instance answers the
 [health check](#health-check), traffic is switched over to it.
+
+[CORS is enabled for all origins](./README.md#cors) so that anyone can use
+the API directly as JSON from a browser, whatever the origin of their page.
+The API is not restricted to the Specref website in any way.
 
 ### Health check
 
@@ -67,46 +69,32 @@ The site is rendered by Jekyll. [`docs/_config.yml`](./docs/_config.yml) only
 exists to make Jekyll include the `.well-known/` directory, which it would
 otherwise skip because of the leading dot.
 
-The website talks to the API cross-origin (`https://api.specref.org`), which
-is why [CORS is enabled for all origins](./README.md#cors) on the API.
+The website is a plain client of the API: it fetches JSON from
+`https://api.specref.org` from the browser like any other consumer would.
 
 ## DNS for specref.org
 
-The `specref.org` zone points at both hosting providers: the apex domain and
-`www` go to GitHub Pages, and `api` goes to Clever Cloud.
+The `specref.org` domain is registered and its DNS zone hosted at
+[Namecheap](https://www.namecheap.com/), on an account owned by Tobie Langel.
 
-### Records
+The zone points at both hosting providers:
 
-| Name                  | Type    | Value                                                          | Points to    |
-| --------------------- | ------- | -------------------------------------------------------------- | ------------ |
-| `specref.org`         | `A`     | `185.199.108.153`<br>`185.199.109.153`<br>`185.199.110.153`<br>`185.199.111.153` | GitHub Pages |
-| `specref.org`         | `AAAA`  | `2606:50c0:8000::153`<br>`2606:50c0:8001::153`<br>`2606:50c0:8002::153`<br>`2606:50c0:8003::153` | GitHub Pages |
-| `www.specref.org`     | `CNAME` | `specinfra.github.io`                                          | GitHub Pages |
-| `api.specref.org`     | `CNAME` | the target shown under _Domain names_ in the Clever Cloud console (`domain.par.clever-cloud.com` for applications in the Paris zone) | Clever Cloud |
+* the apex `specref.org` and `www.specref.org` point at **GitHub Pages**.
+  `www.specref.org` is the canonical hostname (it is the custom domain
+  configured in the repository settings and in `docs/CNAME`); because the
+  apex also resolves to GitHub Pages, GitHub automatically redirects
+  `https://specref.org/…` to `https://www.specref.org/…`.
+* `api.specref.org` points at **Clever Cloud**. The hostname must also be
+  added to the application's _Domain names_ in the Clever Cloud console,
+  otherwise Clever Cloud's load balancers will not route requests for it to
+  the application. Clever Cloud provisions and renews the TLS certificate
+  automatically once the record resolves.
 
-Notes:
+The exact record values are not listed here because they would drift: use
+the ones each provider currently documents
+([GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site),
+[Clever Cloud](https://www.clever-cloud.com/developers/doc/administrate/domain-names/)).
 
-* **GitHub Pages.** `www.specref.org` is the canonical hostname (it is the
-  custom domain configured in the repository settings and in `docs/CNAME`).
-  Because the apex `specref.org` also resolves to GitHub Pages, GitHub
-  automatically redirects `https://specref.org/…` to
-  `https://www.specref.org/…`. The IP addresses above are GitHub's documented
-  Pages addresses; check them against
-  [GitHub's documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
-  before changing them.
-* **Clever Cloud.** `api.specref.org` must also be added to the application's
-  _Domain names_ in the Clever Cloud console, otherwise Clever Cloud's load
-  balancers will not route requests for that hostname to the application.
-  Clever Cloud provisions and renews the TLS certificate for it
-  automatically once the DNS record resolves. See
-  [Clever Cloud's custom domain documentation](https://www.clever-cloud.com/developers/doc/administrate/domain-names/)
-  for the exact CNAME/A record targets of the zone the application runs in.
-* Both providers only ever see the hostname they are responsible for, so
-  neither needs to know about the other. Moving one part (e.g. the API to a
-  different host) only requires changing that hostname's record.
-
-### Changing the DNS
-
-The zone is managed at the domain's registrar. Changes are not tracked in
-this repository, so when you change a record, please open an issue or a pull
-request updating the table above so it stays accurate.
+Each provider only ever sees the hostname it is responsible for, so moving
+one part (e.g. the API to a different host) only requires changing that
+hostname's record at Namecheap.
