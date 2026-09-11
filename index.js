@@ -15,7 +15,7 @@ app.enable("etag");
 // Health check. Registered before the IP filter, compression and body
 // parsing middleware so that it stays cheap and can never be blocked or
 // slowed down by them. Clever Cloud polls this path (see
-// CC_HEALTH_CHECK_PATH in the README) both during deployment and while
+// CC_HEALTH_CHECK_PATH in DEPLOYMENT.md) both during deployment and while
 // the app is running, and restarts the instance if it fails to respond
 // with a 2xx status code.
 app.get('/health', function (req, res) {
