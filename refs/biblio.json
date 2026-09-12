@@ -243,7 +243,24 @@
         "aliasOf": "rfc6557"
     },
     "BCP47": {
-        "aliasOf": "rfc5646"
+		"href": "https://www.rfc-editor.org/info/bcp47",
+		"title": "Tags for Identifying Languages",
+		"authors": [
+		    "Addison Phillips",
+		    "Mark Davis"
+		],
+		"rawDate": "2009-09",
+		"status": "Best Current Practice",
+		"seeAlso": [
+		   "RFC5646",
+		   "RFC4647"
+		],
+		"publisher": "IETF",
+		"obsoletes": [
+		   "RFC1766",
+		   "RFC3066",
+		   "RFC4646"
+		]
     },
     "BERNERS-LEE98": {
         "aliasOf": "RDF-NOT"
