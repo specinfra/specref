@@ -11,6 +11,15 @@ var app = module.exports = require("express")();
 var isDev = process.env.NODE_ENV == "dev" || process.env.NODE_ENV == "development";
 app.enable("etag");
 
+// This is an API, not a website: none of its responses should ever show
+// up as a search result, even those crawlers are allowed to fetch (see
+// robots.txt below). noindex as a header is how that is said for non-HTML
+// resources.
+app.use(function (req, res, next) {
+    res.setHeader("X-Robots-Tag", "noindex");
+    next();
+});
+
 // Health check. Registered before the IP filter, compression and body
 // parsing middleware so that it stays cheap and can never be blocked or
 // slowed down by them. Clever Cloud polls this path (see
@@ -20,6 +29,25 @@ app.enable("etag");
 app.get('/health', function (req, res) {
     res.setHeader("Cache-Control", "no-store");
     res.status(200).json({ status: "ok" });
+});
+
+// Crawlers may fetch /bibrefs, both the full dump and the refs= lookups:
+// ReSpec builds the references section of a spec in the browser by
+// calling it, and search engines render JavaScript when indexing a page
+// while respecting this file for the requests it makes, so blocking it
+// would strip the bibliography from every ReSpec draft in their index.
+// The dump is served from a cache and costs nothing. Nothing else
+// (search, reverse lookup, metadata) is needed to render anyone's page.
+var ROBOTS_TXT = [
+    "User-agent: *",
+    "Allow: /bibrefs",
+    "Disallow: /",
+    ""
+].join("\n");
+app.get('/robots.txt', function (req, res) {
+    res.setHeader("Content-Type", "text/plain; charset=utf-8");
+    res.setHeader("Cache-Control", "public, max-age=86400");
+    res.status(200).send(ROBOTS_TXT);
 });
 
 // Requests come in through Clever Cloud's load balancers, so the client's

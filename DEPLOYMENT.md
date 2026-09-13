@@ -18,6 +18,7 @@ There is no manual deployment step.
 * [API (Clever Cloud)](#api-clever-cloud)
   * [Health check](#health-check)
   * [Blocking IP addresses](#blocking-ip-addresses)
+  * [Crawlers](#crawlers)
   * [Logging](#logging)
 * [Website (GitHub Pages)](#website-github-pages)
 * [DNS for specref.org](#dns-for-specreforg)
@@ -75,6 +76,31 @@ therefore trusts that header (Express's `trust proxy` setting and
 `express-ipfilter`'s `trustProxy` option) to find the address to check;
 without this, it would only ever see the load balancer's own address and
 the list would never match anything.
+
+### Crawlers
+
+The API serves a `/robots.txt` that lets crawlers fetch `/bibrefs` (the
+full dump and the `refs=` lookups alike) and nothing else:
+
+    User-agent: *
+    Allow: /bibrefs
+    Disallow: /
+
+`/bibrefs` has to stay open to crawlers: [ReSpec](https://respec.org/)
+builds the references section of a spec in the browser by calling it, and
+search engines render JavaScript when they index a page while honouring
+this file for the requests the page makes. Blocking it would strip the
+bibliography from every ReSpec draft in their index. Since the full dump is
+served from a cache built at startup, a crawler fetching it costs nothing
+to speak of, and the `ETag` and `Cache-Control` headers on it let
+well-behaved crawlers revalidate with a `304`. Search, reverse lookup and
+metadata are not needed to render anyone's page, so they are off limits.
+
+Every response also carries an `X-Robots-Tag: noindex` header, so that
+nothing the API returns ever shows up as a search result, allowed or not.
+
+Neither does anything against crawlers that don't behave; that is what the
+[IP block list](#blocking-ip-addresses) is for.
 
 ### Logging
 
