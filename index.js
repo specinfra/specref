@@ -33,63 +33,8 @@ app.use(require("cors")());
 app.use(require("body-parser").urlencoded({ extended: true }));
 app.use(require("errorhandler")(errorhandlerOptions));
 
-// The full dump of all references (GET /bibrefs without a refs parameter)
-// is by far the most expensive response: ~27MB of JSON. Serializing it on
-// every request blocks the event loop for about a second and, worse,
-// allocates the whole string plus a Buffer copy plus gzip state per
-// request, which is enough to push the process past the memory of a small
-// instance and get it killed. So serialize and gzip it exactly once, at
-// startup, and serve those bytes directly. The references never change
-// while the process runs (updates are deployed), so this can't go stale.
-var fullDump = (function(all) {
-    var zlib = require("zlib"),
-        crypto = require("crypto");
-    var json = JSON.stringify(all)
-        // Same escaping as res.jsonp, so the body is safe to embed in JS.
-        .replace(/\u2028/g, "\\u2028")
-        .replace(/\u2029/g, "\\u2029");
-    var raw = Buffer.from(json, "utf8");
-    json = null; // let the 27MB string be collected
-    return {
-        raw: raw,
-        gzip: zlib.gzipSync(raw, { level: 9 }),
-        etag: '"' + crypto.createHash("sha1").update(raw).digest("base64").substring(0, 27) + '"'
-    };
-})(bibref.all);
-
-function sendFullDump(req, res) {
-    var callback = req.query["callback"];
-    if (Array.isArray(callback)) callback = callback[0];
-    res.setHeader("Vary", "Accept-Encoding");
-    if (typeof callback === "string" && callback.length !== 0) {
-        // JSON-P. Rare; write the wrapper around the cached body in three
-        // chunks so that no 27MB string gets built, and let the compression
-        // middleware take care of encoding.
-        callback = callback.replace(/[^\[\]\w$.]/g, "");
-        res.setHeader("X-Content-Type-Options", "nosniff");
-        res.setHeader("Content-Type", "text/javascript; charset=utf-8");
-        res.write("/**/ typeof " + callback + " === 'function' && " + callback + "(");
-        res.write(fullDump.raw);
-        res.end(");");
-        return;
-    }
-    res.setHeader("Content-Type", "application/json; charset=utf-8");
-    res.setHeader("ETag", fullDump.etag);
-    if (req.fresh) {
-        res.status(304).end();
-        return;
-    }
-    if (req.acceptsEncodings("gzip")) {
-        // Pre-compressed; the compression middleware sees the
-        // Content-Encoding header and leaves the body alone.
-        res.setHeader("Content-Encoding", "gzip");
-        res.setHeader("Content-Length", fullDump.gzip.length);
-        res.end(fullDump.gzip);
-    } else {
-        res.setHeader("Content-Length", fullDump.raw.length);
-        res.end(fullDump.raw);
-    }
-}
+// Serialized and gzipped once, see lib/full-dump.js.
+var fullDump = require('./lib/full-dump')(bibref.all);
 
 // bibrefs
 app.get('/bibrefs', function (req, res, next) {
@@ -100,7 +45,7 @@ app.get('/bibrefs', function (req, res, next) {
         refs = bibref.getRefs(refs.split(","));
         res.status(200).jsonp(refs);
     } else {
-        sendFullDump(req, res);
+        fullDump.send(req, res);
     }
 });
 
