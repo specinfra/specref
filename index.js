@@ -82,7 +82,7 @@ app.use(require("compression")());
 app.use(require("cors")());
 app.use(require("body-parser").urlencoded({ extended: true }));
 
-// Serialized and gzipped once, see lib/full-dump.js.
+// Built once, in the background, see lib/full-dump.js.
 var fullDump = require('./lib/full-dump')(bibref.all);
 
 // bibrefs
@@ -94,7 +94,7 @@ app.get('/bibrefs', function (req, res, next) {
         refs = bibref.getRefs(refs.split(","));
         res.status(200).jsonp(refs);
     } else {
-        fullDump.send(req, res);
+        fullDump.send(req, res, next);
     }
 });
 
@@ -208,15 +208,24 @@ app.use(function (err, req, res, next) {
 
 if (require.main === module) {
     var port = process.env.PORT || 5000;
-    var server = app.listen(port, function () {
-        log.info({ port: Number(port), env: app.settings.env, memory: log.memory(), ms: Date.now() - t0 }, "server listening");
-    });
-    server.on("error", function(err) {
-        log.fatal({ err: err }, "server error");
+    var server;
+    // Only accept traffic once the full dump is built, so that the health
+    // check doesn't declare the instance up before it can serve it.
+    fullDump.ready.then(function() {
+        log.info({ rawBytes: fullDump.rawLength, gzipBytes: fullDump.gzip.length, memory: log.memory(), ms: Date.now() - t0 }, "full dump built");
+        server = app.listen(port, function () {
+            log.info({ port: Number(port), env: app.settings.env, memory: log.memory(), ms: Date.now() - t0 }, "server listening");
+        });
+        server.on("error", function(err) {
+            log.fatal({ err: err }, "server error");
+            process.exit(1);
+        });
+    }, function(err) {
+        log.fatal({ err: err, memory: log.memory() }, "could not build the full dump");
         process.exit(1);
     });
     log.installProcessHandlers(function(done) {
-        server.close(done);
+        if (server) server.close(done); else done();
     });
     // A periodic memory snapshot, cheap and invaluable when hunting down
     // an instance that runs out of memory.

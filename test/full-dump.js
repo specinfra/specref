@@ -18,7 +18,7 @@ suite('Full dump', function() {
         // compression is covered.
         var app = express();
         app.use(require("compression")());
-        app.get('/bibrefs', function(req, res) { dump.send(req, res); });
+        app.get('/bibrefs', function(req, res, next) { dump.send(req, res, next); });
         server = app.listen(0, function() {
             port = server.address().port;
             done();
@@ -37,12 +37,35 @@ suite('Full dump', function() {
         }).end();
     }
 
+    function raw() {
+        return zlib.gunzipSync(dump.gzip).toString("utf8");
+    }
+
     test("the cached JSON is what JSON.stringify would produce, with U+2028/9 escaped", function() {
-        var expected = JSON.stringify(refs).replace(/\u2028/g, "\\u2028");
-        assert.strictEqual(dump.raw.toString("utf8"), expected);
-        assert.deepStrictEqual(JSON.parse(dump.raw.toString("utf8")), refs);
-        assert.strictEqual(zlib.gunzipSync(dump.gzip).toString("utf8"), expected);
-        assert.ok(/^"[A-Za-z0-9+\/]{27}"$/.test(dump.etag), "strong ETag: " + dump.etag);
+        return dump.ready.then(function() {
+            var expected = JSON.stringify(refs).replace(/\u2028/g, "\\u2028");
+            assert.strictEqual(raw(), expected);
+            assert.deepStrictEqual(JSON.parse(raw()), refs);
+            assert.strictEqual(dump.rawLength, Buffer.byteLength(expected, "utf8"));
+            assert.ok(/^"[A-Za-z0-9+\/]{27}"$/.test(dump.etag), "strong ETag: " + dump.etag);
+        });
+    });
+
+    test("an empty set of references is a valid dump too", function() {
+        return fullDump({}).ready.then(function(d) {
+            assert.strictEqual(zlib.gunzipSync(d.gzip).toString("utf8"), "{}");
+            assert.strictEqual(d.rawLength, 2);
+        });
+    });
+
+    test("a large set of references survives stream backpressure while building", function() {
+        var many = {};
+        for (var i = 0; i < 20000; i++) many["REF-" + i] = { title: "Reference number " + i, href: "https://example.com/" + i };
+        return fullDump(many).ready.then(function(d) {
+            var got = JSON.parse(zlib.gunzipSync(d.gzip).toString("utf8"));
+            assert.deepStrictEqual(got, many);
+            assert.strictEqual(d.rawLength, Buffer.byteLength(JSON.stringify(many), "utf8"));
+        });
     });
 
     test("plain JSON for clients that don't accept gzip", function(done) {
@@ -50,7 +73,7 @@ suite('Full dump', function() {
             assert.strictEqual(res.statusCode, 200);
             assert.strictEqual(res.headers["content-type"], "application/json; charset=utf-8");
             assert.strictEqual(res.headers["content-encoding"], undefined);
-            assert.strictEqual(res.headers["content-length"], String(dump.raw.length));
+            assert.strictEqual(res.headers["content-length"], String(dump.rawLength));
             assert.strictEqual(res.headers["etag"], dump.etag);
             assert.strictEqual(res.headers["vary"], "Accept-Encoding");
             assert.deepStrictEqual(JSON.parse(body.toString("utf8")), refs);
@@ -94,7 +117,7 @@ suite('Full dump', function() {
             assert.strictEqual(res.headers["content-type"], "text/javascript; charset=utf-8");
             assert.strictEqual(res.headers["x-content-type-options"], "nosniff");
             var js = body.toString("utf8");
-            assert.strictEqual(js, "/**/ typeof foo.bar === 'function' && foo.bar(" + dump.raw.toString("utf8") + ");");
+            assert.strictEqual(js, "/**/ typeof foo.bar === 'function' && foo.bar(" + raw() + ");");
             // U+2028 was escaped, so this is a valid JS program.
             var got;
             var foo = { bar: function(o) { got = o; } };
@@ -102,6 +125,16 @@ suite('Full dump', function() {
             assert.deepStrictEqual(got, refs);
             done();
         });
+    });
+
+    test("HEAD sends the headers but no body", function(done) {
+        http.request({ method: "HEAD", port: port, path: "/bibrefs" }, function(res) {
+            assert.strictEqual(res.statusCode, 200);
+            assert.strictEqual(res.headers["content-length"], String(dump.rawLength));
+            var chunks = [];
+            res.on("data", function(c) { chunks.push(c); });
+            res.on("end", function() { assert.strictEqual(Buffer.concat(chunks).length, 0); done(); });
+        }).end();
     });
 
     test("JSON-P responses are compressed by the middleware when accepted", function(done) {
