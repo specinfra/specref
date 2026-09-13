@@ -23,11 +23,20 @@ app.get('/health', function (req, res) {
     res.status(200).json({ status: "ok" });
 });
 
-var bannedIPs = [
+// Requests come in through Clever Cloud's load balancers, so the client's
+// address is in the X-Forwarded-For header rather than on the socket. Trust
+// it so that req.ip (and anything keyed on it) reflects the actual client.
+app.set("trust proxy", true);
+
+// IP block list. Set BANNED_IPS to a comma-separated list of IP addresses
+// and/or CIDR ranges on the Clever Cloud application (see DEPLOYMENT.md) to
+// replace the defaults below without a code change.
+var ipFilter = require('./lib/ip-filter');
+var bannedIPs = ipFilter.parseBannedIPs(process.env.BANNED_IPS, [
 	// Palo Alto Networks bot
 	"34.96.130.0/24", "34.77.162.0/24", "34.86.35.0/24"
-];
-app.use(require('express-ipfilter').IpFilter(bannedIPs, { logLevel: "deny" }));
+]);
+app.use(ipFilter.createIpFilter(bannedIPs));
 app.use(require("compression")());
 app.use(require("cors")());
 app.use(require("body-parser").urlencoded({ extended: true }));

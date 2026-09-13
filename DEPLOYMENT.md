@@ -17,6 +17,7 @@ There is no manual deployment step.
 
 * [API (Clever Cloud)](#api-clever-cloud)
   * [Health check](#health-check)
+  * [Blocking IP addresses](#blocking-ip-addresses)
 * [Website (GitHub Pages)](#website-github-pages)
 * [DNS for specref.org](#dns-for-specreforg)
 
@@ -49,6 +50,30 @@ stops responding. Set the following environment variable on the Clever Cloud
 application:
 
     CC_HEALTH_CHECK_PATH=/health
+
+### Blocking IP addresses
+
+Abusive clients can be blocked by IP address. The server rejects requests
+from a list of IP addresses and CIDR ranges with a `403 Forbidden` (see
+[`lib/ip-filter.js`](./lib/ip-filter.js)). The `/health` endpoint is never
+blocked.
+
+The list is read from the `BANNED_IPS` environment variable, as a
+comma-separated list of IPv4/IPv6 addresses and/or CIDR ranges, for example:
+
+    BANNED_IPS=34.96.130.0/24,34.77.162.0/24,203.0.113.7
+
+Set it on the Clever Cloud application and restart it; there is no need to
+change the code or redeploy. Setting the variable **replaces** the default
+list hard-coded in [`index.js`](./index.js), which only applies when the
+variable is unset. Setting it to an empty string blocks nothing.
+
+Requests reach the application through Clever Cloud's load balancers, which
+put the client's address in the `X-Forwarded-For` header. The application
+therefore trusts that header (Express's `trust proxy` setting and
+`express-ipfilter`'s `trustProxy` option) to find the address to check;
+without this, it would only ever see the load balancer's own address and
+the list would never match anything.
 
 ## Website (GitHub Pages)
 
