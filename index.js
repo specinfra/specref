@@ -11,10 +11,8 @@ var app = module.exports = require("express")();
 var isDev = process.env.NODE_ENV == "dev" || process.env.NODE_ENV == "development";
 app.enable("etag");
 
-// This is an API, not a website: none of its responses should ever show
-// up as a search result, even those crawlers are allowed to fetch (see
-// robots.txt below). noindex as a header is how that is said for non-HTML
-// resources.
+// Keep the API's responses out of search results. See "Crawlers" in
+// DEPLOYMENT.md.
 app.use(function (req, res, next) {
     res.setHeader("X-Robots-Tag", "noindex");
     next();
@@ -31,19 +29,8 @@ app.get('/health', function (req, res) {
     res.status(200).json({ status: "ok" });
 });
 
-// Crawlers may fetch /bibrefs, both the full dump and the refs= lookups:
-// ReSpec builds the references section of a spec in the browser by
-// calling it, and search engines render JavaScript when indexing a page
-// while respecting this file for the requests it makes, so blocking it
-// would strip the bibliography from every ReSpec draft in their index.
-// The dump is served from a cache and costs nothing. Nothing else
-// (search, reverse lookup, metadata) is needed to render anyone's page.
-var ROBOTS_TXT = [
-    "User-agent: *",
-    "Allow: /bibrefs",
-    "Disallow: /",
-    ""
-].join("\n");
+// What crawlers may fetch, and why: see "Crawlers" in DEPLOYMENT.md.
+var ROBOTS_TXT = require("fs").readFileSync(require("path").join(__dirname, "robots.txt"), "utf8");
 app.get('/robots.txt', function (req, res) {
     res.setHeader("Content-Type", "text/plain; charset=utf-8");
     res.setHeader("Cache-Control", "public, max-age=86400");

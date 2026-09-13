@@ -79,12 +79,9 @@ the list would never match anything.
 
 ### Crawlers
 
-The API serves a `/robots.txt` that lets crawlers fetch `/bibrefs` (the
-full dump and the `refs=` lookups alike) and nothing else:
-
-    User-agent: *
-    Allow: /bibrefs
-    Disallow: /
+The API serves [`robots.txt`](./robots.txt) (the file at the root of the
+repository) at `/robots.txt`. It lets crawlers fetch `/bibrefs`, the full
+dump and the `refs=` lookups alike, and nothing else.
 
 `/bibrefs` has to stay open to crawlers: [ReSpec](https://respec.org/)
 builds the references section of a spec in the browser by calling it, and
