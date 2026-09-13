@@ -17,6 +17,7 @@ There is no manual deployment step.
 
 * [API (Clever Cloud)](#api-clever-cloud)
   * [Health check](#health-check)
+  * [Logging](#logging)
 * [Website (GitHub Pages)](#website-github-pages)
 * [DNS for specref.org](#dns-for-specreforg)
 
@@ -49,6 +50,46 @@ stops responding. Set the following environment variable on the Clever Cloud
 application:
 
     CC_HEALTH_CHECK_PATH=/health
+
+### Logging
+
+The server logs to standard output, one JSON object per line, using
+[pino](https://getpino.io/). Clever Cloud collects these and shows them in
+the application's _Logs_ tab (and through `clever logs`).
+
+The verbosity is set with the `LOG_LEVEL` environment variable, which takes
+one of `fatal`, `error`, `warn`, `info` (the default), `debug`, `trace` or
+`silent`:
+
+    LOG_LEVEL=info
+
+What gets logged:
+
+* at startup, how many references were loaded, how long it took and the
+  process' memory usage (`memory`, in MB: `rss`, `heapUsed`, `heapTotal`,
+  `external`, `arrayBuffers`), then the same memory snapshot once a minute;
+* one line per completed request (`request completed`), at `info` for
+  successes, `warn` for 4xx and `error` for 5xx, with the method, URL,
+  status, duration and response size. Requests to `/health` are not logged;
+* at `debug`, an extra line when each request comes in (`request received`)
+  with the memory usage at that point. If the process dies while handling a
+  request, that line is the last thing in the logs and says which request
+  it was;
+* any error raised while handling a request, with its full stack trace
+  under `err`. Clients get a JSON `{ "message": ... }` instead (the stack is
+  only included in the response when `NODE_ENV` is `development`);
+* whatever takes the process down: uncaught exceptions and unhandled
+  promise rejections are logged at `fatal` with their stack before the
+  process exits, shutdown signals (`SIGTERM`, `SIGINT`, `SIGHUP`) at `info`,
+  and the exit code on exit. A restart with none of these in the logs
+  therefore means the process was killed from outside, most likely by the
+  kernel for exceeding the instance's memory; the periodic memory lines
+  leading up to it tell how close it was.
+
+To read the logs comfortably during local development, pipe them through
+[pino-pretty](https://github.com/pinojs/pino-pretty):
+
+    LOG_LEVEL=debug node index.js | npx pino-pretty
 
 ## Website (GitHub Pages)
 

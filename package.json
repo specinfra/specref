@@ -7,9 +7,10 @@
     "body-parser": "^1.20.6",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
-    "errorhandler": "^1.5.1",
     "express": "^4.22.2",
-    "express-ipfilter": "^1.2.0"
+    "express-ipfilter": "^1.2.0",
+    "pino": "^10.3.1",
+    "pino-http": "^11.0.0"
   },
   "devDependencies": {
     "async": "^3.1.0",
@@ -23,7 +24,7 @@
     "xml2js": "^0.5.0"
   },
   "scripts": {
-    "test": "mocha -u tdd -R min --timeout 300000 ./test/*.js",
+    "test": "LOG_LEVEL=silent mocha -u tdd -R min --timeout 300000 ./test/*.js",
     "start": "node index.js"
   },
   "domains": [
