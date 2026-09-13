@@ -183816,688 +183816,125 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-rules": {
-        "rawDate": "2026-08-19",
-        "href": "https://www.w3.org/TR/shacl12-rules/",
-        "title": "SHACL 1.2 Rules",
-        "edDraft": "https://w3c.github.io/data-shapes/shacl12-rules/",
-        "publisher": "W3C",
-        "source": "https://api.w3.org/specifications/shacl12-rules",
-        "versions": {
-            "20251209": {
-                "authors": [
-                    "Andy Seaborne",
-                    "Simon Steyskal",
-                    "Robert David",
-                    "David Habgood"
-                ],
-                "href": "https://www.w3.org/TR/2025/WD-shacl12-rules-20251209/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2025-12-09",
-                "status": "FPWD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20251209"
-            },
-            "20260129": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260129/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-01-29",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260129"
-            },
-            "20260203": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260203/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-02-03",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260203"
-            },
-            "20260206": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260206/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-02-06",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260206"
-            },
-            "20260211": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260211/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-02-11",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260211"
-            },
-            "20260216": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260216/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-02-16",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260216"
-            },
-            "20260220": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260220/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-02-20",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260220"
-            },
-            "20260224": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260224/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-02-24",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260224"
-            },
-            "20260226": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260226/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-02-26",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260226"
-            },
-            "20260304": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260304/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-03-04",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260304"
-            },
-            "20260309": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260309/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-03-09",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260309"
-            },
-            "20260311": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260311/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-03-11",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260311"
-            },
-            "20260322": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260322/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-03-22",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260322"
-            },
-            "20260325": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260325/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-03-25",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260325"
-            },
-            "20260326": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260326/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-03-26",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260326"
-            },
-            "20260331": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260331/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-03-31",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260331"
-            },
-            "20260402": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260402/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-04-02",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260402"
-            },
-            "20260506": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260506/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-05-06",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260506"
-            },
-            "20260508": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260508/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-05-08",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260508"
-            },
-            "20260518": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260518/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-05-18",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260518"
-            },
-            "20260520": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260520/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-05-20",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260520"
-            },
-            "20260525": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260525/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-05-25",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260525"
-            },
-            "20260608": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260608/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-06-08",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260608"
-            },
-            "20260609": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260609/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-06-09",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260609"
-            },
-            "20260617": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260617/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-06-17",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260617"
-            },
-            "20260619": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260619/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-06-19",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260619"
-            },
-            "20260703": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260703/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-07-03",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260703"
-            },
-            "20260711": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260711/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-07-11",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260711"
-            },
-            "20260716": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260716/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-07-16",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260716"
-            },
-            "20260720": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260720/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-07-20",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260720"
-            },
-            "20260721": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260721/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-07-21",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260721"
-            },
-            "20260722": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260722/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-07-22",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260722"
-            },
-            "20260725": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260725/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-07-25",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260725"
-            },
-            "20260727": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260727/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-07-27",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260727"
-            },
-            "20260730": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260730/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-07-30",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260730"
-            },
-            "20260810": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260810/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-08-10",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260810"
-            },
-            "20260812": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260812/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-08-12",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260812"
-            },
-            "20260817": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260817/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-08-17",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260817"
-            },
-            "20260819": {
-                "authors": [
-                    "Robert David",
-                    "David Habgood",
-                    "Andy Seaborne",
-                    "Simon Steyskal"
-                ],
-                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260819/",
-                "title": "SHACL 1.2 Rules",
-                "rawDate": "2026-08-19",
-                "status": "WD",
-                "publisher": "W3C",
-                "deliveredBy": [
-                    "https://www.w3.org/groups/wg/data-shapes/"
-                ],
-                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260819"
-            }
-        },
-        "status": "WD",
-        "authors": [
-            "Robert David",
-            "David Habgood",
-            "Andy Seaborne",
-            "Simon Steyskal"
-        ],
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/data-shapes/"
-        ],
-        "repository": "https://github.com/w3c/data-shapes"
+        "aliasOf": "sparql12-rl",
+        "isSeriesAlias": true
+    },
+    "shacl12-rules-20251209": {
+        "aliasOf": "sparql12-rl-20251209"
+    },
+    "shacl12-rules-20260129": {
+        "aliasOf": "sparql12-rl-20260129"
+    },
+    "shacl12-rules-20260203": {
+        "aliasOf": "sparql12-rl-20260203"
+    },
+    "shacl12-rules-20260206": {
+        "aliasOf": "sparql12-rl-20260206"
+    },
+    "shacl12-rules-20260211": {
+        "aliasOf": "sparql12-rl-20260211"
+    },
+    "shacl12-rules-20260216": {
+        "aliasOf": "sparql12-rl-20260216"
+    },
+    "shacl12-rules-20260220": {
+        "aliasOf": "sparql12-rl-20260220"
+    },
+    "shacl12-rules-20260224": {
+        "aliasOf": "sparql12-rl-20260224"
+    },
+    "shacl12-rules-20260226": {
+        "aliasOf": "sparql12-rl-20260226"
+    },
+    "shacl12-rules-20260304": {
+        "aliasOf": "sparql12-rl-20260304"
+    },
+    "shacl12-rules-20260309": {
+        "aliasOf": "sparql12-rl-20260309"
+    },
+    "shacl12-rules-20260311": {
+        "aliasOf": "sparql12-rl-20260311"
+    },
+    "shacl12-rules-20260322": {
+        "aliasOf": "sparql12-rl-20260322"
+    },
+    "shacl12-rules-20260325": {
+        "aliasOf": "sparql12-rl-20260325"
+    },
+    "shacl12-rules-20260326": {
+        "aliasOf": "sparql12-rl-20260326"
+    },
+    "shacl12-rules-20260331": {
+        "aliasOf": "sparql12-rl-20260331"
+    },
+    "shacl12-rules-20260402": {
+        "aliasOf": "sparql12-rl-20260402"
+    },
+    "shacl12-rules-20260506": {
+        "aliasOf": "sparql12-rl-20260506"
+    },
+    "shacl12-rules-20260508": {
+        "aliasOf": "sparql12-rl-20260508"
+    },
+    "shacl12-rules-20260518": {
+        "aliasOf": "sparql12-rl-20260518"
+    },
+    "shacl12-rules-20260520": {
+        "aliasOf": "sparql12-rl-20260520"
+    },
+    "shacl12-rules-20260525": {
+        "aliasOf": "sparql12-rl-20260525"
+    },
+    "shacl12-rules-20260608": {
+        "aliasOf": "sparql12-rl-20260608"
+    },
+    "shacl12-rules-20260609": {
+        "aliasOf": "sparql12-rl-20260609"
+    },
+    "shacl12-rules-20260617": {
+        "aliasOf": "sparql12-rl-20260617"
+    },
+    "shacl12-rules-20260619": {
+        "aliasOf": "sparql12-rl-20260619"
+    },
+    "shacl12-rules-20260703": {
+        "aliasOf": "sparql12-rl-20260703"
+    },
+    "shacl12-rules-20260711": {
+        "aliasOf": "sparql12-rl-20260711"
+    },
+    "shacl12-rules-20260716": {
+        "aliasOf": "sparql12-rl-20260716"
+    },
+    "shacl12-rules-20260720": {
+        "aliasOf": "sparql12-rl-20260720"
+    },
+    "shacl12-rules-20260721": {
+        "aliasOf": "sparql12-rl-20260721"
+    },
+    "shacl12-rules-20260722": {
+        "aliasOf": "sparql12-rl-20260722"
+    },
+    "shacl12-rules-20260725": {
+        "aliasOf": "sparql12-rl-20260725"
+    },
+    "shacl12-rules-20260727": {
+        "aliasOf": "sparql12-rl-20260727"
+    },
+    "shacl12-rules-20260730": {
+        "aliasOf": "sparql12-rl-20260730"
+    },
+    "shacl12-rules-20260810": {
+        "aliasOf": "sparql12-rl-20260810"
+    },
+    "shacl12-rules-20260812": {
+        "aliasOf": "sparql12-rl-20260812"
+    },
+    "shacl12-rules-20260817": {
+        "aliasOf": "sparql12-rl-20260817"
+    },
+    "shacl12-rules-20260819": {
+        "aliasOf": "sparql12-rl-20260819"
     },
     "shacl12-sparql": {
         "rawDate": "2026-08-21",
@@ -192048,6 +191485,690 @@
             }
         },
         "repository": "https://github.com/w3c/sparql-results-xml"
+    },
+    "sparql12-rl": {
+        "rawDate": "2026-08-19",
+        "href": "https://www.w3.org/TR/sparql12-rl/",
+        "title": "SPARQL 1.2 RL",
+        "edDraft": "https://w3c.github.io/data-shapes/sparql12-rl/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/sparql12-rl",
+        "versions": {
+            "20251209": {
+                "authors": [
+                    "Andy Seaborne",
+                    "Simon Steyskal",
+                    "Robert David",
+                    "David Habgood"
+                ],
+                "href": "https://www.w3.org/TR/2025/WD-shacl12-rules-20251209/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2025-12-09",
+                "status": "FPWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20251209"
+            },
+            "20260129": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260129/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-01-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260129"
+            },
+            "20260203": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260203/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-02-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260203"
+            },
+            "20260206": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260206/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-02-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260206"
+            },
+            "20260211": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260211/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-02-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260211"
+            },
+            "20260216": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260216/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-02-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260216"
+            },
+            "20260220": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260220/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-02-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260220"
+            },
+            "20260224": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260224/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-02-24",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260224"
+            },
+            "20260226": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260226/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-02-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260226"
+            },
+            "20260304": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260304/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-03-04",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260304"
+            },
+            "20260309": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260309/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-03-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260309"
+            },
+            "20260311": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260311/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-03-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260311"
+            },
+            "20260322": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260322/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-03-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260322"
+            },
+            "20260325": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260325/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-03-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260325"
+            },
+            "20260326": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260326/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-03-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260326"
+            },
+            "20260331": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260331/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-03-31",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260331"
+            },
+            "20260402": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260402/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-04-02",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260402"
+            },
+            "20260506": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260506/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-05-06",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260506"
+            },
+            "20260508": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260508/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-05-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260508"
+            },
+            "20260518": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260518/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-05-18",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260518"
+            },
+            "20260520": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260520/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-05-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260520"
+            },
+            "20260525": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260525/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-05-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260525"
+            },
+            "20260608": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260608/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-06-08",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260608"
+            },
+            "20260609": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260609/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-06-09",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260609"
+            },
+            "20260617": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260617/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-06-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260617"
+            },
+            "20260619": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260619/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-06-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260619"
+            },
+            "20260703": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260703/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-03",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260703"
+            },
+            "20260711": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260711/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-11",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260711"
+            },
+            "20260716": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260716/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-16",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260716"
+            },
+            "20260720": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260720/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-20",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260720"
+            },
+            "20260721": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260721/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-21",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260721"
+            },
+            "20260722": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260722/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-22",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260722"
+            },
+            "20260725": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260725/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260725"
+            },
+            "20260727": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260727/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260727"
+            },
+            "20260730": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260730/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-07-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260730"
+            },
+            "20260810": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260810/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-08-10",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260810"
+            },
+            "20260812": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260812/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-08-12",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260812"
+            },
+            "20260817": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260817/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-08-17",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260817"
+            },
+            "20260819": {
+                "authors": [
+                    "Robert David",
+                    "David Habgood",
+                    "Andy Seaborne",
+                    "Simon Steyskal"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-shacl12-rules-20260819/",
+                "title": "SHACL 1.2 Rules",
+                "rawDate": "2026-08-19",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/data-shapes/"
+                ],
+                "source": "https://api.w3.org/specifications/shacl12-rules/versions/20260819"
+            }
+        },
+        "status": "WD",
+        "authors": [
+            "Robert David",
+            "David Habgood",
+            "Andy Seaborne",
+            "Simon Steyskal"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/data-shapes/"
+        ],
+        "repository": "https://github.com/w3c/data-shapes"
     },
     "sparql12-service-description": {
         "authors": [
