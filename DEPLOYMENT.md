@@ -94,8 +94,10 @@ What gets logged:
   process' memory usage (`memory`, in MB: `rss`, `heapUsed`, `heapTotal`,
   `external`, `arrayBuffers`), then the same memory snapshot once a minute;
 * one line per completed request (`request completed`), at `info` for
-  successes, `warn` for 4xx and `error` for 5xx, with the method, URL,
-  status, duration and response size. Requests to `/health` are not logged;
+  successes and 404s, `warn` for other 4xx and `error` for 5xx, with the
+  method, URL, status, duration and response size. Requests to `/health`,
+  and requests coming from the instance itself (Clever Cloud's monitoring
+  agent polls `/` every minute), are not logged;
 * at `debug`, an extra line when each request comes in (`request received`)
   with the memory usage at that point. If the process dies while handling a
   request, that line is the last thing in the logs and says which request

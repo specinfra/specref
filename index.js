@@ -40,12 +40,21 @@ var bannedIPs = ipFilter.parseBannedIPs(process.env.BANNED_IPS, [
 // the level), plus, at debug level, one when the request comes in with
 // the process' memory usage, so that a request that takes the process
 // down can be told apart from one that merely failed.
+//
+// Requests to the health check and requests coming from the instance
+// itself (Clever Cloud's monitoring agent polls / every minute, and gets a
+// 404) are noise, and aren't logged.
+var LOOPBACK = { "127.0.0.1": true, "::1": true, "::ffff:127.0.0.1": true };
+function isNoise(req) {
+    return req.url === "/health" || (req.socket && LOOPBACK[req.socket.remoteAddress] === true);
+}
 app.use(require("pino-http")({
     logger: log,
-    autoLogging: { ignore: function(req) { return req.url === "/health"; } },
+    autoLogging: { ignore: isNoise },
     customLogLevel: function(req, res, err) {
         if (err || res.statusCode >= 500) return "error";
-        if (res.statusCode >= 400) return "warn";
+        // 404s are mostly bots poking around; not worth a warning.
+        if (res.statusCode >= 400 && res.statusCode !== 404) return "warn";
         return "info";
     },
     customSuccessMessage: function(req, res) { return "request completed"; },
@@ -71,7 +80,7 @@ app.use(require("pino-http")({
     }
 }));
 app.use(function(req, res, next) {
-    if (req.url !== "/health" && req.log.isLevelEnabled("debug")) {
+    if (!isNoise(req) && req.log.isLevelEnabled("debug")) {
         req.log.debug({ memory: log.memory() }, "request received");
     }
     next();
