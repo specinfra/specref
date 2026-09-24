@@ -187,6 +187,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/background-sync"
     },
+    "BLUETOOTH-SCANNING": {
+        "href": "https://bluetooth.spec.whatwg.org/scanning.html",
+        "title": "Web Bluetooth Scanning",
+        "status": "Draft Community Group Report",
+        "publisher": "WHATWG",
+        "deliveredBy": [
+            "https://bluetooth.spec.whatwg.org/scanning.html"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/whatwg/bluetooth"
+    },
     "BODY-TRACKING": {
         "href": "https://immersive-web.github.io/body-tracking/",
         "title": "WebXR Body Tracking Module - Level 1",
@@ -353,7 +364,7 @@
         "repository": "https://github.com/WICG/csp-next"
     },
     "CSS-AAM": {
-        "href": "https://w3c.github.io/css-aam/",
+        "href": "https://w3c.github.io/aria/css-aam/",
         "title": "CSS Accessibility API Mappings 1.0",
         "status": "Editor's Draft",
         "publisher": "W3C",
@@ -1085,6 +1096,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/input-device-capabilities"
     },
+    "INSTALL-ELEMENT": {
+        "href": "https://wicg.github.io/install-element/",
+        "title": "Web Install",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/install-element"
+    },
     "INTERVENTION-REPORTING": {
         "href": "https://wicg.github.io/intervention-reporting/",
         "title": "Intervention Reporting",
@@ -1240,7 +1262,7 @@
         "repository": "https://github.com/WICG/manifest-incubations"
     },
     "MATHML-AAM": {
-        "href": "https://w3c.github.io/mathml-aam/",
+        "href": "https://w3c.github.io/aria/mathml-aam/",
         "title": "MathML Accessibility API Mappings 1.0",
         "status": "Editor's Draft",
         "publisher": "W3C",
@@ -1272,6 +1294,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/mediacapture-automation"
+    },
+    "MEDIACAPTURE-EXTENSIONS": {
+        "href": "https://w3c.github.io/mediacapture-extensions/",
+        "title": "Media Capture and Streams Extensions",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webrtc/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/mediacapture-extensions"
     },
     "MEDIACAPTURE-HANDLE-ACTIONS": {
         "href": "https://w3c.github.io/mediacapture-handle/actions/",
@@ -1517,7 +1550,7 @@
         "repository": "https://github.com/WICG/paymentlink"
     },
     "PDF-AAM": {
-        "href": "https://w3c.github.io/pdf-aam/",
+        "href": "https://w3c.github.io/aria/pdf-aam/",
         "title": "PDF Accessibility API Mappings 1.0",
         "status": "Editor's Draft",
         "publisher": "W3C",
@@ -1815,17 +1848,6 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/scroll-to-text-fragment"
-    },
-    "SERIAL": {
-        "href": "https://wicg.github.io/serial/",
-        "title": "Web Serial API",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/serial"
     },
     "SHACL12-COMPACT-SYNTAX": {
         "aliasOf": "SHACL12-CS"
@@ -3048,15 +3070,7 @@
         "repository": "https://github.com/WICG/web-app-launch"
     },
     "WEB-BLUETOOTH-SCANNING": {
-        "href": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
-        "title": "Web Bluetooth Scanning",
-        "status": "Draft Community Group Report",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/web-bluetooth/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WebBluetoothCG/web-bluetooth"
+        "aliasOf": "BLUETOOTH-SCANNING"
     },
     "WEB-OTP": {
         "href": "https://wicg.github.io/web-otp/",
@@ -3348,17 +3362,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
     },
-    "WEBHID": {
-        "href": "https://wicg.github.io/webhid/",
-        "title": "WebHID API",
-        "status": "Draft Community Group Report",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/webhid"
-    },
     "WEBMCP": {
         "href": "https://webmachinelearning.github.io/webmcp/",
         "title": "WebMCP",
@@ -3381,6 +3384,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/webpackage"
     },
+    "WEBRTC-DIAGNOSTIC-LOGGING": {
+        "href": "https://wicg.github.io/webrtc-diagnostic-logging/",
+        "title": "WebRTC Diagnostic Logging API",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/wicg/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WICG/webrtc-diagnostic-logging"
+    },
     "WEBRTC-ICE": {
         "href": "https://w3c.github.io/webrtc-ice/",
         "title": "IceTransport Extensions for WebRTC",
@@ -3391,17 +3405,6 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/webrtc-ice"
-    },
-    "WEBUSB": {
-        "href": "https://wicg.github.io/webusb/",
-        "title": "WebUSB API",
-        "status": "Draft Community Group Report",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/community/wicg/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/webusb"
     },
     "WEBXR-MESHING": {
         "aliasOf": "REAL-WORLD-MESHING"

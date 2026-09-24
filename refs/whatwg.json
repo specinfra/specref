@@ -290,6 +290,28 @@
         "source": "https://resources.whatwg.org/biblio.json",
         "repository": "https://github.com/whatwg/urlpattern"
     },
+    "WEBBLUETOOTH": {
+        "authors": [
+            "Reilly Grant"
+        ],
+        "href": "https://bluetooth.spec.whatwg.org/",
+        "title": "WebBluetooth Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/bluetooth"
+    },
+    "WEBHID": {
+        "authors": [
+            "Matt Reynolds"
+        ],
+        "href": "https://hid.spec.whatwg.org/",
+        "title": "WebHID Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/hid"
+    },
     "WEBIDL": {
         "authors": [
             "Edgar Chen",
@@ -449,6 +471,28 @@
         },
         "repository": "https://github.com/whatwg/webidl"
     },
+    "WEBNFC": {
+        "authors": [
+            "Matt Reynolds"
+        ],
+        "href": "https://nfc.spec.whatwg.org/",
+        "title": "WebNFC Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/nfc"
+    },
+    "WEBSERIAL": {
+        "authors": [
+            "Reilly Grant"
+        ],
+        "href": "https://serial.spec.whatwg.org/",
+        "title": "WebSerial Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/serial"
+    },
     "WEBSOCKETS": {
         "authors": [
             "Adam Rice"
@@ -564,6 +608,17 @@
         },
         "repository": "https://github.com/whatwg/websockets"
     },
+    "WEBUSB": {
+        "authors": [
+            "Reilly Grant"
+        ],
+        "href": "https://usb.spec.whatwg.org/",
+        "title": "WebUSB Standard",
+        "status": "Living Standard",
+        "publisher": "WHATWG",
+        "source": "https://resources.whatwg.org/biblio.json",
+        "repository": "https://github.com/whatwg/usb"
+    },
     "WHATWG-BOOKS": {
         "aliasOf": "BOOKS"
     },
@@ -642,11 +697,26 @@
     "WHATWG-URLPATTERN": {
         "aliasOf": "URLPATTERN"
     },
+    "WHATWG-WEBBLUETOOTH": {
+        "aliasOf": "WEBBLUETOOTH"
+    },
+    "WHATWG-WEBHID": {
+        "aliasOf": "WEBHID"
+    },
     "WHATWG-WEBIDL": {
         "aliasOf": "WEBIDL"
     },
+    "WHATWG-WEBNFC": {
+        "aliasOf": "WEBNFC"
+    },
+    "WHATWG-WEBSERIAL": {
+        "aliasOf": "WEBSERIAL"
+    },
     "WHATWG-WEBSOCKETS": {
         "aliasOf": "WEBSOCKETS"
+    },
+    "WHATWG-WEBUSB": {
+        "aliasOf": "WEBUSB"
     },
     "WHATWG-XHR": {
         "aliasOf": "XHR"
