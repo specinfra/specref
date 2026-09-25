@@ -32,31 +32,40 @@ let requestsToW3CApi = 0;
 /**
  * Specref uses abbreviations for W3C statuses.
  *
+ * Also, many W3C publications now take place automatically whenever an update
+ * is made to the spec. This creates a large set of "artificial" draft versions
+ * (~500 for WebGPU as of September 2026) that no one should need to reference.
+ * The logic preserves the versions that Specref already knew about but now
+ * skips intermediary statuses.
+ *
  * TODO: It would probably be better to use longer forms throughout. That would
  * require updating all statuses in refs/w3c.json at once, and making sure that
  * consumers are aware of the change first...
  *
- * Note that the W3C API considers that the status of a Retired spec is
- * "Retired", while Specref records that information on the side and uses the
- * status of the spec before it got retired.
+ * Notes:
+ * - The W3C API considers that the status of a Retired spec is "Retired",
+ * while Specref records that information on the side and uses the status of
+ * the spec before it got retired.
+ * - Some of the statuses only exist in case the script is run on old specs.
+ * For example, specs are no longer published as a "Last Call Working Draft".
  */
 const STATUSES = {
-    'First Public Working Draft': 'FPWD',
-    'Working Draft': 'WD',
-    'Last Call Working Draft': 'LCWD',
-    'Candidate Recommendation': 'CR',
-    'Candidate Recommendation Draft': 'CRD',
-    'Candidate Recommendation Snapshot': 'CR',
-    'Proposed Recommendation': 'PR',
-    'Proposed Edited Recommendation': 'PER',
-    'Recommendation': 'REC',
-    'Draft Note': 'DNOTE',
-    'Note': 'NOTE',
-    'Draft Registry': 'DRY',
-    'Candidate Registry Draft': 'CRYD',
-    'Candidate Registry': 'CRY',
-    'Registry': 'RY',
-    'Statement': 'STMT'
+    'First Public Working Draft': { abbr: 'FPWD' },
+    'Working Draft': { abbr: 'WD', skip: true },
+    'Last Call Working Draft': { abbr: 'LCWD' },
+    'Candidate Recommendation': { abbr: 'CR' },
+    'Candidate Recommendation Draft': { abbr: 'CRD', skip: true },
+    'Candidate Recommendation Snapshot': { abbr: 'CR' },
+    'Proposed Recommendation': { abbr: 'PR' },
+    'Proposed Edited Recommendation': { abbr: 'PER', skip: true },
+    'Recommendation': { abbr: 'REC' },
+    'Draft Note': { abbr: 'DNOTE', skip: true },
+    'Note': { abbr: 'NOTE' },
+    'Draft Registry': { abbr: 'DRY', skip: true },
+    'Candidate Registry Draft': { abbr: 'CRYD', skip: true },
+    'Candidate Registry': { abbr: 'CRY' },
+    'Registry': { abbr: 'RY' },
+    'Statement': { abbr: 'STMT' }
 };
 function getStatus(version, versions) {
     if (version.status in STATUSES) {
@@ -83,8 +92,11 @@ function getStatus(version, versions) {
                 return STATUSES[currVersion.status];
             }
             const match = currVersion.uri.match(reStatus);
-            if (match && Object.values(STATUSES).includes(match[1])) {
-                return match[1];
+            if (match) {
+                const status = Object.values(STATUSES).find(s => s.abbr === match[1]);
+                if (status) {
+                    return status;
+                }
             }
         }
 
@@ -168,6 +180,36 @@ async function fetchW3CPages(endpoint, property, embed) {
         page += 1;
     }
     return res;
+}
+
+
+/**
+ * Fetch the list of editors and deliverers of the current version of a spec
+ * unless we already retrieved that information. The editors and deliverers
+ * properties get set on the provided version object.
+ *
+ * The version parameter is a version object as returned by the W3C API. The
+ * shortname parameter is for logging purpose.
+ */
+async function fetchSpecVersionEditorsIfNeeded(shortname, version) {
+    if (version.editors || version.deliverers) {
+        return;
+    }
+    const key = makeKey(version);
+    version.editors = await fetchW3CPages(version._links.editors.href, 'editors', false);
+    if (!version.editors) {
+        console.error(`- ${shortname} (${key}): could not retrieve the list of editors from the W3C API`);
+    }
+    version.deliverers = await fetchW3CPages(version._links.deliverers.href, 'deliverers', true);
+    if (version.deliverers) {
+        // Note: the W3C API associates very old specs with a fake
+        // group named "unknownwg".
+        version.deliverers = version.deliverers.filter(g =>
+            g.shortname !== 'unknownwg');
+    }
+    else {
+        console.error(`- ${shortname} (${key}): could not retrieve the list of deliverers from the W3C API`);
+    }
 }
 
 /**
@@ -256,33 +298,26 @@ async function updateSpecrefFromW3CApi(curr, w3cSpec, fromDate) {
 
     const latestVersion = versions[versions.length - 1];
     for (const version of versions) {
+        const w3cStatus = getStatus(version, versions);
         version.rawDate = version.date;
         const key = makeKey(version);
-        if (key > fromDate || version === latestVersion) {
-            // Recent (or last) version, fetch editors and deliverers
-            // (If that yields an error, we will just preserve whatever info
-            // already exists in Specref until next time the script runs)
-            version.editors = await fetchW3CPages(version._links.editors.href, 'editors', false);
-            if (!version.editors) {
-                console.error(`- ${w3cSpec.shortname} (${key}): could not retrieve the list of editors from the W3C API`);
-            }
-            version.deliverers = await fetchW3CPages(version._links.deliverers.href, 'deliverers', true);
-            if (version.deliverers) {
-                // Note: the W3C API associates very old specs with a fake
-                // group named "unknownwg".
-                version.deliverers = version.deliverers.filter(g =>
-                    g.shortname !== 'unknownwg');
-            }
-            else {
-                console.error(`- ${w3cSpec.shortname} (${key}): could not retrieve the list of deliverers from the W3C API`);
-            }
-        }
         if (!curr.versions) {
             curr.versions = {};
         }
         let currVersion = curr.versions[key];
         if (!currVersion) {
-            // Unknown version in Specref, let's add it
+            // Unknown version in Specref, let's add it if either:
+            // 1. Specref does not have any dated version for the spec. This
+            // allows to capture the first publication date, which could
+            // perhaps be of interest to consumers.
+            // 2. The spec status is one that shouldn't be skipped, such as
+            // Candidate Recommendation Snapshot or Recommendation.
+            // Note: Recommendations may also be updated daily with candidate
+            // amendments but there is no good way to distinguish between a
+            // "true" Recommendation and one with amendments.
+            if (w3cStatus.skip && Object.keys(curr.versions).length > 0) {
+                continue;
+            }
             curr.versions[key] = {};
             currVersion = curr.versions[key];
         }
@@ -294,6 +329,13 @@ async function updateSpecrefFromW3CApi(curr, w3cSpec, fromDate) {
             aliasesToInvert[currVersion.aliasOf] = w3cSpec.shortname + '-' + key;
             delete currVersion.aliasOf;
         }
+
+        if (key > fromDate) {
+            // Recent version, fetch editors and deliverers
+            // (If that yields an error, we will just preserve whatever info
+            // already exists in Specref until next time the script runs)
+            await fetchSpecVersionEditorsIfNeeded(w3cSpec.shortname, version);
+        }
         if (version.editors?.length > 0) {
             currVersion.authors = version.editors
                 .map(editor => editor.title);
@@ -301,7 +343,7 @@ async function updateSpecrefFromW3CApi(curr, w3cSpec, fromDate) {
         currVersion.href = version.uri;
         currVersion.title = version.title;
         currVersion.rawDate = version.rawDate;
-        currVersion.status = getStatus(version, versions);
+        currVersion.status = w3cStatus.abbr;
         currVersion.publisher = "W3C";
         if (version.deliverers?.length > 0) {
             // Note: the W3C API associates very old specs with a fake group
@@ -328,8 +370,11 @@ async function updateSpecrefFromW3CApi(curr, w3cSpec, fromDate) {
     }
 
     // Complete base info with the info from the latest version
+    // But first, let's make sure we have the list of editors and deliverers
+    // of the latest version.
+    await fetchSpecVersionEditorsIfNeeded(w3cSpec.shortname, latestVersion);
     curr.rawDate = latestVersion.date;
-    curr.status = getStatus(latestVersion, versions);
+    curr.status = getStatus(latestVersion, versions).abbr;
     if (latestVersion.editors?.length > 0) {
         curr.authors = latestVersion.editors
             .map(editor => editor.title);
