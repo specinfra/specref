@@ -106,6 +106,15 @@ app.use(require("compression")());
 app.use(require("cors")());
 app.use(require("body-parser").urlencoded({ extended: true }));
 
+// Rate limit the public API endpoints to prevent resource exhaustion from
+// high-volume request floods (CWE-770).
+app.use(require("express-rate-limit")({
+    windowMs: 15 * 60 * 1000,
+    limit: 300,
+    standardHeaders: true,
+    legacyHeaders: false
+}));
+
 // Built once, in the background, see lib/full-dump.js.
 var fullDump = require('./lib/full-dump')(bibref.all);
 
