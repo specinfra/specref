@@ -218713,7 +218713,7 @@
         "aliasOf": "vocab-ssn-2017-20171019"
     },
     "vocab-ssn-2023": {
-        "rawDate": "2026-09-24",
+        "rawDate": "2026-09-25",
         "href": "https://www.w3.org/TR/vocab-ssn-2023/",
         "title": "Semantic Sensor Network Ontology - 2023 Edition",
         "edDraft": "https://w3c.github.io/sdw-sosa-ssn/ssn/",
@@ -218907,6 +218907,27 @@
                     "https://www.w3.org/2021/sdw"
                 ],
                 "source": "https://api.w3.org/specifications/vocab-ssn-2023/versions/20260924"
+            },
+            "20260925": {
+                "authors": [
+                    "Simon Cox",
+                    "Maxime Lefrançois",
+                    "Robert Warren",
+                    "Rob Atkinson",
+                    "Luís de Sousa",
+                    "Katharina Schleidt",
+                    "Sylvain Grellet",
+                    "Krzysztof Janowicz"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vocab-ssn-2023-20260925/",
+                "title": "Semantic Sensor Network Ontology - 2023 Edition",
+                "rawDate": "2026-09-25",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2021/sdw"
+                ],
+                "source": "https://api.w3.org/specifications/vocab-ssn-2023/versions/20260925"
             }
         },
         "status": "WD",
