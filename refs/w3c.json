@@ -50682,7 +50682,7 @@
         ],
         "href": "https://www.w3.org/TR/css-color-4/",
         "title": "CSS Color Module Level 4",
-        "rawDate": "2026-09-13",
+        "rawDate": "2026-09-26",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-color-4/",
@@ -51181,6 +51181,22 @@
                     "https://www.w3.org/groups/wg/css/"
                 ],
                 "source": "https://api.w3.org/specifications/css-color-4/versions/20260913"
+            },
+            "20260926": {
+                "authors": [
+                    "Tab Atkins Jr.",
+                    "Chris Lilley",
+                    "Lea Verou"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-css-color-4-20260926/",
+                "title": "CSS Color Module Level 4",
+                "rawDate": "2026-09-26",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/css/"
+                ],
+                "source": "https://api.w3.org/specifications/css-color-4/versions/20260926"
             }
         },
         "repository": "https://github.com/w3c/csswg-drafts"
@@ -72085,7 +72101,7 @@
         ],
         "href": "https://www.w3.org/TR/did-extensions-methods/",
         "title": "DID Methods",
-        "rawDate": "2026-09-07",
+        "rawDate": "2026-09-26",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-extensions/methods/",
@@ -72558,6 +72574,21 @@
                     "https://www.w3.org/groups/wg/did/"
                 ],
                 "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20260907"
+            },
+            "20260926": {
+                "authors": [
+                    "Manu Sporny",
+                    "Markus Sabadello"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-did-extensions-methods-20260926/",
+                "title": "DID Methods",
+                "rawDate": "2026-09-26",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/did/"
+                ],
+                "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20260926"
             }
         },
         "repository": "https://github.com/w3c/did-extensions"
