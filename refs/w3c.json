@@ -210026,7 +210026,7 @@
         "repository": "https://github.com/w3c/vc-data-model"
     },
     "vc-data-model-2.1": {
-        "rawDate": "2026-09-20",
+        "rawDate": "2026-09-26",
         "href": "https://www.w3.org/TR/vc-data-model-2.1/",
         "title": "Verifiable Credentials Data Model v2.1",
         "edDraft": "https://w3c.github.io/vc-data-model/",
@@ -210160,6 +210160,22 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260920"
+            },
+            "20260926": {
+                "authors": [
+                    "Manu Sporny",
+                    "Ted Thibodeau Jr",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-data-model-2.1-20260926/",
+                "title": "Verifiable Credentials Data Model v2.1",
+                "rawDate": "2026-09-26",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260926"
             }
         },
         "status": "WD",
@@ -210202,10 +210218,10 @@
         "isSeriesAlias": true
     },
     "vc-data-model-threat-model-2.1": {
-        "rawDate": "2026-09-24",
+        "rawDate": "2026-09-26",
         "href": "https://www.w3.org/TR/vc-data-model-threat-model-2.1/",
-        "title": "Verifiable Credentials Data Model Threat Model v2.1",
-        "edDraft": "https://w3c.github.io/vc-data-model/threat-model/",
+        "title": "Verifiable Credentials Data Model v2.1",
+        "edDraft": "https://w3c.github.io/vc-data-model/",
         "publisher": "W3C",
         "source": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1",
         "versions": {
@@ -210222,6 +210238,20 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260924"
+            },
+            "20260926": {
+                "authors": [
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vc-data-model-threat-model-2.1-20260926/",
+                "title": "Verifiable Credentials Data Model Threat Model v2.1",
+                "rawDate": "2026-09-26",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260926"
             }
         },
         "status": "DNOTE",
