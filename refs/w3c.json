@@ -195702,7 +195702,7 @@
         "repository": "https://github.com/w3c/string-meta"
     },
     "string-search": {
-        "rawDate": "2025-01-07",
+        "rawDate": "2026-09-27",
         "href": "https://www.w3.org/TR/string-search/",
         "title": "String Searching",
         "edDraft": "https://w3c.github.io/string-search/",
@@ -195722,14 +195722,30 @@
                     "https://www.w3.org/International/core/"
                 ],
                 "source": "https://api.w3.org/specifications/string-search/versions/20250107"
+            },
+            "20260927": {
+                "authors": [
+                    "Addison Phillips",
+                    "Fuqiao Xue"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-string-search-20260927/",
+                "title": "String Searching",
+                "rawDate": "2026-09-27",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/i18n-activity/i18n-wg/"
+                ],
+                "source": "https://api.w3.org/specifications/string-search/versions/20260927"
             }
         },
         "status": "DNOTE",
         "authors": [
-            "Addison Phillips"
+            "Addison Phillips",
+            "Fuqiao Xue"
         ],
         "deliveredBy": [
-            "https://www.w3.org/International/core/"
+            "https://www.w3.org/International/i18n-activity/i18n-wg/"
         ],
         "repository": "https://github.com/w3c/string-search"
     },
@@ -210026,7 +210042,7 @@
         "repository": "https://github.com/w3c/vc-data-model"
     },
     "vc-data-model-2.1": {
-        "rawDate": "2026-09-26",
+        "rawDate": "2026-09-27",
         "href": "https://www.w3.org/TR/vc-data-model-2.1/",
         "title": "Verifiable Credentials Data Model v2.1",
         "edDraft": "https://w3c.github.io/vc-data-model/",
@@ -210176,6 +210192,22 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260926"
+            },
+            "20260927": {
+                "authors": [
+                    "Manu Sporny",
+                    "Ted Thibodeau Jr",
+                    "Ivan Herman"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-data-model-2.1-20260927/",
+                "title": "Verifiable Credentials Data Model v2.1",
+                "rawDate": "2026-09-27",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260927"
             }
         },
         "status": "WD",
@@ -210218,10 +210250,10 @@
         "isSeriesAlias": true
     },
     "vc-data-model-threat-model-2.1": {
-        "rawDate": "2026-09-26",
+        "rawDate": "2026-09-27",
         "href": "https://www.w3.org/TR/vc-data-model-threat-model-2.1/",
-        "title": "Verifiable Credentials Data Model v2.1",
-        "edDraft": "https://w3c.github.io/vc-data-model/",
+        "title": "Verifiable Credentials Data Model Threat Model v2.1",
+        "edDraft": "https://w3c.github.io/vc-data-model/threat-model/",
         "publisher": "W3C",
         "source": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1",
         "versions": {
@@ -210252,6 +210284,20 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260926"
+            },
+            "20260927": {
+                "authors": [
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vc-data-model-threat-model-2.1-20260927/",
+                "title": "Verifiable Credentials Data Model Threat Model v2.1",
+                "rawDate": "2026-09-27",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260927"
             }
         },
         "status": "DNOTE",
