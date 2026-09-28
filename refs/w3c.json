@@ -39759,7 +39759,7 @@
         "isSeriesAlias": true
     },
     "cbor-ld-10": {
-        "rawDate": "2026-09-16",
+        "rawDate": "2026-09-28",
         "href": "https://www.w3.org/TR/cbor-ld-10/",
         "title": "CBOR-LD 1.0",
         "edDraft": "https://w3c.github.io/cbor-ld/",
@@ -39989,6 +39989,22 @@
                     "https://www.w3.org/groups/wg/json-ld/"
                 ],
                 "source": "https://api.w3.org/specifications/cbor-ld-10/versions/20260916"
+            },
+            "20260928": {
+                "authors": [
+                    "Manu Sporny",
+                    "Dave Longley",
+                    "Wesley Smith"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-cbor-ld-10-20260928/",
+                "title": "CBOR-LD 1.0",
+                "rawDate": "2026-09-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/json-ld/"
+                ],
+                "source": "https://api.w3.org/specifications/cbor-ld-10/versions/20260928"
             }
         },
         "status": "WD",
@@ -218048,7 +218064,7 @@
         "rawDate": "2024-08-22",
         "status": "REC",
         "publisher": "W3C",
-        "edDraft": "https://w3c.github.io/dxwg/dcat/",
+        "edDraft": "https://w3c.github.io/dx-dcat/TR/",
         "deliveredBy": [
             "https://www.w3.org/2017/dxwg/"
         ],
@@ -304139,7 +304155,7 @@
         "isSeriesAlias": true
     },
     "yaml-ld-10": {
-        "rawDate": "2026-09-24",
+        "rawDate": "2026-09-28",
         "href": "https://www.w3.org/TR/yaml-ld-10/",
         "title": "YAML-LD 1.0",
         "edDraft": "https://w3c.github.io/yaml-ld/",
@@ -304595,6 +304611,21 @@
                     "https://www.w3.org/groups/wg/json-ld/"
                 ],
                 "source": "https://api.w3.org/specifications/yaml-ld-10/versions/20260924"
+            },
+            "20260928": {
+                "authors": [
+                    "Anatoly Scherbakov",
+                    "Gregg Kellogg"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-yaml-ld-10-20260928/",
+                "title": "YAML-LD 1.0",
+                "rawDate": "2026-09-28",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/json-ld/"
+                ],
+                "source": "https://api.w3.org/specifications/yaml-ld-10/versions/20260928"
             }
         },
         "status": "WD",
