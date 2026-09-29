@@ -215845,7 +215845,7 @@
         "repository": "https://github.com/w3c/vc-recognized-entities"
     },
     "vc-render-method": {
-        "rawDate": "2026-09-08",
+        "rawDate": "2026-09-29",
         "href": "https://www.w3.org/TR/vc-render-method/",
         "title": "Verifiable Credential Rendering Methods v1.0",
         "edDraft": "https://w3c.github.io/vc-render-method/",
@@ -215936,6 +215936,23 @@
                     "https://www.w3.org/groups/wg/vc/"
                 ],
                 "source": "https://api.w3.org/specifications/vc-render-method/versions/20260908"
+            },
+            "20260929": {
+                "authors": [
+                    "Dmitri Zagidulin",
+                    "Manu Sporny",
+                    "Patrick St-Louis",
+                    "Isaac Koh"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-vc-render-method-20260929/",
+                "title": "Verifiable Credential Rendering Methods v1.0",
+                "rawDate": "2026-09-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-render-method/versions/20260929"
             }
         },
         "status": "WD",
