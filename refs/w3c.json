@@ -125162,7 +125162,7 @@
         "repository": "https://github.com/w3c/lws-protocol"
     },
     "lws10-authn-ssi-did-key": {
-        "rawDate": "2026-08-03",
+        "rawDate": "2026-09-29",
         "href": "https://www.w3.org/TR/lws10-authn-ssi-did-key/",
         "title": "LWS 1.0 Authentication Suite: Self-signed Identity using did:key",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-authn-ssi-did-key/",
@@ -125210,6 +125210,21 @@
                     "https://www.w3.org/groups/wg/lws/"
                 ],
                 "source": "https://api.w3.org/specifications/lws10-authn-ssi-did-key/versions/20260803"
+            },
+            "20260929": {
+                "authors": [
+                    "Jesse Wright"
+                ],
+                "href": "https://www.w3.org/TR/2026/DISC-lws10-authn-ssi-did-key-20260929/",
+                "title": "LWS 1.0 Authentication Suite: Self-signed Identity using did:key",
+                "rawDate": "2026-09-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/lws/"
+                ],
+                "isRetired": true,
+                "source": "https://api.w3.org/specifications/lws10-authn-ssi-did-key/versions/20260929"
             }
         },
         "status": "WD",
@@ -125219,7 +125234,8 @@
         "deliveredBy": [
             "https://www.w3.org/groups/wg/lws/"
         ],
-        "repository": "https://github.com/w3c/lws-protocol"
+        "repository": "https://github.com/w3c/lws-protocol",
+        "isRetired": true
     },
     "lws10-core": {
         "rawDate": "2026-09-21",
@@ -178288,7 +178304,7 @@
         ],
         "href": "https://www.w3.org/TR/screen-wake-lock/",
         "title": "Screen Wake Lock API",
-        "rawDate": "2024-10-24",
+        "rawDate": "2026-09-29",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/screen-wake-lock/",
@@ -179037,6 +179053,22 @@
                     "https://www.w3.org/groups/wg/webapps/"
                 ],
                 "source": "https://api.w3.org/specifications/screen-wake-lock/versions/20241024"
+            },
+            "20260929": {
+                "authors": [
+                    "Kenneth Christiansen",
+                    "Marcos Caceres"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-screen-wake-lock-20260929/",
+                "title": "Screen Wake Lock API",
+                "rawDate": "2026-09-29",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/das/",
+                    "https://www.w3.org/groups/wg/webapps/"
+                ],
+                "source": "https://api.w3.org/specifications/screen-wake-lock/versions/20260929"
             }
         },
         "repository": "https://github.com/w3c/screen-wake-lock"
