@@ -195750,7 +195750,7 @@
         "repository": "https://github.com/w3c/string-meta"
     },
     "string-search": {
-        "rawDate": "2026-09-27",
+        "rawDate": "2026-09-30",
         "href": "https://www.w3.org/TR/string-search/",
         "title": "String Searching",
         "edDraft": "https://w3c.github.io/string-search/",
@@ -195785,6 +195785,21 @@
                     "https://www.w3.org/International/i18n-activity/i18n-wg/"
                 ],
                 "source": "https://api.w3.org/specifications/string-search/versions/20260927"
+            },
+            "20260930": {
+                "authors": [
+                    "Addison Phillips",
+                    "Fuqiao Xue"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-string-search-20260930/",
+                "title": "String Searching",
+                "rawDate": "2026-09-30",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/i18n-activity/i18n-wg/"
+                ],
+                "source": "https://api.w3.org/specifications/string-search/versions/20260930"
             }
         },
         "status": "DNOTE",
