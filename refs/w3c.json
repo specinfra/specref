@@ -50698,7 +50698,7 @@
         ],
         "href": "https://www.w3.org/TR/css-color-4/",
         "title": "CSS Color Module Level 4",
-        "rawDate": "2026-09-26",
+        "rawDate": "2026-09-30",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-color-4/",
@@ -218918,7 +218918,7 @@
         "aliasOf": "vocab-ssn-2017-20171019"
     },
     "vocab-ssn-2023": {
-        "rawDate": "2026-09-29",
+        "rawDate": "2026-09-30",
         "href": "https://www.w3.org/TR/vocab-ssn-2023/",
         "title": "Semantic Sensor Network Ontology - 2023 Edition",
         "edDraft": "https://w3c.github.io/sdw-sosa-ssn/ssn/",
