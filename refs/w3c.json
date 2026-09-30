@@ -190679,7 +190679,7 @@
         ],
         "href": "https://www.w3.org/TR/sparql12-query/",
         "title": "SPARQL 1.2 Query Language",
-        "rawDate": "2026-09-21",
+        "rawDate": "2026-09-30",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sparql-query/spec/",
@@ -192504,6 +192504,24 @@
                     "https://www.w3.org/groups/wg/rdf-star/"
                 ],
                 "source": "https://api.w3.org/specifications/sparql12-query/versions/20260921"
+            },
+            "20260930": {
+                "authors": [
+                    "Olaf Hartig",
+                    "Andy Seaborne",
+                    "Ruben Taelman",
+                    "Gregory Williams",
+                    "Thomas Pellissier Tanon"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-sparql12-query-20260930/",
+                "title": "SPARQL 1.2 Query Language",
+                "rawDate": "2026-09-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/rdf-star/"
+                ],
+                "source": "https://api.w3.org/specifications/sparql12-query/versions/20260930"
             }
         },
         "repository": "https://github.com/w3c/sparql-query"
@@ -221871,7 +221889,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-core-2/",
         "title": "WebAssembly Core Specification",
-        "rawDate": "2026-09-21",
+        "rawDate": "2026-09-30",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/core/bikeshed/",
@@ -222873,6 +222891,20 @@
                     "https://www.w3.org/groups/wg/wasm/"
                 ],
                 "source": "https://api.w3.org/specifications/wasm-core-2/versions/20260921"
+            },
+            "20260930": {
+                "authors": [
+                    "Andreas Rossberg"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-wasm-core-2-20260930/",
+                "title": "WebAssembly Core Specification",
+                "rawDate": "2026-09-30",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/wasm/"
+                ],
+                "source": "https://api.w3.org/specifications/wasm-core-2/versions/20260930"
             }
         },
         "repository": "https://github.com/webassembly/spec"
@@ -222978,7 +223010,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-js-api-2/",
         "title": "WebAssembly JavaScript Interface",
-        "rawDate": "2026-09-21",
+        "rawDate": "2026-09-30",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/js-api/",
@@ -224320,6 +224352,21 @@
                     "https://www.w3.org/groups/wg/wasm/"
                 ],
                 "source": "https://api.w3.org/specifications/wasm-js-api-2/versions/20260921"
+            },
+            "20260930": {
+                "authors": [
+                    ". Ms2ger",
+                    "Ryan Hunt"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260930/",
+                "title": "WebAssembly JavaScript Interface",
+                "rawDate": "2026-09-30",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/wasm/"
+                ],
+                "source": "https://api.w3.org/specifications/wasm-js-api-2/versions/20260930"
             }
         },
         "repository": "https://github.com/webassembly/spec"
@@ -224425,7 +224472,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-web-api-2/",
         "title": "WebAssembly Web API",
-        "rawDate": "2026-09-21",
+        "rawDate": "2026-09-30",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/web-api/",
@@ -225879,6 +225926,21 @@
                     "https://www.w3.org/groups/wg/wasm/"
                 ],
                 "source": "https://api.w3.org/specifications/wasm-web-api-2/versions/20260921"
+            },
+            "20260930": {
+                "authors": [
+                    ". Ms2ger",
+                    "Ryan Hunt"
+                ],
+                "href": "https://www.w3.org/TR/2026/CRD-wasm-web-api-2-20260930/",
+                "title": "WebAssembly Web API",
+                "rawDate": "2026-09-30",
+                "status": "CRD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/wasm/"
+                ],
+                "source": "https://api.w3.org/specifications/wasm-web-api-2/versions/20260930"
             }
         },
         "repository": "https://github.com/webassembly/spec"
@@ -227015,7 +227077,7 @@
         ],
         "href": "https://www.w3.org/TR/web-based-payment-handler/",
         "title": "Web-based Payment Handler API",
-        "rawDate": "2026-04-23",
+        "rawDate": "2026-09-30",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/web-based-payment-handler/",
@@ -227710,6 +227772,22 @@
                     "https://www.w3.org/groups/wg/payments/"
                 ],
                 "source": "https://api.w3.org/specifications/web-based-payment-handler/versions/20260423"
+            },
+            "20260930": {
+                "authors": [
+                    "Ian Jacobs",
+                    "Jinho Bang",
+                    "Stephen McGruer"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-web-based-payment-handler-20260930/",
+                "title": "Web-based Payment Handler API",
+                "rawDate": "2026-09-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/payments/"
+                ],
+                "source": "https://api.w3.org/specifications/web-based-payment-handler/versions/20260930"
             }
         },
         "repository": "https://github.com/w3c/payment-handler"
@@ -256127,7 +256205,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver-bidi/",
         "title": "WebDriver BiDi",
-        "rawDate": "2026-09-24",
+        "rawDate": "2026-09-30",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver-bidi/",
@@ -258119,6 +258197,22 @@
                     "https://www.w3.org/groups/wg/browser-tools-testing/"
                 ],
                 "source": "https://api.w3.org/specifications/webdriver-bidi/versions/20260924"
+            },
+            "20260930": {
+                "authors": [
+                    "James Graham",
+                    "Alex Rudenko",
+                    "Maksim Sadym"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-webdriver-bidi-20260930/",
+                "title": "WebDriver BiDi",
+                "rawDate": "2026-09-30",
+                "status": "WD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/browser-tools-testing/"
+                ],
+                "source": "https://api.w3.org/specifications/webdriver-bidi/versions/20260930"
             }
         },
         "repository": "https://github.com/w3c/webdriver-bidi"
