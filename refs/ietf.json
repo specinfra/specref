@@ -3532,6 +3532,22 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10052": {
+        "rfcNumber": "RFC10052",
+        "href": "https://www.rfc-editor.org/info/rfc10052/",
+        "title": "Performance Measurement with Asymmetrical Traffic Using the Simple Two-Way Active Measurement Protocol (STAMP)",
+        "authors": [
+            "G. Mirsky",
+            "E. Ruffini",
+            "H. Nydell",
+            "R. Foote",
+            "W. Hawkins"
+        ],
+        "rawDate": "2026-09",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1006": {
         "rfcNumber": "RFC1006",
         "href": "https://www.rfc-editor.org/info/rfc1006/",

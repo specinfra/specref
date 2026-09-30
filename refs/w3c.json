@@ -206737,7 +206737,7 @@
         "repository": "https://github.com/w3c/vc-data-integrity"
     },
     "vc-data-integrity-1.1": {
-        "rawDate": "2026-09-19",
+        "rawDate": "2026-09-30",
         "href": "https://www.w3.org/TR/vc-data-integrity-1.1/",
         "title": "Verifiable Credential Data Integrity 1.1",
         "edDraft": "https://w3c.github.io/vc-data-integrity/",
@@ -210123,7 +210123,7 @@
         "repository": "https://github.com/w3c/vc-data-model"
     },
     "vc-data-model-2.1": {
-        "rawDate": "2026-09-27",
+        "rawDate": "2026-09-30",
         "href": "https://www.w3.org/TR/vc-data-model-2.1/",
         "title": "Verifiable Credentials Data Model v2.1",
         "edDraft": "https://w3c.github.io/vc-data-model/",
