@@ -72117,7 +72117,7 @@
         ],
         "href": "https://www.w3.org/TR/did-extensions-methods/",
         "title": "DID Methods",
-        "rawDate": "2026-09-26",
+        "rawDate": "2026-10-01",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-extensions/methods/",
@@ -72605,6 +72605,21 @@
                     "https://www.w3.org/groups/wg/did/"
                 ],
                 "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20260926"
+            },
+            "20261001": {
+                "authors": [
+                    "Manu Sporny",
+                    "Markus Sabadello"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-did-extensions-methods-20261001/",
+                "title": "DID Methods",
+                "rawDate": "2026-10-01",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/did/"
+                ],
+                "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20261001"
             }
         },
         "repository": "https://github.com/w3c/did-extensions"
@@ -72849,7 +72864,7 @@
         ],
         "href": "https://www.w3.org/TR/did-resolution-1.0/",
         "title": "Decentralized Identifier Resolution (DID Resolution) v1",
-        "rawDate": "2026-08-28",
+        "rawDate": "2026-10-01",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-resolution/",
@@ -126400,7 +126415,7 @@
         ],
         "href": "https://www.w3.org/TR/mathml4/",
         "title": "Mathematical Markup Language (MathML) Version 4.0",
-        "rawDate": "2026-06-04",
+        "rawDate": "2026-10-01",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mathml/",
@@ -190679,7 +190694,7 @@
         ],
         "href": "https://www.w3.org/TR/sparql12-query/",
         "title": "SPARQL 1.2 Query Language",
-        "rawDate": "2026-09-30",
+        "rawDate": "2026-10-01",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sparql-query/spec/",
