@@ -134373,6 +134373,7 @@
         ],
         "rawDate": "2020-06",
         "status": "Informational",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc8764",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
