@@ -218933,7 +218933,7 @@
         "aliasOf": "vocab-ssn-2017-20171019"
     },
     "vocab-ssn-2023": {
-        "rawDate": "2026-09-30",
+        "rawDate": "2026-10-02",
         "href": "https://www.w3.org/TR/vocab-ssn-2023/",
         "title": "Semantic Sensor Network Ontology - 2023 Edition",
         "edDraft": "https://w3c.github.io/sdw-sosa-ssn/ssn/",
