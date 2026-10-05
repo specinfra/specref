@@ -3506,6 +3506,19 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10049": {
+        "rfcNumber": "RFC10049",
+        "href": "https://www.rfc-editor.org/info/rfc10049/",
+        "title": "Roughtime: A Protocol for Rough Time Synchronization",
+        "authors": [
+            "W. Ladd",
+            "M. Dansarie"
+        ],
+        "rawDate": "2026-10",
+        "status": "Experimental",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1005": {
         "rfcNumber": "RFC1005",
         "href": "https://www.rfc-editor.org/info/rfc1005/",

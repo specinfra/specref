@@ -105114,7 +105114,7 @@
         ],
         "href": "https://www.w3.org/TR/html-aam-1.0/",
         "title": "HTML Accessibility API Mappings 1.0",
-        "rawDate": "2026-09-23",
+        "rawDate": "2026-10-05",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/aria/html-aam/",
@@ -153710,7 +153710,7 @@
         ],
         "href": "https://www.w3.org/TR/pointerevents4/",
         "title": "Pointer Events",
-        "rawDate": "2026-08-26",
+        "rawDate": "2026-10-05",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/pointerevents/",
@@ -304349,7 +304349,7 @@
         "isSeriesAlias": true
     },
     "yaml-ld-10": {
-        "rawDate": "2026-10-01",
+        "rawDate": "2026-10-05",
         "href": "https://www.w3.org/TR/yaml-ld-10/",
         "title": "YAML-LD 1.0",
         "edDraft": "https://w3c.github.io/yaml-ld/",
