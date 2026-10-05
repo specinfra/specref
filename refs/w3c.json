@@ -125253,7 +125253,7 @@
         "isRetired": true
     },
     "lws10-core": {
-        "rawDate": "2026-09-21",
+        "rawDate": "2026-10-05",
         "href": "https://www.w3.org/TR/lws10-core/",
         "title": "Linked Web Storage Protocol 1.0",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-core/",
@@ -158669,7 +158669,7 @@
         ],
         "href": "https://www.w3.org/TR/push-api/",
         "title": "Push API",
-        "rawDate": "2025-12-01",
+        "rawDate": "2026-10-05",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [

@@ -2688,6 +2688,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-temporal"
     },
+    "TC39-THENABLE-CURTAILMENT": {
+        "href": "https://tc39.es/proposal-thenable-curtailment/",
+        "title": "SafePromiseResolve",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-thenable-curtailment"
+    },
     "TC39-UPSERT": {
         "href": "https://tc39.es/proposal-upsert/",
         "title": "Upsert",
