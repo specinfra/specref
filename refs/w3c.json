@@ -11690,12 +11690,10 @@
     },
     "SVG2": {
         "authors": [
-            "Amelia Bellamy-Royds",
-            "Bogdan Brinza",
-            "Chris Lilley",
+            "Karl Dubost",
             "Dirk Schulze",
-            "David Storey",
-            "Eric Willigers"
+            "Divyansh Mangal",
+            "Virali Purbey"
         ],
         "href": "https://www.w3.org/TR/SVG2/",
         "title": "Scalable Vector Graphics (SVG) 2",
@@ -11945,9 +11943,26 @@
                     "https://www.w3.org/groups/wg/svg/"
                 ],
                 "source": "https://api.w3.org/specifications/SVG2/versions/20181004"
+            },
+            "20261006": {
+                "authors": [
+                    "Karl Dubost",
+                    "Dirk Schulze",
+                    "Divyansh Mangal",
+                    "Virali Purbey"
+                ],
+                "href": "https://www.w3.org/TR/2026/CR-SVG2-20261006/",
+                "title": "Scalable Vector Graphics (SVG) 2",
+                "rawDate": "2026-10-06",
+                "status": "CR",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/svg/"
+                ],
+                "source": "https://api.w3.org/specifications/SVG2/versions/20261006"
             }
         },
-        "rawDate": "2018-10-04",
+        "rawDate": "2026-10-06",
         "source": "https://api.w3.org/specifications/SVG2",
         "edDraft": "https://w3c.github.io/svgwg/svg2-draft/",
         "repository": "https://github.com/w3c/svgwg"
