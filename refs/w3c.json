@@ -215908,7 +215908,7 @@
         "repository": "https://github.com/w3c/vc-recognized-entities"
     },
     "vc-render-method": {
-        "rawDate": "2026-09-29",
+        "rawDate": "2026-10-06",
         "href": "https://www.w3.org/TR/vc-render-method/",
         "title": "Verifiable Credential Rendering Methods v1.0",
         "edDraft": "https://w3c.github.io/vc-render-method/",
