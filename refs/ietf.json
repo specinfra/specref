@@ -3422,6 +3422,7 @@
         ],
         "rawDate": "2026-08",
         "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc10038",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -82851,6 +82852,7 @@
         ],
         "rawDate": "2010-01",
         "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc5723",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -148715,6 +148717,7 @@
         ],
         "rawDate": "2024-06",
         "status": "Informational",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9591",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
