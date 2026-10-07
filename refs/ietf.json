@@ -3563,6 +3563,38 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10053": {
+        "rfcNumber": "RFC10053",
+        "href": "https://www.rfc-editor.org/info/rfc10053/",
+        "title": "A Framework for Computing-Aware Traffic Steering (CATS)",
+        "authors": [
+            "C. Li, Ed.",
+            "Z. Du",
+            "M. Boucadair, Ed.",
+            "L. M. Contreras",
+            "J. Drake"
+        ],
+        "rawDate": "2026-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10054": {
+        "rfcNumber": "RFC10054",
+        "href": "https://www.rfc-editor.org/info/rfc10054/",
+        "title": "Computing-Aware Traffic Steering (CATS) Problem Statement, Use Cases, and Requirements",
+        "authors": [
+            "K. Yao",
+            "L. M. Contreras",
+            "H. Shi",
+            "S. Zhang",
+            "Q. An"
+        ],
+        "rawDate": "2026-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1006": {
         "rfcNumber": "RFC1006",
         "href": "https://www.rfc-editor.org/info/rfc1006/",
