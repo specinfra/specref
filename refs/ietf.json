@@ -3616,6 +3616,21 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10065": {
+        "rfcNumber": "RFC10065",
+        "href": "https://www.rfc-editor.org/info/rfc10065/",
+        "title": "A YANG Data Model and RADIUS Extension for Policy-Based Network Access Control",
+        "authors": [
+            "Q. Ma, Ed.",
+            "Q. Wu",
+            "M. Boucadair, Ed.",
+            "D. King"
+        ],
+        "rawDate": "2026-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1007": {
         "rfcNumber": "RFC1007",
         "href": "https://www.rfc-editor.org/info/rfc1007/",
