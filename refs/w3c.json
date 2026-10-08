@@ -184350,7 +184350,7 @@
         "isSeriesAlias": true
     },
     "shacl12-core": {
-        "rawDate": "2026-09-18",
+        "rawDate": "2026-10-08",
         "href": "https://www.w3.org/TR/shacl12-core/",
         "title": "SHACL 1.2 Core",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-core/",
@@ -193304,7 +193304,7 @@
         "repository": "https://github.com/w3c/sparql-results-xml"
     },
     "sparql12-rl": {
-        "rawDate": "2026-10-07",
+        "rawDate": "2026-10-08",
         "href": "https://www.w3.org/TR/sparql12-rl/",
         "title": "SPARQL 1.2 RL",
         "edDraft": "https://w3c.github.io/data-shapes/sparql12-rl/",
@@ -204681,6 +204681,42 @@
         ],
         "repository": "https://github.com/w3c/vc-barcodes"
     },
+    "vc-barcodes-threat-model": {
+        "aliasOf": "vc-barcodes-threat-model-1.0",
+        "isSeriesAlias": true
+    },
+    "vc-barcodes-threat-model-1.0": {
+        "rawDate": "2026-10-08",
+        "href": "https://www.w3.org/TR/vc-barcodes-threat-model-1.0/",
+        "title": "Verifiable Credential Barcodes Threat Model v1.0",
+        "edDraft": "https://w3c.github.io/vc-barcodes/threat-model/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/vc-barcodes-threat-model-1.0",
+        "versions": {
+            "20261008": {
+                "authors": [
+                    "Wesley Smith"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vc-barcodes-threat-model-1.0-20261008/",
+                "title": "Verifiable Credential Barcodes Threat Model v1.0",
+                "rawDate": "2026-10-08",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-barcodes-threat-model-1.0/versions/20261008"
+            }
+        },
+        "status": "DNOTE",
+        "authors": [
+            "Wesley Smith"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/vc/"
+        ],
+        "repository": "https://github.com/w3c/vc-barcodes"
+    },
     "vc-bitstring-status-list": {
         "authors": [
             "Manu Sporny",
@@ -206836,6 +206872,42 @@
             "Ivan Herman",
             "Dave Longley",
             "Greg Bernstein"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/vc/"
+        ],
+        "repository": "https://github.com/w3c/vc-data-integrity"
+    },
+    "vc-data-integrity-threat-model": {
+        "aliasOf": "vc-data-integrity-threat-model-1.1",
+        "isSeriesAlias": true
+    },
+    "vc-data-integrity-threat-model-1.1": {
+        "rawDate": "2026-10-08",
+        "href": "https://www.w3.org/TR/vc-data-integrity-threat-model-1.1/",
+        "title": "Data Integrity Threat Model v1.1",
+        "edDraft": "https://w3c.github.io/vc-data-integrity/threat-model/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/vc-data-integrity-threat-model-1.1",
+        "versions": {
+            "20261008": {
+                "authors": [
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vc-data-integrity-threat-model-1.1-20261008/",
+                "title": "Data Integrity Threat Model v1.1",
+                "rawDate": "2026-10-08",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-data-integrity-threat-model-1.1/versions/20261008"
+            }
+        },
+        "status": "DNOTE",
+        "authors": [
+            "Manu Sporny"
         ],
         "deliveredBy": [
             "https://www.w3.org/groups/wg/vc/"
@@ -215907,6 +215979,42 @@
         ],
         "repository": "https://github.com/w3c/vc-recognized-entities"
     },
+    "vc-recognized-entities-threat-model": {
+        "aliasOf": "vc-recognized-entities-threat-model-1.0",
+        "isSeriesAlias": true
+    },
+    "vc-recognized-entities-threat-model-1.0": {
+        "rawDate": "2026-10-08",
+        "href": "https://www.w3.org/TR/vc-recognized-entities-threat-model-1.0/",
+        "title": "Recognized Entities Threat Model v1.0",
+        "edDraft": "https://w3c.github.io/vc-recognized-entities/threat-model/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/vc-recognized-entities-threat-model-1.0",
+        "versions": {
+            "20261008": {
+                "authors": [
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vc-recognized-entities-threat-model-1.0-20261008/",
+                "title": "Recognized Entities Threat Model v1.0",
+                "rawDate": "2026-10-08",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-recognized-entities-threat-model-1.0/versions/20261008"
+            }
+        },
+        "status": "DNOTE",
+        "authors": [
+            "Manu Sporny"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/vc/"
+        ],
+        "repository": "https://github.com/w3c/vc-recognized-entities"
+    },
     "vc-render-method": {
         "rawDate": "2026-10-06",
         "href": "https://www.w3.org/TR/vc-render-method/",
@@ -216024,6 +216132,42 @@
             "Manu Sporny",
             "Patrick St-Louis",
             "Isaac Koh"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/vc/"
+        ],
+        "repository": "https://github.com/w3c/vc-render-method"
+    },
+    "vc-render-method-threat-model": {
+        "aliasOf": "vc-render-method-threat-model-1.0",
+        "isSeriesAlias": true
+    },
+    "vc-render-method-threat-model-1.0": {
+        "rawDate": "2026-10-08",
+        "href": "https://www.w3.org/TR/vc-render-method-threat-model-1.0/",
+        "title": "Verifiable Credentials Render Method Threat Model v1.0",
+        "edDraft": "https://w3c.github.io/vc-render-method/threat-model/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/vc-render-method-threat-model-1.0",
+        "versions": {
+            "20261008": {
+                "authors": [
+                    "Manu Sporny"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vc-render-method-threat-model-1.0-20261008/",
+                "title": "Verifiable Credentials Render Method Threat Model v1.0",
+                "rawDate": "2026-10-08",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vc-render-method-threat-model-1.0/versions/20261008"
+            }
+        },
+        "status": "DNOTE",
+        "authors": [
+            "Manu Sporny"
         ],
         "deliveredBy": [
             "https://www.w3.org/groups/wg/vc/"
@@ -216345,6 +216489,42 @@
             "Kayode Ezike",
             "Manu Sporny",
             "Ted Thibodeau Jr"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/vc/"
+        ],
+        "repository": "https://github.com/w3c/vcalm"
+    },
+    "vcalm-threat-model": {
+        "aliasOf": "vcalm-threat-model-1.0",
+        "isSeriesAlias": true
+    },
+    "vcalm-threat-model-1.0": {
+        "rawDate": "2026-10-08",
+        "href": "https://www.w3.org/TR/vcalm-threat-model-1.0/",
+        "title": "VCALM Threat Model v1.0",
+        "edDraft": "https://w3c.github.io/vcalm/threat-model/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/vcalm-threat-model-1.0",
+        "versions": {
+            "20261008": {
+                "authors": [
+                    "Eric Schuh"
+                ],
+                "href": "https://www.w3.org/TR/2026/DNOTE-vcalm-threat-model-1.0-20261008/",
+                "title": "VCALM Threat Model v1.0",
+                "rawDate": "2026-10-08",
+                "status": "DNOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/vc/"
+                ],
+                "source": "https://api.w3.org/specifications/vcalm-threat-model-1.0/versions/20261008"
+            }
+        },
+        "status": "DNOTE",
+        "authors": [
+            "Eric Schuh"
         ],
         "deliveredBy": [
             "https://www.w3.org/groups/wg/vc/"
@@ -256235,7 +256415,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver-bidi/",
         "title": "WebDriver BiDi",
-        "rawDate": "2026-09-30",
+        "rawDate": "2026-10-08",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver-bidi/",
