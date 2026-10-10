@@ -185575,7 +185575,7 @@
         "aliasOf": "sparql12-rl-20260819"
     },
     "shacl12-sparql": {
-        "rawDate": "2026-09-18",
+        "rawDate": "2026-10-10",
         "href": "https://www.w3.org/TR/shacl12-sparql/",
         "title": "SHACL 1.2 SPARQL-Related Features",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-sparql/",
@@ -268759,7 +268759,7 @@
         ],
         "href": "https://www.w3.org/TR/webnn/",
         "title": "Web Neural Network API",
-        "rawDate": "2026-10-08",
+        "rawDate": "2026-10-10",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webmachinelearning.github.io/webnn/",
