@@ -35482,7 +35482,7 @@
         "aliasOf": "wai-aria"
     },
     "attribution": {
-        "rawDate": "2026-10-14",
+        "rawDate": "2026-10-30",
         "href": "https://www.w3.org/TR/attribution/",
         "title": "Attribution Level 1",
         "edDraft": "https://w3c.github.io/attribution/",
@@ -45340,7 +45340,7 @@
         ],
         "href": "https://www.w3.org/TR/core-aam-1.2/",
         "title": "Core Accessibility API Mappings 1.2",
-        "rawDate": "2026-10-21",
+        "rawDate": "2026-10-30",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/aria/core-aam/",
@@ -99609,8 +99609,8 @@
         ],
         "href": "https://www.w3.org/TR/geolocation/",
         "title": "Geolocation",
-        "rawDate": "2026-03-26",
-        "status": "CR",
+        "rawDate": "2026-10-30",
+        "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/geolocation/",
         "deliveredBy": [
@@ -184367,7 +184367,7 @@
         "isSeriesAlias": true
     },
     "shacl12-core": {
-        "rawDate": "2026-10-25",
+        "rawDate": "2026-10-30",
         "href": "https://www.w3.org/TR/shacl12-core/",
         "title": "SHACL 1.2 Core",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-core/",
