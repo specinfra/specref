@@ -3701,6 +3701,18 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10075": {
+        "rfcNumber": "RFC10075",
+        "href": "https://www.rfc-editor.org/info/rfc10075/",
+        "title": "The SNAC Router Flag in ICMPv6 Router Advertisement Messages",
+        "authors": [
+            "J. Hui"
+        ],
+        "rawDate": "2026-10",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1008": {
         "rfcNumber": "RFC1008",
         "href": "https://www.rfc-editor.org/info/rfc1008/",
