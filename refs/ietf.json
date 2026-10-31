@@ -3713,6 +3713,22 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10078": {
+        "rfcNumber": "RFC10078",
+        "href": "https://www.rfc-editor.org/info/rfc10078/",
+        "title": "Problem Statement, Gap Analysis, and Requirements for Intra-Domain Source Address Validation",
+        "authors": [
+            "L. Qin",
+            "D. Li",
+            "J. Wu",
+            "M. Huang",
+            "N. Geng"
+        ],
+        "rawDate": "2026-10",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1008": {
         "rfcNumber": "RFC1008",
         "href": "https://www.rfc-editor.org/info/rfc1008/",
@@ -3722,6 +3738,22 @@
         ],
         "rawDate": "1987-06",
         "status": "Unknown",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10080": {
+        "rfcNumber": "RFC10080",
+        "href": "https://www.rfc-editor.org/info/rfc10080/",
+        "title": "Updated Use of the Expires Message Header Field",
+        "authors": [
+            "B. Billon",
+            "J. Levine"
+        ],
+        "rawDate": "2026-10",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC4021"
+        ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -54780,7 +54812,8 @@
         "rawDate": "2005-03",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC5322"
+            "RFC5322",
+            "RFC10080"
         ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
