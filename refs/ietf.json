@@ -3561,6 +3561,7 @@
         "updates": [
             "RFC5545"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc10051",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -92077,6 +92078,7 @@
         "updates": [
             "RFC5911"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc6268",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -101052,6 +101054,7 @@
         "updates": [
             "RFC5280"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc6818",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -106176,6 +106179,7 @@
         ],
         "rawDate": "2014-02",
         "status": "Informational",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc7129",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -149303,6 +149307,7 @@
         "updates": [
             "RFC5280"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9618",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -155686,6 +155691,7 @@
         "obsoletes": [
             "RFC7489"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9991",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },

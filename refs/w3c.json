@@ -81251,7 +81251,7 @@
         ],
         "href": "https://www.w3.org/TR/encrypted-media-2/",
         "title": "Encrypted Media Extensions",
-        "rawDate": "2026-10-28",
+        "rawDate": "2026-11-02",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/encrypted-media/",
@@ -184381,7 +184381,7 @@
         "isSeriesAlias": true
     },
     "shacl12-core": {
-        "rawDate": "2026-10-30",
+        "rawDate": "2026-11-02",
         "href": "https://www.w3.org/TR/shacl12-core/",
         "title": "SHACL 1.2 Core",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-core/",
@@ -216203,7 +216203,7 @@
         "aliasOf": "vc-overview-1.0-20260618"
     },
     "vc-recognized-entities-1.0": {
-        "rawDate": "2026-09-06",
+        "rawDate": "2026-11-02",
         "href": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
         "title": "Recognized Entities v1.0",
         "edDraft": "https://w3c.github.io/vc-recognized-entities/",
@@ -216337,7 +216337,7 @@
         "isSeriesAlias": true
     },
     "vc-recognized-entities-threat-model-1.0": {
-        "rawDate": "2026-10-08",
+        "rawDate": "2026-11-02",
         "href": "https://www.w3.org/TR/vc-recognized-entities-threat-model-1.0/",
         "title": "Recognized Entities Threat Model v1.0",
         "edDraft": "https://w3c.github.io/vc-recognized-entities/threat-model/",
@@ -231182,7 +231182,7 @@
         ],
         "href": "https://www.w3.org/TR/webcodecs/",
         "title": "WebCodecs",
-        "rawDate": "2026-10-26",
+        "rawDate": "2026-11-02",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webcodecs/",
