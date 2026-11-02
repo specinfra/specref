@@ -67025,7 +67025,7 @@
         ],
         "href": "https://www.w3.org/TR/design-principles/",
         "title": "Web Platform Design Principles",
-        "rawDate": "2026-09-14",
+        "rawDate": "2026-11-02",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3ctag.github.io/design-principles/",
@@ -67549,6 +67549,20 @@
                     "https://www.w3.org/2001/tag/"
                 ],
                 "source": "https://api.w3.org/specifications/design-principles/versions/20260914"
+            },
+            "20261102": {
+                "authors": [
+                    "Jeffrey Yasskin"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-design-principles-20261102/",
+                "title": "Web Platform Design Principles",
+                "rawDate": "2026-11-02",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/design-principles/versions/20261102"
             }
         },
         "repository": "https://github.com/w3ctag/design-principles"
