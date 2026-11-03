@@ -29797,7 +29797,6 @@
         "updates": [
             "RFC1149"
         ],
-        "hasErrata": "https://www.rfc-editor.org/errata/rfc2549",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },

@@ -5758,32 +5758,6 @@
             }
         }
     },
-    "expath-crypto": {
-        "href": "https://expath.org/spec/crypto",
-        "title": "Cryptographic Module 1.0",
-        "rawDate": "2015-02-14",
-        "status": "EXPath Candidate Module",
-        "publisher": "EXPath CG",
-        "authors": [
-            "W3C EXPath Community Group"
-        ],
-        "edDraft": "https://expath.org/spec/crypto/editor",
-        "versions": {
-            "20110810": {
-                "href": "https://expath.org/spec/crypto/20110810",
-                "title": "Cryptographic Module",
-                "rawDate": "2011-08-10",
-                "status": "EXPath Candidate Module",
-                "publisher": "EXPath CG",
-                "authors": [
-                    "W3C EXPath Community Group"
-                ]
-            },
-            "20150214": {
-                "aliasOf": "expath-crypto"
-            }
-        }
-    },
     "expath-binary": {
         "href": "https://expath.org/spec/binary",
         "title": "Binary Module 1.0",
@@ -5795,6 +5769,9 @@
         ],
         "edDraft": "https://expath.org/spec/binary/editor",
         "versions": {
+            "10": {
+                "aliasOf": "expath-binary"
+            },
             "20130312": {
                 "href": "https://expath.org/spec/binary/20130312",
                 "title": "Binary Module",
@@ -5844,9 +5821,32 @@
                 "authors": [
                     "W3C EXPath Community Group"
                 ]
+            }
+        }
+    },
+    "expath-crypto": {
+        "href": "https://expath.org/spec/crypto",
+        "title": "Cryptographic Module 1.0",
+        "rawDate": "2015-02-14",
+        "status": "EXPath Candidate Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/crypto/editor",
+        "versions": {
+            "20110810": {
+                "href": "https://expath.org/spec/crypto/20110810",
+                "title": "Cryptographic Module",
+                "rawDate": "2011-08-10",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
             },
-            "10": {
-                "aliasOf": "expath-binary"
+            "20150214": {
+                "aliasOf": "expath-crypto"
             }
         }
     },
@@ -5877,6 +5877,9 @@
         ],
         "edDraft": "https://expath.org/spec/file/editor",
         "versions": {
+            "10": {
+                "aliasOf": "expath-file"
+            },
             "20100517": {
                 "href": "https://expath.org/spec/file/20100517",
                 "title": "File Module",
@@ -5906,9 +5909,6 @@
                 "authors": [
                     "W3C EXPath Community Group"
                 ]
-            },
-            "10": {
-                "aliasOf": "expath-file"
             }
         }
     },
@@ -5925,22 +5925,6 @@
         "versions": {
             "20100930": {
                 "aliasOf": "expath-geo"
-            }
-        }
-    },
-    "expath-http-model": {
-        "href": "https://expath.org/spec/http",
-        "title": "HTTP Model",
-        "rawDate": "2014-01-11",
-        "status": "EXPath Candidate Module",
-        "publisher": "EXPath CG",
-        "authors": [
-            "W3C EXPath Community Group"
-        ],
-        "edDraft": "https://expath.org/spec/http/editor",
-        "versions": {
-            "20140111": {
-                "aliasOf": "expath-http-model"
             }
         }
     },
@@ -5987,6 +5971,22 @@
             },
             "20100109": {
                 "aliasOf": "expath-http-client"
+            }
+        }
+    },
+    "expath-http-model": {
+        "href": "https://expath.org/spec/http",
+        "title": "HTTP Model",
+        "rawDate": "2014-01-11",
+        "status": "EXPath Candidate Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/http/editor",
+        "versions": {
+            "20140111": {
+                "aliasOf": "expath-http-model"
             }
         }
     },
@@ -6992,7 +6992,7 @@
             }
         }
     },
-    "iso-26300-1" : {
+    "iso-26300-1": {
         "href": "https://www.iso.org/standard/66363.html",
         "title": "Open Document Format for Office Applications (OpenDocument) v1.2, Part 1: OpenDocument Schema",
         "rawDate": "2015-07",
@@ -7004,7 +7004,7 @@
             }
         }
     },
-    "iso-26300-2" : {
+    "iso-26300-2": {
         "href": "https://www.iso.org/standard/66375.html",
         "title": "Open Document Format for Office Applications (OpenDocument) v1.2, Part 2: Recalculated Formula (OpenFormula) Format",
         "rawDate": "2015-07",
@@ -7016,7 +7016,7 @@
             }
         }
     },
-    "iso-26300-3" : {
+    "iso-26300-3": {
         "href": "https://www.iso.org/standard/66376.html",
         "title": "Open Document Format for Office Applications (OpenDocument) v1.2, Part 3: Packages",
         "rawDate": "2015-07",
@@ -7042,13 +7042,6 @@
                 "status": "Withdrawn",
                 "publisher": "ISO/IEC"
             },
-            "2008-Amd-1-2010": {
-                "href": "https://www.iso.org/standard/54801.html",
-                "title": "Office Open XML File Formats — Part 1: Fundamentals and Markup Language Reference, Amendment 1",
-                "rawDate": "2010-08",
-                "status": "Withdrawn",
-                "publisher": "ISO/IEC"
-            },
             "2011": {
                 "href": "https://www.iso.org/standard/59575.html",
                 "title": "Office Open XML File Formats — Part 1: Fundamentals and Markup Language Reference",
@@ -7065,6 +7058,13 @@
             },
             "2016": {
                 "aliasOf": "iso-29500-1"
+            },
+            "2008-Amd-1-2010": {
+                "href": "https://www.iso.org/standard/54801.html",
+                "title": "Office Open XML File Formats — Part 1: Fundamentals and Markup Language Reference, Amendment 1",
+                "rawDate": "2010-08",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
             }
         }
     },
@@ -7148,13 +7148,6 @@
                 "status": "Withdrawn",
                 "publisher": "ISO/IEC"
             },
-            "2008-Amd-1-2010": {
-                "href": "https://www.iso.org/contents/data/standard/05/48/54803.html",
-                "title": "Office Open XML File Formats — Part 4: Transitional Migration Features, Amendment 1",
-                "rawDate": "2010-08",
-                "status": "Withdrawn",
-                "publisher": "ISO/IEC"
-            },
             "2011": {
                 "href": "https://www.iso.org/standard/59578.html",
                 "title": "Office Open XML File Formats — Part 4: Transitional Migration Features",
@@ -7171,6 +7164,13 @@
             },
             "2016": {
                 "aliasOf": "iso-29500-4"
+            },
+            "2008-Amd-1-2010": {
+                "href": "https://www.iso.org/contents/data/standard/05/48/54803.html",
+                "title": "Office Open XML File Formats — Part 4: Transitional Migration Features, Amendment 1",
+                "rawDate": "2010-08",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
             }
         }
     },
@@ -7397,17 +7397,17 @@
             "10": {
                 "aliasOf": "jsoniq"
             },
-            "04": {
-                "href": "https://www.jsoniq.org/docs/JSONiqExtensionToXQuery/pdf/Language_Specification-0.4.42-JSONiq-en-US.pdf",
-                "title": "JSONiq Language Specification 0.4 (Edition 0.4.42)",
-                "rawDate": "2012-09-27",
-                "status": "Published",
-                "publisher": "JSONiq"
-            },
             "20240719": {
                 "href": "https://www.jsoniq.org/docs/JSONiq/webhelp/index.html",
                 "title": "JSONiq",
                 "rawDate": "2024-07-19",
+                "status": "Published",
+                "publisher": "JSONiq"
+            },
+            "04": {
+                "href": "https://www.jsoniq.org/docs/JSONiqExtensionToXQuery/pdf/Language_Specification-0.4.42-JSONiq-en-US.pdf",
+                "title": "JSONiq Language Specification 0.4 (Edition 0.4.42)",
+                "rawDate": "2012-09-27",
                 "status": "Published",
                 "publisher": "JSONiq"
             }
@@ -7776,24 +7776,37 @@
         "rawDate": "2013",
         "title": "RightsML"
     },
-    "semver":{
+    "schema-org": {
+        "authors": [
+            "W3C Schema.org Community Group"
+        ],
+        "href": "https://schema.org/",
+        "publisher": "W3C",
+        "status": "6.0",
+        "title": "Schema.org",
+        "repository": "https://github.com/schemaorg/schemaorg"
+    },
+    "semver": {
         "href": "https://semver.org/spec/v2.0.0.html",
         "title": "Semantic Versioning 2.0.0",
         "rawDate": "2013-06-18",
         "status": "Published",
         "publisher": "Tom Preston-Werner",
         "versions": {
-            "100-beta": {
-                "href": "https://semver.org/spec/v1.0.0-beta.html",
-                "title": "Semantic Versioning 1.0.0-beta",
-                "rawDate": "2011-06-08",
-                "status": "Published",
-                "publisher": "Tom Preston-Werner"
-            },
             "100": {
                 "href": "https://semver.org/spec/v1.0.0.html",
                 "title": "Semantic Versioning 1.0.0",
                 "rawDate": "2011-09-07",
+                "status": "Published",
+                "publisher": "Tom Preston-Werner"
+            },
+            "200": {
+                "aliasOf": "semver"
+            },
+            "100-beta": {
+                "href": "https://semver.org/spec/v1.0.0-beta.html",
+                "title": "Semantic Versioning 1.0.0-beta",
+                "rawDate": "2011-06-08",
                 "status": "Published",
                 "publisher": "Tom Preston-Werner"
             },
@@ -7810,21 +7823,8 @@
                 "rawDate": "2013-03-20",
                 "status": "Published",
                 "publisher": "Tom Preston-Werner"
-            },
-            "200": {
-                "aliasOf": "semver"
             }
         }
-    },
-    "schema-org": {
-        "authors": [
-            "W3C Schema.org Community Group"
-        ],
-        "href": "https://schema.org/",
-        "publisher": "W3C",
-        "status": "6.0",
-        "title": "Schema.org",
-        "repository": "https://github.com/schemaorg/schemaorg"
     },
     "service-workers-nightly": {
         "authors": [
