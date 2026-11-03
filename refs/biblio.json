@@ -5735,6 +5735,395 @@
     "domxpath": {
         "aliasOf": "DOM-Level-3-XPath"
     },
+    "epub-30": {
+        "href": "https://idpf.org/epub/30/spec/epub30-overview.html",
+        "title": "EPUB 3 Overview",
+        "rawDate": "2011-10-11",
+        "status": "Recommended Specification",
+        "publisher": "IDPF"
+    },
+    "expath-archive": {
+        "href": "https://expath.org/spec/archive",
+        "title": "Archive Module",
+        "rawDate": "2013-09-30",
+        "status": "EXPath Candidate Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/archive/editor",
+        "versions": {
+            "20130930": {
+                "aliasOf": "expath-archive"
+            }
+        }
+    },
+    "expath-crypto": {
+        "href": "https://expath.org/spec/crypto",
+        "title": "Cryptographic Module 1.0",
+        "rawDate": "2015-02-14",
+        "status": "EXPath Candidate Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/crypto/editor",
+        "versions": {
+            "20110810": {
+                "href": "https://expath.org/spec/crypto/20110810",
+                "title": "Cryptographic Module",
+                "rawDate": "2011-08-10",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20150214": {
+                "aliasOf": "expath-crypto"
+            }
+        }
+    },
+    "expath-binary": {
+        "href": "https://expath.org/spec/binary",
+        "title": "Binary Module 1.0",
+        "rawDate": "2013-12-03",
+        "status": "EXPath Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/binary/editor",
+        "versions": {
+            "20130312": {
+                "href": "https://expath.org/spec/binary/20130312",
+                "title": "Binary Module",
+                "rawDate": "2013-03-12",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20130731": {
+                "href": "https://expath.org/spec/binary/20130731",
+                "title": "Binary Module",
+                "rawDate": "2013-07-31",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20130920": {
+                "href": "https://expath.org/spec/binary/20130920",
+                "title": "Binary Module",
+                "rawDate": "2013-09-20",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20131113": {
+                "href": "https://expath.org/spec/binary/20131113",
+                "title": "Binary Module",
+                "rawDate": "2013-11-13",
+                "status": "EXPath Proposed Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20131125": {
+                "href": "https://expath.org/spec/binary/20131125",
+                "title": "Binary Module",
+                "rawDate": "2013-11-25",
+                "status": "EXPath Proposed Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "10": {
+                "aliasOf": "expath-binary"
+            }
+        }
+    },
+    "expath-facet": {
+        "href": "https://expath.org/spec/facet",
+        "title": "Facet Module",
+        "rawDate": "2015-12-25",
+        "status": "EXPath Proposed Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/facet/editor",
+        "versions": {
+            "20151225": {
+                "aliasOf": "expath-facet"
+            }
+        }
+    },
+    "expath-file": {
+        "href": "https://expath.org/spec/file",
+        "title": "File Module 1.0",
+        "rawDate": "2015-02-20",
+        "status": "EXPath Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/file/editor",
+        "versions": {
+            "20100517": {
+                "href": "https://expath.org/spec/file/20100517",
+                "title": "File Module",
+                "rawDate": "2010-05-17",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20120614": {
+                "href": "https://expath.org/spec/file/20120614",
+                "title": "File Module",
+                "rawDate": "2012-06-14",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20131203": {
+                "href": "https://expath.org/spec/file/20131203",
+                "title": "File Module",
+                "rawDate": "2013-12-03",
+                "status": "EXPath Proposed Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "10": {
+                "aliasOf": "expath-file"
+            }
+        }
+    },
+    "expath-geo": {
+        "href": "https://expath.org/spec/geo",
+        "title": "Geo Module",
+        "rawDate": "2010-09-30",
+        "status": "EXPath Candidate Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/geo/editor",
+        "versions": {
+            "20100930": {
+                "aliasOf": "expath-geo"
+            }
+        }
+    },
+    "expath-http-model": {
+        "href": "https://expath.org/spec/http",
+        "title": "HTTP Model",
+        "rawDate": "2014-01-11",
+        "status": "EXPath Candidate Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/http/editor",
+        "versions": {
+            "20140111": {
+                "aliasOf": "expath-http-model"
+            }
+        }
+    },
+    "expath-http-client": {
+        "href": "https://expath.org/spec/http-client",
+        "title": "HTTP Client Module",
+        "rawDate": "2010-01-09",
+        "status": "EXPath Candidate Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/http-client/editor",
+        "versions": {
+            "20090112": {
+                "href": "https://expath.org/spec/http-client/20090112",
+                "title": "EXSLT 2.0 module - HTTP client",
+                "rawDate": "2009-01-12",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20090302": {
+                "href": "https://expath.org/spec/http-client/20090302",
+                "title": "EXSLT 2.0 module - HTTP client",
+                "rawDate": "2009-03-02",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20090413": {
+                "href": "https://expath.org/spec/http-client/20090413",
+                "title": "HTTP Client Module",
+                "rawDate": "2010-01-09",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20100109": {
+                "aliasOf": "expath-http-client"
+            }
+        }
+    },
+    "expath-mongo-api": {
+        "href": "https://expath.org/spec/mongo",
+        "title": "HTTP Model",
+        "rawDate": "2015-03-05",
+        "status": "EXPath Working Draft",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/mongo/editor",
+        "versions": {
+            "20150305": {
+                "aliasOf": "expath-mongo-api"
+            }
+        }
+    },
+    "expath-packaging-system": {
+        "href": "https://expath.org/spec/pkg",
+        "title": "Packaging System",
+        "rawDate": "2012-05-09",
+        "status": "EXPath Candidate Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/pkg/editor",
+        "versions": {
+            "20090901": {
+                "href": "https://expath.org/spec/pkg/20090901",
+                "title": "Packaging System",
+                "rawDate": "2009-09-01",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20091118": {
+                "href": "https://expath.org/spec/pkg/20091118",
+                "title": "Packaging System",
+                "rawDate": "2009-11-18",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20100107": {
+                "href": "https://expath.org/spec/pkg/20100107",
+                "title": "Packaging System",
+                "rawDate": "2010-01-07",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20101111": {
+                "href": "https://expath.org/spec/pkg/20101111",
+                "title": "Packaging System",
+                "rawDate": "2010-11-11",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20120509": {
+                "aliasOf": "expath-packaging-system"
+            }
+        }
+    },
+    "expath-webapp-framework": {
+        "href": "https://expath.org/spec/webapp",
+        "title": "Web Applications",
+        "rawDate": "2013-04-01",
+        "status": "EXPath Candidate Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/webapp/editor",
+        "versions": {
+            "20150305": {
+                "aliasOf": "expath-webapp-framework"
+            }
+        }
+    },
+    "expath-zip": {
+        "href": "https://expath.org/spec/zip",
+        "title": "Zip Module",
+        "rawDate": "2010-10-12",
+        "status": "EXPath Candidate Module",
+        "publisher": "EXPath CG",
+        "authors": [
+            "W3C EXPath Community Group"
+        ],
+        "edDraft": "https://expath.org/spec/zip/editor",
+        "versions": {
+            "20090526": {
+                "href": "https://expath.org/spec/zip/20090526",
+                "title": "Zip Module",
+                "rawDate": "2009-05-26",
+                "status": "EXPath Candidate Module",
+                "publisher": "EXPath CG",
+                "authors": [
+                    "W3C EXPath Community Group"
+                ]
+            },
+            "20101012": {
+                "aliasOf": "expath-zip"
+            }
+        }
+    },
+    "functx-xquery": {
+        "href": "https://www.datypic.com/xq",
+        "title": "The FunctX XQuery 1.0 Function Library",
+        "date": "April 2007",
+        "status": "Published",
+        "publisher": "Datypic",
+        "authors": [
+            "Priscilla Walmsley"
+        ]
+    },
+    "functx-xslt": {
+        "href": "https://www.datypic.com/xsl",
+        "title": "The FunctX XSLT 2.0 Function Library",
+        "date": "April 2007",
+        "status": "Published",
+        "publisher": "Datypic",
+        "authors": [
+            "Priscilla Walmsley"
+        ]
+    },
     "geodcat-ap": {
         "href": "https://semiceu.github.io/GeoDCAT-AP/releases/",
         "title": "GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe",
@@ -6584,6 +6973,207 @@
         "date": "2015",
         "isoNumber": "ISO 19162:2015"
     },
+    "iso-26300": {
+        "href": "https://www.iso.org/standard/59302.html",
+        "title": "Open Document Format for Office Applications (OpenDocument) v1.0, Amendment 1: Open Document Format for Office Applications (OpenDocument) v1.1",
+        "rawDate": "2012-03",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "versions": {
+            "2006": {
+                "href": "https://www.iso.org/standard/43485.html",
+                "title": "Open Document Format for Office Applications (OpenDocument) v1.0",
+                "rawDate": "2006-12",
+                "status": "Published",
+                "publisher": "ISO/IEC"
+            },
+            "2006-Amd-1-2012": {
+                "aliasOf": "iso-26300"
+            }
+        }
+    },
+    "iso-26300-1" : {
+        "href": "https://www.iso.org/standard/66363.html",
+        "title": "Open Document Format for Office Applications (OpenDocument) v1.2, Part 1: OpenDocument Schema",
+        "rawDate": "2015-07",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "versions": {
+            "2015": {
+                "aliasOf": "iso-26300-1"
+            }
+        }
+    },
+    "iso-26300-2" : {
+        "href": "https://www.iso.org/standard/66375.html",
+        "title": "Open Document Format for Office Applications (OpenDocument) v1.2, Part 2: Recalculated Formula (OpenFormula) Format",
+        "rawDate": "2015-07",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "versions": {
+            "2015": {
+                "aliasOf": "iso-26300-2"
+            }
+        }
+    },
+    "iso-26300-3" : {
+        "href": "https://www.iso.org/standard/66376.html",
+        "title": "Open Document Format for Office Applications (OpenDocument) v1.2, Part 3: Packages",
+        "rawDate": "2015-07",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "versions": {
+            "2015": {
+                "aliasOf": "iso-26300-3"
+            }
+        }
+    },
+    "iso-29500-1": {
+        "href": "https://www.iso.org/standard/71691.html",
+        "title": "Office Open XML File Formats — Part 1: Fundamentals and Markup Language Reference",
+        "rawDate": "2016-11",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "versions": {
+            "2008": {
+                "href": "https://www.iso.org/standard/51463.html",
+                "title": "Office Open XML File Formats, Part 1: Fundamentals and Markup Language Reference",
+                "rawDate": "2008-11",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2008-Amd-1-2010": {
+                "href": "https://www.iso.org/standard/54801.html",
+                "title": "Office Open XML File Formats — Part 1: Fundamentals and Markup Language Reference, Amendment 1",
+                "rawDate": "2010-08",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2011": {
+                "href": "https://www.iso.org/standard/59575.html",
+                "title": "Office Open XML File Formats — Part 1: Fundamentals and Markup Language Reference",
+                "rawDate": "2011-08",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2012": {
+                "href": "https://www.iso.org/standard/61750.html",
+                "title": "Office Open XML File Formats — Part 1: Fundamentals and Markup Language Reference",
+                "rawDate": "2012-09",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2016": {
+                "aliasOf": "iso-29500-1"
+            }
+        }
+    },
+    "iso-29500-2": {
+        "href": "https://www.iso.org/standard/77818.html",
+        "title": "Office Open XML File Formats — Part 2: Open packaging conventions",
+        "rawDate": "2021-08",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "versions": {
+            "2008": {
+                "href": "https://www.iso.org/standard/51459.html",
+                "title": "Office Open XML File Formats, Part 2: Open packaging conventions",
+                "rawDate": "2008-11",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2011": {
+                "href": "https://www.iso.org/standard/59576.html",
+                "title": "Office Open XML File Formats — Part 2: Open packaging conventions",
+                "rawDate": "2011-08",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2012": {
+                "href": "https://www.iso.org/standard/61796.html",
+                "title": "Office Open XML File Formats — Part 2: Open packaging conventions",
+                "rawDate": "2012-09",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2021": {
+                "aliasOf": "iso-29500-2"
+            }
+        }
+    },
+    "iso-29500-3": {
+        "href": "https://www.iso.org/standard/65533.html",
+        "title": "Office Open XML File Formats — Part 3: Markup Compatibility and Extensibility",
+        "rawDate": "2015-07",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "versions": {
+            "2008": {
+                "href": "https://www.iso.org/standard/51461.html",
+                "title": "Office Open XML File Formats, Part 3: Markup Compatibility and Extensibility",
+                "rawDate": "2008-11",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2011": {
+                "href": "https://www.iso.org/standard/59577.html",
+                "title": "Office Open XML File Formats — Part 3: Markup Compatibility and Extensibility",
+                "rawDate": "2011-08",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2012": {
+                "href": "https://www.iso.org/standard/61797.html",
+                "title": "Office Open XML File Formats — Part 3: Markup Compatibility and Extensibility",
+                "rawDate": "2012-09",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2015": {
+                "aliasOf": "iso-29500-3"
+            }
+        }
+    },
+    "iso-29500-4": {
+        "href": "https://www.iso.org/standard/71692.html",
+        "title": "Office Open XML File Formats — Part 4: Transitional Migration Features",
+        "rawDate": "2016-11",
+        "status": "Published",
+        "publisher": "ISO/IEC",
+        "versions": {
+            "2008": {
+                "href": "https://www.iso.org/standard/51462.html",
+                "title": "Office Open XML File Formats, Part 4: Transitional Migration Features",
+                "rawDate": "2008-11",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2008-Amd-1-2010": {
+                "href": "https://www.iso.org/contents/data/standard/05/48/54803.html",
+                "title": "Office Open XML File Formats — Part 4: Transitional Migration Features, Amendment 1",
+                "rawDate": "2010-08",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2011": {
+                "href": "https://www.iso.org/standard/59578.html",
+                "title": "Office Open XML File Formats — Part 4: Transitional Migration Features",
+                "rawDate": "2011-08",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2012": {
+                "href": "https://www.iso.org/standard/61798.html",
+                "title": "Office Open XML File Formats — Part 4: Transitional Migration Features",
+                "rawDate": "2012-09",
+                "status": "Withdrawn",
+                "publisher": "ISO/IEC"
+            },
+            "2016": {
+                "aliasOf": "iso-29500-4"
+            }
+        }
+    },
     "iso-639": {
         "aliasOf": "iso-639-1988"
     },
@@ -6794,6 +7384,32 @@
                 "status": "Internet-Draft",
                 "rawDate": "2013-02-01",
                 "title": "JSON Schema: interactive and non interactive validation. Draft 4"
+            }
+        }
+    },
+    "jsoniq": {
+        "href": "https://www.jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/index.html",
+        "title": "JSONiq Extension to XQuery 1.0 (Edition 1.0.4)",
+        "rawDate": "2015-08-07",
+        "status": "Published",
+        "publisher": "JSONiq",
+        "versions": {
+            "10": {
+                "aliasOf": "jsoniq"
+            },
+            "04": {
+                "href": "https://www.jsoniq.org/docs/JSONiqExtensionToXQuery/pdf/Language_Specification-0.4.42-JSONiq-en-US.pdf",
+                "title": "JSONiq Language Specification 0.4 (Edition 0.4.42)",
+                "rawDate": "2012-09-27",
+                "status": "Published",
+                "publisher": "JSONiq"
+            },
+            "20240719": {
+                "href": "https://www.jsoniq.org/docs/JSONiq/webhelp/index.html",
+                "title": "JSONiq",
+                "rawDate": "2024-07-19",
+                "status": "Published",
+                "publisher": "JSONiq"
             }
         }
     },
@@ -7160,6 +7776,46 @@
         "rawDate": "2013",
         "title": "RightsML"
     },
+    "semver":{
+        "href": "https://semver.org/spec/v2.0.0.html",
+        "title": "Semantic Versioning 2.0.0",
+        "rawDate": "2013-06-18",
+        "status": "Published",
+        "publisher": "Tom Preston-Werner",
+        "versions": {
+            "100-beta": {
+                "href": "https://semver.org/spec/v1.0.0-beta.html",
+                "title": "Semantic Versioning 1.0.0-beta",
+                "rawDate": "2011-06-08",
+                "status": "Published",
+                "publisher": "Tom Preston-Werner"
+            },
+            "100": {
+                "href": "https://semver.org/spec/v1.0.0.html",
+                "title": "Semantic Versioning 1.0.0",
+                "rawDate": "2011-09-07",
+                "status": "Published",
+                "publisher": "Tom Preston-Werner"
+            },
+            "200-rc-1": {
+                "href": "https://semver.org/spec/v2.0.0-rc.1.html",
+                "title": "Semantic Versioning 2.0.0-rc.1",
+                "rawDate": "2013-01-24",
+                "status": "Published",
+                "publisher": "Tom Preston-Werner"
+            },
+            "200-rc-2": {
+                "href": "https://semver.org/spec/v2.0.0-rc.2.html",
+                "title": "Semantic Versioning 2.0.0-rc.2",
+                "rawDate": "2013-03-20",
+                "status": "Published",
+                "publisher": "Tom Preston-Werner"
+            },
+            "200": {
+                "aliasOf": "semver"
+            }
+        }
+    },
     "schema-org": {
         "authors": [
             "W3C Schema.org Community Group"
@@ -7512,5 +8168,24 @@
             "Eric Meyer"
         ],
         "publisher": "Global Multimedia Protocols Group"
+    },
+    "xml-catalog": {
+        "href": "https://groups.oasis-open.org/higherlogic/ws/public/download/14810/xml-catalogs.pdf",
+        "title": "XML Catalogs v1.1",
+        "rawDate": "2005-10-07",
+        "status": "Committee Specification",
+        "publisher": "OASIS",
+        "versions": {
+            "10": {
+                "href": "https://www.oasis-open.org/committees/entity/specs/cs-entity-xml-catalogs-1.0.html",
+                "title": "XML Catalogs v1.0",
+                "rawDate": "2002-10-24",
+                "status": "Committee Specification",
+                "publisher": "OASIS"
+            },
+            "11": {
+                "aliasOf": "xml-catalog"
+            }
+        }
     }
 }
