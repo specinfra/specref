@@ -78151,7 +78151,7 @@
         "repository": "https://github.com/w3c/dxwg"
     },
     "dx-prof-1.0": {
-        "rawDate": "2026-10-19",
+        "rawDate": "2026-11-04",
         "href": "https://www.w3.org/TR/dx-prof-1.0/",
         "title": "The Profiles Vocabulary 1.0",
         "edDraft": "https://w3c.github.io/dx-prof/prof/",
@@ -78240,7 +78240,7 @@
         ],
         "href": "https://www.w3.org/TR/dx-prof-conneg/",
         "title": "Content Negotiation by Profile",
-        "rawDate": "2026-10-23",
+        "rawDate": "2026-11-04",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dx-connegp/connegp/",
@@ -104714,7 +104714,7 @@
         ],
         "href": "https://www.w3.org/TR/hr-time-3/",
         "title": "High Resolution Time",
-        "rawDate": "2026-11-02",
+        "rawDate": "2026-11-04",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/hr-time/",
@@ -128352,7 +128352,7 @@
         ],
         "href": "https://www.w3.org/TR/media-source-2/",
         "title": "Media Source Extensions™",
-        "rawDate": "2026-08-07",
+        "rawDate": "2026-11-04",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/media-source/",
@@ -216218,7 +216218,7 @@
         "aliasOf": "vc-overview-1.0-20260618"
     },
     "vc-recognized-entities-1.0": {
-        "rawDate": "2026-11-02",
+        "rawDate": "2026-11-04",
         "href": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
         "title": "Recognized Entities v1.0",
         "edDraft": "https://w3c.github.io/vc-recognized-entities/",
