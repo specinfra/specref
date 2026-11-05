@@ -74663,7 +74663,7 @@
         "repository": "https://github.com/w3c/differential-privacy-guidance"
     },
     "digital-credentials": {
-        "rawDate": "2026-10-29",
+        "rawDate": "2026-11-05",
         "href": "https://www.w3.org/TR/digital-credentials/",
         "title": "Digital Credentials",
         "edDraft": "https://w3c-fedid.github.io/digital-credentials/",
@@ -126475,7 +126475,7 @@
         ],
         "href": "https://www.w3.org/TR/mathml4/",
         "title": "Mathematical Markup Language (MathML) Version 4.0",
-        "rawDate": "2026-10-27",
+        "rawDate": "2026-11-05",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mathml/",
