@@ -125313,7 +125313,7 @@
         "isRetired": true
     },
     "lws10-core": {
-        "rawDate": "2026-10-23",
+        "rawDate": "2026-11-06",
         "href": "https://www.w3.org/TR/lws10-core/",
         "title": "Linked Web Storage Protocol 1.0",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-core/",
@@ -186199,7 +186199,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-ui": {
-        "rawDate": "2026-10-27",
+        "rawDate": "2026-11-06",
         "href": "https://www.w3.org/TR/shacl12-ui/",
         "title": "SHACL 1.2 User Interfaces",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-ui/",
@@ -207155,7 +207155,7 @@
         "repository": "https://github.com/w3c/vc-data-integrity"
     },
     "vc-data-integrity-1.1": {
-        "rawDate": "2026-09-30",
+        "rawDate": "2026-11-06",
         "href": "https://www.w3.org/TR/vc-data-integrity-1.1/",
         "title": "Verifiable Credential Data Integrity 1.1",
         "edDraft": "https://w3c.github.io/vc-data-integrity/",
@@ -222467,7 +222467,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-core-2/",
         "title": "WebAssembly Core Specification",
-        "rawDate": "2026-11-04",
+        "rawDate": "2026-11-06",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/core/bikeshed/",
@@ -223588,7 +223588,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-js-api-2/",
         "title": "WebAssembly JavaScript Interface",
-        "rawDate": "2026-11-04",
+        "rawDate": "2026-11-06",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/js-api/",
@@ -225050,7 +225050,7 @@
         ],
         "href": "https://www.w3.org/TR/wasm-web-api-2/",
         "title": "WebAssembly Web API",
-        "rawDate": "2026-11-04",
+        "rawDate": "2026-11-06",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webassembly.github.io/spec/web-api/",
@@ -256542,7 +256542,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver-bidi/",
         "title": "WebDriver BiDi",
-        "rawDate": "2026-11-03",
+        "rawDate": "2026-11-06",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver-bidi/",
