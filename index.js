@@ -103,7 +103,11 @@ app.use(function(req, res, next) {
 
 app.use(ipFilter.createIpFilter(bannedIPs, function(message) { log.warn(message); }));
 app.use(require("compression")());
-app.use(require("cors")());
+// This is a public, read-only, cookie-less data API intended to be
+// consumed from any origin, so allowing all origins is intentional.
+// Restrict the allowed methods and explicitly disable credentialed
+// requests so a wildcard origin can never be combined with credentials.
+app.use(require("cors")({ methods: ["GET"], credentials: false }));
 app.use(require("body-parser").urlencoded({ extended: true }));
 
 // Built once, in the background, see lib/full-dump.js.
