@@ -3692,6 +3692,23 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10069": {
+        "rfcNumber": "RFC10069",
+        "href": "https://www.rfc-editor.org/info/rfc10069/",
+        "title": "Managing Multiple Paths for a QUIC Connection",
+        "authors": [
+            "Y. Liu, Ed.",
+            "Y. Ma",
+            "Q. De Coninck, Ed.",
+            "O. Bonaventure",
+            "C. Huitema",
+            "M. Kühlewind, Ed."
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1007": {
         "rfcNumber": "RFC1007",
         "href": "https://www.rfc-editor.org/info/rfc1007/",
