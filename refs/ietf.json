@@ -3704,6 +3704,22 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10073": {
+        "rfcNumber": "RFC10073",
+        "href": "https://www.rfc-editor.org/info/rfc10073/",
+        "title": "Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for Use in X.509 Public Key Infrastructure",
+        "authors": [
+            "M. Ounsworth",
+            "J. Gray",
+            "M. Pala",
+            "J. Klaußner",
+            "S. Fluhrer"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc10075": {
         "rfcNumber": "RFC10075",
         "href": "https://www.rfc-editor.org/info/rfc10075/",
