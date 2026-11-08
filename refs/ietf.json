@@ -3721,6 +3721,27 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10070": {
+        "rfcNumber": "RFC10070",
+        "href": "https://www.rfc-editor.org/info/rfc10070/",
+        "title": "Updates to OAuth 2.0 JSON Web Token (JWT) Client Authentication and Assertion-Based Authorization Grants",
+        "authors": [
+            "M.B. Jones",
+            "B. Campbell",
+            "C. Mortimore",
+            "F. Skokan"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7521",
+            "RFC7522",
+            "RFC7523",
+            "RFC9126"
+        ],
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc10073": {
         "rfcNumber": "RFC10073",
         "href": "https://www.rfc-editor.org/info/rfc10073/",
@@ -3790,6 +3811,21 @@
         "updates": [
             "RFC4021"
         ],
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10082": {
+        "rfcNumber": "RFC10082",
+        "href": "https://www.rfc-editor.org/info/rfc10082/",
+        "title": "Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for Use in the Cryptographic Message Syntax (CMS)",
+        "authors": [
+            "M. Ounsworth",
+            "J. Gray",
+            "J. Klaußner",
+            "D. Van Geest"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -112997,6 +113033,9 @@
         ],
         "rawDate": "2015-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC10070"
+        ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -113011,6 +113050,9 @@
         ],
         "rawDate": "2015-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC10070"
+        ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -113025,6 +113067,9 @@
         ],
         "rawDate": "2015-05",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC10070"
+        ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -140903,6 +140948,9 @@
         ],
         "rawDate": "2021-09",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC10070"
+        ],
         "hasErrata": "https://www.rfc-editor.org/errata/rfc9126",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
