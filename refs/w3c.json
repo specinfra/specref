@@ -35482,7 +35482,7 @@
         "aliasOf": "wai-aria"
     },
     "attribution": {
-        "rawDate": "2026-10-30",
+        "rawDate": "2026-11-09",
         "href": "https://www.w3.org/TR/attribution/",
         "title": "Attribution Level 1",
         "edDraft": "https://w3c.github.io/attribution/",
@@ -37342,7 +37342,7 @@
         ],
         "href": "https://www.w3.org/TR/autoplay-detection/",
         "title": "Autoplay Policy Detection",
-        "rawDate": "2025-09-04",
+        "rawDate": "2026-11-09",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/autoplay/",
@@ -39774,7 +39774,7 @@
         "isSeriesAlias": true
     },
     "cbor-ld-10": {
-        "rawDate": "2026-09-28",
+        "rawDate": "2026-11-09",
         "href": "https://www.w3.org/TR/cbor-ld-10/",
         "title": "CBOR-LD 1.0",
         "edDraft": "https://w3c.github.io/cbor-ld/",
@@ -72909,7 +72909,7 @@
         ],
         "href": "https://www.w3.org/TR/did-resolution-1.0/",
         "title": "Decentralized Identifier Resolution (DID Resolution) v1",
-        "rawDate": "2026-11-03",
+        "rawDate": "2026-11-09",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-resolution/",
@@ -125089,7 +125089,7 @@
         "repository": "https://github.com/w3c/lws-protocol"
     },
     "lws10-authn-saml": {
-        "rawDate": "2026-10-15",
+        "rawDate": "2026-11-09",
         "href": "https://www.w3.org/TR/lws10-authn-saml/",
         "title": "LWS 1.0 Authentication Suite: SAML 2.0",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-authn-saml/",
@@ -125313,7 +125313,7 @@
         "isRetired": true
     },
     "lws10-core": {
-        "rawDate": "2026-11-06",
+        "rawDate": "2026-11-09",
         "href": "https://www.w3.org/TR/lws10-core/",
         "title": "Linked Web Storage Protocol 1.0",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-core/",
@@ -127319,7 +127319,7 @@
             "https://www.w3.org/media-wg/"
         ],
         "repository": "https://github.com/w3c/media-capabilities",
-        "rawDate": "2026-10-18",
+        "rawDate": "2026-11-09",
         "edDraft": "https://w3c.github.io/media-capabilities/",
         "source": "https://api.w3.org/specifications/media-capabilities",
         "versions": {
@@ -128352,7 +128352,7 @@
         ],
         "href": "https://www.w3.org/TR/media-source-2/",
         "title": "Media Source Extensions™",
-        "rawDate": "2026-11-04",
+        "rawDate": "2026-11-09",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/media-source/",
@@ -132149,7 +132149,7 @@
             "https://www.w3.org/media-wg/"
         ],
         "repository": "https://github.com/w3c/mediasession",
-        "rawDate": "2026-06-05",
+        "rawDate": "2026-11-09",
         "edDraft": "https://w3c.github.io/mediasession/",
         "source": "https://api.w3.org/specifications/mediasession",
         "versions": {
@@ -137130,7 +137130,7 @@
         ],
         "href": "https://www.w3.org/TR/mse-byte-stream-format-isobmff/",
         "title": "ISO BMFF Byte Stream Format",
-        "rawDate": "2024-07-23",
+        "rawDate": "2026-11-09",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mse-byte-stream-format-isobmff/",
@@ -137184,6 +137184,20 @@
                     "https://www.w3.org/media-wg/"
                 ],
                 "source": "https://api.w3.org/specifications/mse-byte-stream-format-isobmff/versions/20240723"
+            },
+            "20261109": {
+                "authors": [
+                    "Mark Watson"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-mse-byte-stream-format-isobmff-20261109/",
+                "title": "ISO BMFF Byte Stream Format",
+                "rawDate": "2026-11-09",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/media-wg/"
+                ],
+                "source": "https://api.w3.org/specifications/mse-byte-stream-format-isobmff/versions/20261109"
             }
         },
         "repository": "https://github.com/w3c/media-source"
@@ -137194,7 +137208,7 @@
         ],
         "href": "https://www.w3.org/TR/mse-byte-stream-format-mp2t/",
         "title": "MPEG-2 TS Byte Stream Format",
-        "rawDate": "2024-07-23",
+        "rawDate": "2026-11-09",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mse-byte-stream-format-mp2t/",
@@ -137248,6 +137262,20 @@
                     "https://www.w3.org/media-wg/"
                 ],
                 "source": "https://api.w3.org/specifications/mse-byte-stream-format-mp2t/versions/20240723"
+            },
+            "20261109": {
+                "authors": [
+                    "Mark Watson"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-mse-byte-stream-format-mp2t-20261109/",
+                "title": "MPEG-2 TS Byte Stream Format",
+                "rawDate": "2026-11-09",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/media-wg/"
+                ],
+                "source": "https://api.w3.org/specifications/mse-byte-stream-format-mp2t/versions/20261109"
             }
         },
         "repository": "https://github.com/w3c/media-source"
@@ -137258,7 +137286,7 @@
         ],
         "href": "https://www.w3.org/TR/mse-byte-stream-format-mpeg-audio/",
         "title": "MPEG Audio Byte Stream Format",
-        "rawDate": "2024-07-23",
+        "rawDate": "2026-11-09",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mse-byte-stream-format-mpeg-audio/",
@@ -137309,6 +137337,20 @@
                     "https://www.w3.org/media-wg/"
                 ],
                 "source": "https://api.w3.org/specifications/mse-byte-stream-format-mpeg-audio/versions/20240723"
+            },
+            "20261109": {
+                "authors": [
+                    "Dale Curtis"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-mse-byte-stream-format-mpeg-audio-20261109/",
+                "title": "MPEG Audio Byte Stream Format",
+                "rawDate": "2026-11-09",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/media-wg/"
+                ],
+                "source": "https://api.w3.org/specifications/mse-byte-stream-format-mpeg-audio/versions/20261109"
             }
         },
         "repository": "https://github.com/w3c/media-source"
@@ -137319,7 +137361,7 @@
         ],
         "href": "https://www.w3.org/TR/mse-byte-stream-format-registry/",
         "title": "Media Source Extensions Byte Stream Format Registry",
-        "rawDate": "2026-06-04",
+        "rawDate": "2026-11-09",
         "status": "DRY",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mse-byte-stream-format-registry/",
@@ -137395,7 +137437,7 @@
         ],
         "href": "https://www.w3.org/TR/mse-byte-stream-format-webm/",
         "title": "WebM Byte Stream Format",
-        "rawDate": "2024-07-23",
+        "rawDate": "2026-11-09",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mse-byte-stream-format-webm/",
@@ -137447,6 +137489,20 @@
                     "https://www.w3.org/media-wg/"
                 ],
                 "source": "https://api.w3.org/specifications/mse-byte-stream-format-webm/versions/20240723"
+            },
+            "20261109": {
+                "authors": [
+                    "Chris Needham"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-mse-byte-stream-format-webm-20261109/",
+                "title": "WebM Byte Stream Format",
+                "rawDate": "2026-11-09",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/media-wg/"
+                ],
+                "source": "https://api.w3.org/specifications/mse-byte-stream-format-webm/versions/20261109"
             }
         },
         "repository": "https://github.com/w3c/media-source"
@@ -151344,7 +151400,7 @@
             "https://www.w3.org/media-wg/"
         ],
         "repository": "https://github.com/w3c/picture-in-picture",
-        "rawDate": "2026-06-16",
+        "rawDate": "2026-11-09",
         "edDraft": "https://w3c.github.io/picture-in-picture/",
         "source": "https://api.w3.org/specifications/picture-in-picture",
         "versions": {
@@ -158730,7 +158786,7 @@
         ],
         "href": "https://www.w3.org/TR/push-api/",
         "title": "Push API",
-        "rawDate": "2026-10-05",
+        "rawDate": "2026-11-09",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -193395,7 +193451,7 @@
         "repository": "https://github.com/w3c/sparql-results-xml"
     },
     "sparql12-rl": {
-        "rawDate": "2026-11-05",
+        "rawDate": "2026-11-09",
         "href": "https://www.w3.org/TR/sparql12-rl/",
         "title": "SPARQL 1.2 RL",
         "edDraft": "https://w3c.github.io/data-shapes/sparql12-rl/",
@@ -228477,7 +228533,7 @@
         ],
         "href": "https://www.w3.org/TR/web-locks/",
         "title": "Web Locks API",
-        "rawDate": "2025-09-24",
+        "rawDate": "2026-11-09",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/web-locks/",
@@ -256542,7 +256598,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver-bidi/",
         "title": "WebDriver BiDi",
-        "rawDate": "2026-11-06",
+        "rawDate": "2026-11-09",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver-bidi/",
@@ -259746,7 +259802,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver2/",
         "title": "WebDriver",
-        "rawDate": "2026-07-02",
+        "rawDate": "2026-11-09",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver/",
