@@ -72909,7 +72909,7 @@
         ],
         "href": "https://www.w3.org/TR/did-resolution-1.0/",
         "title": "Decentralized Identifier Resolution (DID Resolution) v1",
-        "rawDate": "2026-11-09",
+        "rawDate": "2026-11-10",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-resolution/",
@@ -186254,7 +186254,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-ui": {
-        "rawDate": "2026-11-06",
+        "rawDate": "2026-11-10",
         "href": "https://www.w3.org/TR/shacl12-ui/",
         "title": "SHACL 1.2 User Interfaces",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-ui/",
