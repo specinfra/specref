@@ -178424,19 +178424,18 @@
                 "source": "https://api.w3.org/specifications/screen-orientation/versions/20260806"
             }
         },
-        "rawDate": "2026-08-06",
+        "rawDate": "2026-11-10",
         "source": "https://api.w3.org/specifications/screen-orientation",
         "edDraft": "https://w3c.github.io/screen-orientation/",
         "repository": "https://github.com/w3c/screen-orientation"
     },
     "screen-wake-lock": {
         "authors": [
-            "Kenneth Christiansen",
             "Marcos Caceres"
         ],
         "href": "https://www.w3.org/TR/screen-wake-lock/",
         "title": "Screen Wake Lock API",
-        "rawDate": "2026-09-29",
+        "rawDate": "2026-11-10",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/screen-wake-lock/",
