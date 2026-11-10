@@ -70832,7 +70832,7 @@
         ],
         "href": "https://www.w3.org/TR/did-extensions/",
         "title": "Decentralized Identifier Extensions",
-        "rawDate": "2025-12-11",
+        "rawDate": "2026-11-10",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-extensions/",
@@ -72136,6 +72136,21 @@
                     "https://www.w3.org/groups/wg/did/"
                 ],
                 "source": "https://api.w3.org/specifications/did-extensions/versions/20251211"
+            },
+            "20261110": {
+                "authors": [
+                    "Manu Sporny",
+                    "Markus Sabadello"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-did-extensions-20261110/",
+                "title": "Decentralized Identifier Extensions",
+                "rawDate": "2026-11-10",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/did/"
+                ],
+                "source": "https://api.w3.org/specifications/did-extensions/versions/20261110"
             }
         },
         "repository": "https://github.com/w3c/did-extensions"
@@ -184451,7 +184466,7 @@
         "isSeriesAlias": true
     },
     "shacl12-core": {
-        "rawDate": "2026-11-02",
+        "rawDate": "2026-11-10",
         "href": "https://www.w3.org/TR/shacl12-core/",
         "title": "SHACL 1.2 Core",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-core/",
@@ -185390,7 +185405,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-inference-rules": {
-        "rawDate": "2026-10-28",
+        "rawDate": "2026-11-10",
         "href": "https://www.w3.org/TR/shacl12-inference-rules/",
         "title": "SHACL 1.2 Inference Rules",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-inference-rules/",
@@ -216694,7 +216709,7 @@
         "isSeriesAlias": true
     },
     "vcalm-1.0": {
-        "rawDate": "2026-10-13",
+        "rawDate": "2026-11-10",
         "href": "https://www.w3.org/TR/vcalm-1.0/",
         "title": "VCALM v1.0",
         "edDraft": "https://w3c.github.io/vcalm/",
@@ -256597,7 +256612,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver-bidi/",
         "title": "WebDriver BiDi",
-        "rawDate": "2026-11-09",
+        "rawDate": "2026-11-10",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver-bidi/",
@@ -280118,7 +280133,7 @@
         ],
         "href": "https://www.w3.org/TR/window-management/",
         "title": "Window Management",
-        "rawDate": "2026-11-06",
+        "rawDate": "2026-11-10",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/window-management/",
