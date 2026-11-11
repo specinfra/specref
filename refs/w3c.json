@@ -158801,7 +158801,7 @@
         ],
         "href": "https://www.w3.org/TR/push-api/",
         "title": "Push API",
-        "rawDate": "2026-11-09",
+        "rawDate": "2026-11-11",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -178450,7 +178450,7 @@
         ],
         "href": "https://www.w3.org/TR/screen-wake-lock/",
         "title": "Screen Wake Lock API",
-        "rawDate": "2026-11-10",
+        "rawDate": "2026-11-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/screen-wake-lock/",
