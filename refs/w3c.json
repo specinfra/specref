@@ -72755,7 +72755,7 @@
         ],
         "href": "https://www.w3.org/TR/did-extensions-resolution/",
         "title": "DID Resolution Extensions",
-        "rawDate": "2024-11-19",
+        "rawDate": "2026-11-11",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-extensions/resolution/",
@@ -72778,6 +72778,21 @@
                     "https://www.w3.org/groups/wg/did/"
                 ],
                 "source": "https://api.w3.org/specifications/did-extensions-resolution/versions/20241119"
+            },
+            "20261111": {
+                "authors": [
+                    "Manu Sporny",
+                    "Markus Sabadello"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-did-extensions-resolution-20261111/",
+                "title": "DID Resolution Extensions",
+                "rawDate": "2026-11-11",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/did/"
+                ],
+                "source": "https://api.w3.org/specifications/did-extensions-resolution/versions/20261111"
             }
         },
         "repository": "https://github.com/w3c/did-extensions"
@@ -84418,7 +84433,7 @@
         "repository": "https://github.com/w3c/epub-specs"
     },
     "epub-34": {
-        "rawDate": "2026-11-02",
+        "rawDate": "2026-11-11",
         "href": "https://www.w3.org/TR/epub-34/",
         "title": "EPUB 3.4",
         "edDraft": "https://w3c.github.io/epub-specs/epub34/authoring/",
@@ -86368,7 +86383,7 @@
         "aliasOf": "epub-a11y-12"
     },
     "epub-a11y-12": {
-        "rawDate": "2026-09-12",
+        "rawDate": "2026-11-11",
         "href": "https://www.w3.org/TR/epub-a11y-12/",
         "title": "EPUB Accessibility 1.2",
         "edDraft": "https://w3c.github.io/epub-specs/epub34/a11y/",
@@ -126490,7 +126505,7 @@
         ],
         "href": "https://www.w3.org/TR/mathml4/",
         "title": "Mathematical Markup Language (MathML) Version 4.0",
-        "rawDate": "2026-11-05",
+        "rawDate": "2026-11-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mathml/",
@@ -164163,15 +164178,15 @@
     },
     "rdf12-concepts": {
         "authors": [
-            "Andy Seaborne",
             "Gregg Kellogg",
             "Olaf Hartig",
-            "Pierre-Antoine Champin"
+            "Pierre-Antoine Champin",
+            "Andy Seaborne"
         ],
         "href": "https://www.w3.org/TR/rdf12-concepts/",
         "title": "RDF 1.2 Concepts and Abstract Data Model",
-        "rawDate": "2026-04-07",
-        "status": "CR",
+        "rawDate": "2026-11-11",
+        "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-concepts/spec/",
         "deliveredBy": [
@@ -168644,7 +168659,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-turtle/",
         "title": "RDF 1.2 Turtle",
-        "rawDate": "2026-11-05",
+        "rawDate": "2026-11-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-turtle/spec/",
@@ -205688,7 +205703,7 @@
         "repository": "https://github.com/w3c/vc-bitstring-status-list"
     },
     "vc-bitstring-status-list-1.1": {
-        "rawDate": "2026-10-21",
+        "rawDate": "2026-11-11",
         "href": "https://www.w3.org/TR/vc-bitstring-status-list-1.1/",
         "title": "Bitstring Status List v1.1",
         "edDraft": "https://w3c.github.io/vc-bitstring-status-list/",
