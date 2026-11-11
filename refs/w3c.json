@@ -30628,7 +30628,7 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web Application Manifest",
-        "rawDate": "2026-11-06",
+        "rawDate": "2026-11-11",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -78166,7 +78166,7 @@
         "repository": "https://github.com/w3c/dxwg"
     },
     "dx-prof-1.0": {
-        "rawDate": "2026-11-04",
+        "rawDate": "2026-11-11",
         "href": "https://www.w3.org/TR/dx-prof-1.0/",
         "title": "The Profiles Vocabulary 1.0",
         "edDraft": "https://w3c.github.io/dx-prof/prof/",
@@ -186269,7 +186269,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-ui": {
-        "rawDate": "2026-11-10",
+        "rawDate": "2026-11-11",
         "href": "https://www.w3.org/TR/shacl12-ui/",
         "title": "SHACL 1.2 User Interfaces",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-ui/",
@@ -219566,7 +219566,7 @@
         "aliasOf": "vocab-ssn-2017-20171019"
     },
     "vocab-ssn-2023": {
-        "rawDate": "2026-11-04",
+        "rawDate": "2026-11-11",
         "href": "https://www.w3.org/TR/vocab-ssn-2023/",
         "title": "Semantic Sensor Network Ontology - 2023 Edition",
         "edDraft": "https://w3c.github.io/sdw-sosa-ssn/ssn/",
@@ -256612,7 +256612,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver-bidi/",
         "title": "WebDriver BiDi",
-        "rawDate": "2026-11-10",
+        "rawDate": "2026-11-11",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver-bidi/",
