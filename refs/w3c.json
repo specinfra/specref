@@ -188730,7 +188730,7 @@
         "repository": "https://github.com/w3c-social/social-web-protocols"
     },
     "societal-impact-questionnaire": {
-        "rawDate": "2026-10-28",
+        "rawDate": "2026-11-12",
         "href": "https://www.w3.org/TR/societal-impact-questionnaire/",
         "title": "Self-Review Questionnaire: Societal Impact",
         "edDraft": "https://w3ctag.github.io/societal-impact-questionnaire/",
@@ -188886,6 +188886,21 @@
                     "https://www.w3.org/2001/tag/"
                 ],
                 "source": "https://api.w3.org/specifications/societal-impact-questionnaire/versions/20261028"
+            },
+            "20261112": {
+                "authors": [
+                    "Sarven Capadisli",
+                    "Lola Odelola"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-societal-impact-questionnaire-20261112/",
+                "title": "Self-Review Questionnaire: Societal Impact",
+                "rawDate": "2026-11-12",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/societal-impact-questionnaire/versions/20261112"
             }
         },
         "status": "NOTE",
@@ -256627,7 +256642,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver-bidi/",
         "title": "WebDriver BiDi",
-        "rawDate": "2026-11-11",
+        "rawDate": "2026-11-12",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver-bidi/",
