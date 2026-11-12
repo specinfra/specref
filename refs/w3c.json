@@ -6841,7 +6841,7 @@
                 "source": "https://api.w3.org/specifications/FileAPI/versions/20260912"
             }
         },
-        "rawDate": "2026-09-12",
+        "rawDate": "2026-11-12",
         "source": "https://api.w3.org/specifications/FileAPI",
         "edDraft": "https://w3c.github.io/FileAPI/",
         "repository": "https://github.com/w3c/FileAPI"
@@ -72162,7 +72162,7 @@
         ],
         "href": "https://www.w3.org/TR/did-extensions-methods/",
         "title": "DID Methods",
-        "rawDate": "2026-11-03",
+        "rawDate": "2026-11-12",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-extensions/methods/",
@@ -72680,6 +72680,21 @@
                     "https://www.w3.org/groups/wg/did/"
                 ],
                 "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20261103"
+            },
+            "20261112": {
+                "authors": [
+                    "Manu Sporny",
+                    "Markus Sabadello"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-did-extensions-methods-20261112/",
+                "title": "DID Methods",
+                "rawDate": "2026-11-12",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/did/"
+                ],
+                "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20261112"
             }
         },
         "repository": "https://github.com/w3c/did-extensions"
@@ -84433,7 +84448,7 @@
         "repository": "https://github.com/w3c/epub-specs"
     },
     "epub-34": {
-        "rawDate": "2026-11-11",
+        "rawDate": "2026-11-12",
         "href": "https://www.w3.org/TR/epub-34/",
         "title": "EPUB 3.4",
         "edDraft": "https://w3c.github.io/epub-specs/epub34/authoring/",
@@ -131160,7 +131175,7 @@
                 "source": "https://api.w3.org/specifications/mediacapture-streams/versions/20251009"
             }
         },
-        "rawDate": "2025-10-09",
+        "rawDate": "2026-11-12",
         "source": "https://api.w3.org/specifications/mediacapture-streams",
         "edDraft": "https://w3c.github.io/mediacapture-main/",
         "repository": "https://github.com/w3c/mediacapture-main"
@@ -158816,7 +158831,7 @@
         ],
         "href": "https://www.w3.org/TR/push-api/",
         "title": "Push API",
-        "rawDate": "2026-11-11",
+        "rawDate": "2026-11-12",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -164185,7 +164200,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-concepts/",
         "title": "RDF 1.2 Concepts and Abstract Data Model",
-        "rawDate": "2026-11-11",
+        "rawDate": "2026-11-12",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-concepts/spec/",
@@ -167117,7 +167132,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-schema/",
         "title": "RDF 1.2 Schema",
-        "rawDate": "2026-10-23",
+        "rawDate": "2026-11-12",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-schema/spec/",
@@ -193495,7 +193510,7 @@
         "repository": "https://github.com/w3c/sparql-results-xml"
     },
     "sparql12-rl": {
-        "rawDate": "2026-11-09",
+        "rawDate": "2026-11-12",
         "href": "https://www.w3.org/TR/sparql12-rl/",
         "title": "SPARQL 1.2 RL",
         "edDraft": "https://w3c.github.io/data-shapes/sparql12-rl/",
@@ -194253,7 +194268,7 @@
         ],
         "href": "https://www.w3.org/TR/sparql12-service-description/",
         "title": "SPARQL 1.2 Service Description",
-        "rawDate": "2026-10-29",
+        "rawDate": "2026-11-12",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sparql-service-description/spec/",
@@ -228577,7 +228592,7 @@
         ],
         "href": "https://www.w3.org/TR/web-locks/",
         "title": "Web Locks API",
-        "rawDate": "2026-11-09",
+        "rawDate": "2026-11-12",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/web-locks/",
