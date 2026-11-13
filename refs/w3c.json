@@ -95149,7 +95149,7 @@
         ],
         "href": "https://www.w3.org/TR/event-timing/",
         "title": "Event Timing API",
-        "rawDate": "2026-10-13",
+        "rawDate": "2026-11-13",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/event-timing/",
@@ -207325,7 +207325,7 @@
         "repository": "https://github.com/w3c/vc-data-integrity"
     },
     "vc-data-integrity-1.1": {
-        "rawDate": "2026-11-06",
+        "rawDate": "2026-11-13",
         "href": "https://www.w3.org/TR/vc-data-integrity-1.1/",
         "title": "Verifiable Credential Data Integrity 1.1",
         "edDraft": "https://w3c.github.io/vc-data-integrity/",
