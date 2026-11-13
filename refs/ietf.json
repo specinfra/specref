@@ -3754,6 +3754,7 @@
         ],
         "rawDate": "2026-11",
         "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc10073",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
