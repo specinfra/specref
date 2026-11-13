@@ -32,17 +32,6 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/KhronosGroup/WebGL"
     },
-    "ANIMATION-TRIGGERS-1": {
-        "href": "https://drafts.csswg.org/animation-triggers-1/",
-        "title": "Animation Triggers",
-        "status": "Editor's Draft",
-        "publisher": "W3C",
-        "deliveredBy": [
-            "https://www.w3.org/groups/wg/css/"
-        ],
-        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/csswg-drafts"
-    },
     "ANONYMOUS-IFRAME": {
         "href": "https://wicg.github.io/anonymous-iframe/",
         "title": "Iframe credentialless",
@@ -281,7 +270,7 @@
         "repository": "https://github.com/w3c/csswg-drafts"
     },
     "CONNECTION-ALLOWLISTS": {
-        "href": "https://wicg.github.io/connection-allowlists/",
+        "href": "https://w3c.github.io/connection-allowlists/",
         "title": "Connection Allowlists",
         "status": "Draft Community Group Report",
         "publisher": "W3C",
@@ -289,7 +278,7 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/connection-allowlists"
+        "repository": "https://github.com/w3c/connection-allowlists"
     },
     "CONTAINER-TIMING": {
         "href": "https://w3c.github.io/container-timing/",
@@ -1057,7 +1046,8 @@
             "https://www.w3.org/groups/wg/webapps/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/w3c/gamepad"
+        "repository": "https://github.com/w3c/gamepad",
+        "isRetired": true
     },
     "GEOLOCATION-ELEMENT": {
         "href": "https://wicg.github.io/PEPC/geolocation-element.html",
@@ -1109,14 +1099,13 @@
     "IDEMPOTENCY-KEY-HEADER": {
         "href": "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header/",
         "title": "The Idempotency-Key HTTP Header Field",
-        "status": "Discontinued Draft",
+        "status": "Editor's Draft",
         "publisher": "IETF",
         "deliveredBy": [
             "https://datatracker.ietf.org/wg/httpapi/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/ietf-wg-httpapi/idempotency",
-        "isRetired": true
+        "repository": "https://github.com/ietf-wg-httpapi/idempotency"
     },
     "IDLE-DETECTION": {
         "href": "https://wicg.github.io/idle-detection/",
@@ -3272,6 +3261,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/webextensions"
     },
+    "WEBEXTENSIONS-BROWSER-GLOBAL": {
+        "href": "https://w3c.github.io/webextensions/specification/window.browser.html",
+        "title": "window.browser",
+        "status": "Draft Community Group Report",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webextensions/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/webextensions"
+    },
     "WEBGL1": {
         "href": "https://registry.khronos.org/webgl/specs/latest/1.0/",
         "title": "WebGL Specification",
@@ -3579,6 +3579,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WICG/webrtc-diagnostic-logging"
+    },
+    "WEBRTC-EXTENSIONS": {
+        "href": "https://w3c.github.io/webrtc-extensions/",
+        "title": "WebRTC Extensions",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/webrtc/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/webrtc-extensions"
     },
     "WEBRTC-ICE": {
         "href": "https://w3c.github.io/webrtc-ice/",

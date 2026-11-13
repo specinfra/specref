@@ -29991,6 +29991,46 @@
         "isRetired": true,
         "repository": "https://github.com/w3c/animation-timing"
     },
+    "animation-triggers": {
+        "aliasOf": "animation-triggers-1",
+        "isSeriesAlias": true
+    },
+    "animation-triggers-1": {
+        "rawDate": "2026-10-20",
+        "href": "https://www.w3.org/TR/animation-triggers-1/",
+        "title": "Animation Triggers",
+        "edDraft": "https://drafts.csswg.org/animation-triggers-1/",
+        "publisher": "W3C",
+        "source": "https://api.w3.org/specifications/animation-triggers-1",
+        "versions": {
+            "20261020": {
+                "authors": [
+                    "Robert Flack",
+                    "Yehonatan Daniv",
+                    "David Awogbemila"
+                ],
+                "href": "https://www.w3.org/TR/2026/WD-animation-triggers-1-20261020/",
+                "title": "Animation Triggers",
+                "rawDate": "2026-10-20",
+                "status": "FPWD",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/css/"
+                ],
+                "source": "https://api.w3.org/specifications/animation-triggers-1/versions/20261020"
+            }
+        },
+        "status": "FPWD",
+        "authors": [
+            "Robert Flack",
+            "Yehonatan Daniv",
+            "David Awogbemila"
+        ],
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/css/"
+        ],
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
     "annot": {
         "versions": {
             "19990710": {
@@ -84463,7 +84503,7 @@
         "repository": "https://github.com/w3c/epub-specs"
     },
     "epub-34": {
-        "rawDate": "2026-11-12",
+        "rawDate": "2026-11-13",
         "href": "https://www.w3.org/TR/epub-34/",
         "title": "EPUB 3.4",
         "edDraft": "https://w3c.github.io/epub-specs/epub34/authoring/",
@@ -164215,7 +164255,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-concepts/",
         "title": "RDF 1.2 Concepts and Abstract Data Model",
-        "rawDate": "2026-11-12",
+        "rawDate": "2026-11-13",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-concepts/spec/",
@@ -168219,7 +168259,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-trig/",
         "title": "RDF 1.2 TriG",
-        "rawDate": "2026-11-05",
+        "rawDate": "2026-11-13",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-trig/spec/",
@@ -256672,7 +256712,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver-bidi/",
         "title": "WebDriver BiDi",
-        "rawDate": "2026-11-12",
+        "rawDate": "2026-11-13",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver-bidi/",
