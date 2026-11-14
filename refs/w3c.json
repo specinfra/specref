@@ -6841,7 +6841,7 @@
                 "source": "https://api.w3.org/specifications/FileAPI/versions/20260912"
             }
         },
-        "rawDate": "2026-11-12",
+        "rawDate": "2026-11-14",
         "source": "https://api.w3.org/specifications/FileAPI",
         "edDraft": "https://w3c.github.io/FileAPI/",
         "repository": "https://github.com/w3c/FileAPI"
@@ -51280,7 +51280,7 @@
         ],
         "href": "https://www.w3.org/TR/css-color-5/",
         "title": "CSS Color Module Level 5",
-        "rawDate": "2026-11-12",
+        "rawDate": "2026-11-14",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-color-5/",
@@ -72202,7 +72202,7 @@
         ],
         "href": "https://www.w3.org/TR/did-extensions-methods/",
         "title": "DID Methods",
-        "rawDate": "2026-11-13",
+        "rawDate": "2026-11-14",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-extensions/methods/",
@@ -72750,6 +72750,21 @@
                     "https://www.w3.org/groups/wg/did/"
                 ],
                 "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20261113"
+            },
+            "20261114": {
+                "authors": [
+                    "Manu Sporny",
+                    "Markus Sabadello"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-did-extensions-methods-20261114/",
+                "title": "DID Methods",
+                "rawDate": "2026-11-14",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/did/"
+                ],
+                "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20261114"
             }
         },
         "repository": "https://github.com/w3c/did-extensions"
@@ -216388,7 +216403,7 @@
         "aliasOf": "vc-overview-1.0-20260618"
     },
     "vc-recognized-entities-1.0": {
-        "rawDate": "2026-11-12",
+        "rawDate": "2026-11-14",
         "href": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
         "title": "Recognized Entities v1.0",
         "edDraft": "https://w3c.github.io/vc-recognized-entities/",
