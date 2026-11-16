@@ -3053,6 +3053,7 @@
         ],
         "rawDate": "2026-07",
         "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc10013",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -136434,6 +136435,7 @@
         ],
         "rawDate": "2021-01",
         "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc8870",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -145661,6 +145663,7 @@
         "updates": [
             "RFC8620"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9404",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -155043,6 +155046,7 @@
         ],
         "rawDate": "2026-04",
         "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9946",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -155646,6 +155650,7 @@
         ],
         "rawDate": "2026-05",
         "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9983",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
