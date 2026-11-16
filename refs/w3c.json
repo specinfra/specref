@@ -216403,7 +216403,7 @@
         "aliasOf": "vc-overview-1.0-20260618"
     },
     "vc-recognized-entities-1.0": {
-        "rawDate": "2026-11-14",
+        "rawDate": "2026-11-15",
         "href": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
         "title": "Recognized Entities v1.0",
         "edDraft": "https://w3c.github.io/vc-recognized-entities/",
@@ -216537,7 +216537,7 @@
         "isSeriesAlias": true
     },
     "vc-recognized-entities-threat-model-1.0": {
-        "rawDate": "2026-11-12",
+        "rawDate": "2026-11-16",
         "href": "https://www.w3.org/TR/vc-recognized-entities-threat-model-1.0/",
         "title": "Recognized Entities Threat Model v1.0",
         "edDraft": "https://w3c.github.io/vc-recognized-entities/threat-model/",
