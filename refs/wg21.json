@@ -102603,7 +102603,7 @@
     "EDIT9225": {
         "title": "[tools/check] Combine grep/sed calls using \"-e\".",
         "href": "https://wg21.link/edit9225",
-        "status": "open",
+        "status": "closed",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -103695,14 +103695,14 @@
     "EDIT9366": {
         "title": "[set.symmetric.difference] Returns refers to an undefined quantity K",
         "href": "https://wg21.link/edit9366",
-        "status": "open",
+        "status": "closed",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
     "EDIT9367": {
         "title": "[set.symmetric.difference] Fix misapplication of P3923R0 (US 164-263)",
         "href": "https://wg21.link/edit9367",
-        "status": "open",
+        "status": "closed",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -103727,9 +103727,149 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "EDIT9370": {
+        "title": "Convert long paragraph to list",
+        "href": "https://wg21.link/edit9370",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9371": {
+        "title": "[temp.constr.order] Subsumption is a preorder, not a partial ordering",
+        "href": "https://wg21.link/edit9371",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9372": {
+        "title": "[basic.lookup.unqual] Add an example for 2.2 with using-directives",
+        "href": "https://wg21.link/edit9372",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9373": {
+        "title": "[dcl.enum] Fix remaining misuses of \"initializer\"",
+        "href": "https://wg21.link/edit9373",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9374": {
+        "title": "[class.abstract] Fix reference to decltype exception",
+        "href": "https://wg21.link/edit9374",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9375": {
+        "title": "[ios.members.static] Fix fputc argument order",
+        "href": "https://wg21.link/edit9375",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9376": {
+        "title": "[pairs.pair] Fix parameter name in assignment effects",
+        "href": "https://wg21.link/edit9376",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9377": {
+        "title": "[rand.dist.samp.plinear] Fix densities() return size",
+        "href": "https://wg21.link/edit9377",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9378": {
+        "title": "[spanstream.cons] Fix typo in ios_base::in",
+        "href": "https://wg21.link/edit9378",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9379": {
+        "title": "[unord.set.cnstr] Fix misnamed unordered_set constructor",
+        "href": "https://wg21.link/edit9379",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "EDIT938": {
         "title": "Index entry for DECAY_COPY not formatted",
         "href": "https://wg21.link/edit938",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9380": {
+        "title": "[exec.snd.transform] transformed-sndr typo in transform-recurse",
+        "href": "https://wg21.link/edit9380",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9381": {
+        "title": "[ranges] Remove unnecessary `constexpr` specifier for view constructors",
+        "href": "https://wg21.link/edit9381",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9382": {
+        "title": "[exec.par.scheduler] remove const from static transform_sender",
+        "href": "https://wg21.link/edit9382",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9383": {
+        "title": "[queue.ops] Remove superfluous whitespace",
+        "href": "https://wg21.link/edit9383",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9384": {
+        "title": "[stack.ops] Remove superfluous whitespace",
+        "href": "https://wg21.link/edit9384",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9385": {
+        "title": "[exec.parschedrepl.recvproxy] replace unused T in the recommended practice",
+        "href": "https://wg21.link/edit9385",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9386": {
+        "title": "[exec.simple.counting.mem] fix the result of try-associate after close",
+        "href": "https://wg21.link/edit9386",
+        "status": "open",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9387": {
+        "title": "[exec.simple.counting.mem] use \\exposid for count in start-join-sender",
+        "href": "https://wg21.link/edit9387",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9388": {
+        "title": "[exec.scope.counting] fix index entry for token::try_associate",
+        "href": "https://wg21.link/edit9388",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9389": {
+        "title": "[task.class] use the name start_scheduler_type",
+        "href": "https://wg21.link/edit9389",
         "status": "closed",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -103738,6 +103878,27 @@
         "title": "Index entry for terminate has argument list",
         "href": "https://wg21.link/edit939",
         "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9390": {
+        "title": "[exec.task], [coro.generator] `Coroutine State` VS `Coroutine Frame`",
+        "href": "https://wg21.link/edit9390",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9391": {
+        "title": "[task.promise, coro.generator.members] Consistently use \"coroutine state\"",
+        "href": "https://wg21.link/edit9391",
+        "status": "closed",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "EDIT9392": {
+        "title": "[exec.domain.default] add static to the member itemdecls",
+        "href": "https://wg21.link/edit9392",
+        "status": "open",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -146090,12 +146251,152 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "LWG4630": {
+        "title": "Off-by-one error in string.replace length_error condition",
+        "href": "https://wg21.link/lwg4630",
+        "status": "New",
+        "authors": [
+            "Hubert Tong"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4631": {
+        "title": "Post-increment/decrement operators of reverse_iterator and simd-iterator should be defaulted",
+        "href": "https://wg21.link/lwg4631",
+        "status": "New",
+        "authors": [
+            "Jiang An"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4632": {
+        "title": "submdspan_mapping of rank-one padded layouts ignores the stride of an extent_slice, and the sliceable postcondition does not mention strides",
+        "href": "https://wg21.link/lwg4632",
+        "status": "New",
+        "authors": [
+            "Andrii Chornyi"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4633": {
+        "title": "Lack of wording to specify that the destruction of an atomic object is not an atomic operation",
+        "href": "https://wg21.link/lwg4633",
+        "status": "New",
+        "authors": [
+            "jim x"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4634": {
+        "title": "Underlying bool type in make_signed and make_unsigned",
+        "href": "https://wg21.link/lwg4634",
+        "status": "New",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4635": {
+        "title": "inline_scheduler is not a scheduler and run_loop's scheduler probably isn't either",
+        "href": "https://wg21.link/lwg4635",
+        "status": "New",
+        "authors": [
+            "Sergey Zubkov"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4636": {
+        "title": "bit_cast from volatile behaviour unclear",
+        "href": "https://wg21.link/lwg4636",
+        "status": "New",
+        "authors": [
+            "Hubert Tong"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4637": {
+        "title": "to_chars with default representation specifies e for zero",
+        "href": "https://wg21.link/lwg4637",
+        "status": "New",
+        "authors": [
+            "Tianjiao Yin"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4638": {
+        "title": "std::abs(float) is underspecified",
+        "href": "https://wg21.link/lwg4638",
+        "status": "New",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4639": {
+        "title": "Lvalue optional<NonMovable> does not satisify view, but is viewable_range",
+        "href": "https://wg21.link/lwg4639",
+        "status": "New",
+        "authors": [
+            "Tomasz Kamiński"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "LWG464": {
         "title": "Suggestion for new member functions in standard containers",
         "href": "https://wg21.link/lwg464",
         "status": "CD1",
         "authors": [
             "Thorsten Ottosen"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4640": {
+        "title": "Unspecified exception should not be confused with dependent_sender_error",
+        "href": "https://wg21.link/lwg4640",
+        "status": "New",
+        "authors": [
+            "Robert Leahy"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4641": {
+        "title": "Role of NaN and infinity in §[linalg] is unclear",
+        "href": "https://wg21.link/lwg4641",
+        "status": "New",
+        "authors": [
+            "Jan Schultke"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4642": {
+        "title": "Monadic operations of optional and expected drop the cv-qualification of T",
+        "href": "https://wg21.link/lwg4642",
+        "status": "New",
+        "authors": [
+            "Tianjiao Yin"
+        ],
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "LWG4643": {
+        "title": "§[simd] math functions should not needlessly access errno",
+        "href": "https://wg21.link/lwg4643",
+        "status": "New",
+        "authors": [
+            "Jan Schultke"
         ],
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
@@ -187930,12 +188231,22 @@
         "source": "https://wg21.link/index.json"
     },
     "N5061": {
-        "title": "2026-11 Pre-Buzios WG21 admin telecon",
+        "title": "2026-11 Pre-Buzios WG21 admin telecon (rev 0)",
         "href": "https://wg21.link/n5061",
         "authors": [
             "Guy Davidson"
         ],
         "rawDate": "2026-10-01",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
+    "N5064": {
+        "title": "2026-11 Pre-Buzios WG21 admin telecon (rev 1)",
+        "href": "https://wg21.link/n5064",
+        "authors": [
+            "Guy Davidson"
+        ],
+        "rawDate": "2026-10-29",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -265545,7 +265856,7 @@
         "authors": [
             "Nevin Liber"
         ],
-        "rawDate": "2026-10-23",
+        "rawDate": "2026-10-29",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -304735,11 +305046,80 @@
     "WG21-EDIT937": {
         "aliasOf": "EDIT937"
     },
+    "WG21-EDIT9370": {
+        "aliasOf": "EDIT9370"
+    },
+    "WG21-EDIT9371": {
+        "aliasOf": "EDIT9371"
+    },
+    "WG21-EDIT9372": {
+        "aliasOf": "EDIT9372"
+    },
+    "WG21-EDIT9373": {
+        "aliasOf": "EDIT9373"
+    },
+    "WG21-EDIT9374": {
+        "aliasOf": "EDIT9374"
+    },
+    "WG21-EDIT9375": {
+        "aliasOf": "EDIT9375"
+    },
+    "WG21-EDIT9376": {
+        "aliasOf": "EDIT9376"
+    },
+    "WG21-EDIT9377": {
+        "aliasOf": "EDIT9377"
+    },
+    "WG21-EDIT9378": {
+        "aliasOf": "EDIT9378"
+    },
+    "WG21-EDIT9379": {
+        "aliasOf": "EDIT9379"
+    },
     "WG21-EDIT938": {
         "aliasOf": "EDIT938"
     },
+    "WG21-EDIT9380": {
+        "aliasOf": "EDIT9380"
+    },
+    "WG21-EDIT9381": {
+        "aliasOf": "EDIT9381"
+    },
+    "WG21-EDIT9382": {
+        "aliasOf": "EDIT9382"
+    },
+    "WG21-EDIT9383": {
+        "aliasOf": "EDIT9383"
+    },
+    "WG21-EDIT9384": {
+        "aliasOf": "EDIT9384"
+    },
+    "WG21-EDIT9385": {
+        "aliasOf": "EDIT9385"
+    },
+    "WG21-EDIT9386": {
+        "aliasOf": "EDIT9386"
+    },
+    "WG21-EDIT9387": {
+        "aliasOf": "EDIT9387"
+    },
+    "WG21-EDIT9388": {
+        "aliasOf": "EDIT9388"
+    },
+    "WG21-EDIT9389": {
+        "aliasOf": "EDIT9389"
+    },
     "WG21-EDIT939": {
         "aliasOf": "EDIT939"
+    },
+    "WG21-EDIT9390": {
+        "aliasOf": "EDIT9390"
+    },
+    "WG21-EDIT9391": {
+        "aliasOf": "EDIT9391"
+    },
+    "WG21-EDIT9392": {
+        "aliasOf": "EDIT9392"
     },
     "WG21-EDIT94": {
         "aliasOf": "EDIT94"
@@ -317983,8 +318363,50 @@
     "WG21-LWG463": {
         "aliasOf": "LWG463"
     },
+    "WG21-LWG4630": {
+        "aliasOf": "LWG4630"
+    },
+    "WG21-LWG4631": {
+        "aliasOf": "LWG4631"
+    },
+    "WG21-LWG4632": {
+        "aliasOf": "LWG4632"
+    },
+    "WG21-LWG4633": {
+        "aliasOf": "LWG4633"
+    },
+    "WG21-LWG4634": {
+        "aliasOf": "LWG4634"
+    },
+    "WG21-LWG4635": {
+        "aliasOf": "LWG4635"
+    },
+    "WG21-LWG4636": {
+        "aliasOf": "LWG4636"
+    },
+    "WG21-LWG4637": {
+        "aliasOf": "LWG4637"
+    },
+    "WG21-LWG4638": {
+        "aliasOf": "LWG4638"
+    },
+    "WG21-LWG4639": {
+        "aliasOf": "LWG4639"
+    },
     "WG21-LWG464": {
         "aliasOf": "LWG464"
+    },
+    "WG21-LWG4640": {
+        "aliasOf": "LWG4640"
+    },
+    "WG21-LWG4641": {
+        "aliasOf": "LWG4641"
+    },
+    "WG21-LWG4642": {
+        "aliasOf": "LWG4642"
+    },
+    "WG21-LWG4643": {
+        "aliasOf": "LWG4643"
     },
     "WG21-LWG465": {
         "aliasOf": "LWG465"
@@ -330639,6 +331061,9 @@
     },
     "WG21-N5061": {
         "aliasOf": "N5061"
+    },
+    "WG21-N5064": {
+        "aliasOf": "N5064"
     },
     "WG21-P0001R0": {
         "aliasOf": "P0001R0"
