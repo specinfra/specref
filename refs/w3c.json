@@ -51890,7 +51890,7 @@
         ],
         "href": "https://www.w3.org/TR/css-color-hdr-1/",
         "title": "CSS Color HDR Module Level 1",
-        "rawDate": "2026-11-16",
+        "rawDate": "2026-11-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-color-hdr-1/",
@@ -68093,7 +68093,7 @@
         ],
         "href": "https://www.w3.org/TR/device-posture/",
         "title": "Device Posture API",
-        "rawDate": "2026-10-26",
+        "rawDate": "2026-11-17",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/device-posture/",
@@ -72202,7 +72202,7 @@
         ],
         "href": "https://www.w3.org/TR/did-extensions-methods/",
         "title": "DID Methods",
-        "rawDate": "2026-11-14",
+        "rawDate": "2026-11-17",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-extensions/methods/",
@@ -72765,6 +72765,21 @@
                     "https://www.w3.org/groups/wg/did/"
                 ],
                 "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20261114"
+            },
+            "20261117": {
+                "authors": [
+                    "Manu Sporny",
+                    "Markus Sabadello"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-did-extensions-methods-20261117/",
+                "title": "DID Methods",
+                "rawDate": "2026-11-17",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/did/"
+                ],
+                "source": "https://api.w3.org/specifications/did-extensions-methods/versions/20261117"
             }
         },
         "repository": "https://github.com/w3c/did-extensions"
@@ -73024,7 +73039,7 @@
         ],
         "href": "https://www.w3.org/TR/did-resolution-1.0/",
         "title": "Decentralized Identifier Resolution (DID Resolution) v1",
-        "rawDate": "2026-11-16",
+        "rawDate": "2026-11-17",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-resolution/",
@@ -122666,7 +122681,7 @@
         ],
         "href": "https://www.w3.org/TR/largest-contentful-paint/",
         "title": "Largest Contentful Paint",
-        "rawDate": "2026-08-26",
+        "rawDate": "2026-11-17",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/largest-contentful-paint/",
@@ -147475,7 +147490,7 @@
         ],
         "href": "https://www.w3.org/TR/payment-request/",
         "title": "Payment Request API",
-        "rawDate": "2026-06-22",
+        "rawDate": "2026-11-17",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/payment-request/",
@@ -216824,7 +216839,7 @@
         "isSeriesAlias": true
     },
     "vcalm-1.0": {
-        "rawDate": "2026-11-10",
+        "rawDate": "2026-11-17",
         "href": "https://www.w3.org/TR/vcalm-1.0/",
         "title": "VCALM v1.0",
         "edDraft": "https://w3c.github.io/vcalm/",

@@ -3802,6 +3802,23 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10079": {
+        "rfcNumber": "RFC10079",
+        "href": "https://www.rfc-editor.org/info/rfc10079/",
+        "title": "Updates to the SFrame Cipher Suites Registry",
+        "authors": [
+            "R. Barnes",
+            "E. Omara",
+            "A. Rosenberg"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC9605"
+        ],
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1008": {
         "rfcNumber": "RFC1008",
         "href": "https://www.rfc-editor.org/info/rfc1008/",
@@ -149228,6 +149245,9 @@
         ],
         "rawDate": "2024-08",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC10079"
+        ],
         "hasErrata": "https://www.rfc-editor.org/errata/rfc9605",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
@@ -155095,7 +155115,6 @@
         ],
         "rawDate": "2026-04",
         "status": "Proposed Standard",
-        "hasErrata": "https://www.rfc-editor.org/errata/rfc9946",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
