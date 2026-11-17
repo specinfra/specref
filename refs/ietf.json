@@ -3648,6 +3648,21 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10063": {
+        "rfcNumber": "RFC10063",
+        "href": "https://www.rfc-editor.org/info/rfc10063/",
+        "title": "Near Real Time Mirroring (NRTM) Version 4",
+        "authors": [
+            "S. Romijn",
+            "J. Snijders",
+            "E. Shryane",
+            "S. Konstantaras"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc10065": {
         "rfcNumber": "RFC10065",
         "href": "https://www.rfc-editor.org/info/rfc10065/",
@@ -3830,6 +3845,22 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10087": {
+        "rfcNumber": "RFC10087",
+        "href": "https://www.rfc-editor.org/info/rfc10087/",
+        "title": "Extensible Provisioning Protocol (EPP) Transport over QUIC",
+        "authors": [
+            "J. Yao",
+            "H. Li",
+            "M. Zhang",
+            "D. Keathley",
+            "J. Gould"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1009": {
         "rfcNumber": "RFC1009",
         "href": "https://www.rfc-editor.org/info/rfc1009/",
@@ -3845,6 +3876,21 @@
         ],
         "obsoletes": [
             "RFC985"
+        ],
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10091": {
+        "rfcNumber": "RFC10091",
+        "href": "https://www.rfc-editor.org/info/rfc10091/",
+        "title": "Extension Registry for the Extensible Provisioning Protocol",
+        "authors": [
+            "S. Hollenbeck"
+        ],
+        "rawDate": "2026-11",
+        "status": "Best Current Practice",
+        "obsoletes": [
+            "RFC7451"
         ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
@@ -111836,6 +111882,9 @@
         ],
         "rawDate": "2015-02",
         "status": "Informational",
+        "obsoletedBy": [
+            "RFC10091"
+        ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
