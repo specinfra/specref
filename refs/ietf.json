@@ -3912,6 +3912,22 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10094": {
+        "rfcNumber": "RFC10094",
+        "href": "https://www.rfc-editor.org/info/rfc10094/",
+        "title": "Clarifying Segment Routing over IPv6 (SRv6) Segment Identifier (SID) List Processing",
+        "authors": [
+            "A. Farrel",
+            "S. Krishnan"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC8754"
+        ],
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc101": {
         "rfcNumber": "RFC101",
         "href": "https://www.rfc-editor.org/info/rfc101/",
@@ -134535,7 +134551,8 @@
         "rawDate": "2020-03",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC9800"
+            "RFC9800",
+            "RFC10094"
         ],
         "hasErrata": "https://www.rfc-editor.org/errata/rfc8754",
         "publisher": "IETF",

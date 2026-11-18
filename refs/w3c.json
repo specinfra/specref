@@ -30668,7 +30668,7 @@
         ],
         "href": "https://www.w3.org/TR/appmanifest/",
         "title": "Web Application Manifest",
-        "rawDate": "2026-11-16",
+        "rawDate": "2026-11-18",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -99768,7 +99768,7 @@
         ],
         "href": "https://www.w3.org/TR/geolocation/",
         "title": "Geolocation",
-        "rawDate": "2026-11-17",
+        "rawDate": "2026-11-18",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/geolocation/",
@@ -186384,7 +186384,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-ui": {
-        "rawDate": "2026-11-11",
+        "rawDate": "2026-11-18",
         "href": "https://www.w3.org/TR/shacl12-ui/",
         "title": "SHACL 1.2 User Interfaces",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-ui/",
