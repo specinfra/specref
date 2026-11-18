@@ -103898,7 +103898,7 @@
     "EDIT9392": {
         "title": "[exec.domain.default] add static to the member itemdecls",
         "href": "https://wg21.link/edit9392",
-        "status": "open",
+        "status": "closed",
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
@@ -265830,6 +265830,16 @@
         "publisher": "WG21",
         "source": "https://wg21.link/index.json"
     },
+    "P4474R0": {
+        "title": "runtime_assert - A Recoverable Assertion with Customizable Failure Handler As An Alternative To Full Contracts",
+        "href": "https://wg21.link/p4474r0",
+        "authors": [
+            "Jonathan Grant"
+        ],
+        "rawDate": "2026-11-11",
+        "publisher": "WG21",
+        "source": "https://wg21.link/index.json"
+    },
     "P5000R0": {
         "title": "Direction for ISO C++29",
         "href": "https://wg21.link/p5000r0",
@@ -354356,6 +354366,9 @@
     },
     "WG21-P4444R1": {
         "aliasOf": "P4444R1"
+    },
+    "WG21-P4474R0": {
+        "aliasOf": "P4474R0"
     },
     "WG21-P5000R0": {
         "aliasOf": "P5000R0"

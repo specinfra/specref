@@ -142467,7 +142467,7 @@
                 "source": "https://api.w3.org/specifications/orientation-event/versions/20250212"
             }
         },
-        "rawDate": "2026-11-16",
+        "rawDate": "2026-11-18",
         "source": "https://api.w3.org/specifications/orientation-event",
         "edDraft": "https://w3c.github.io/deviceorientation/",
         "isRetired": true,
@@ -147083,16 +147083,17 @@
     },
     "payment-method-id": {
         "authors": [
-            "Marcos Caceres"
+            "Marcos Caceres",
+            "Stephen McGruer"
         ],
         "href": "https://www.w3.org/TR/payment-method-id/",
         "title": "Payment Method Identifiers",
-        "rawDate": "2022-09-08",
+        "rawDate": "2026-11-18",
         "status": "REC",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/payment-method-id/",
         "deliveredBy": [
-            "https://www.w3.org/Payments/WG/"
+            "https://www.w3.org/groups/wg/payments/"
         ],
         "source": "https://api.w3.org/specifications/payment-method-id",
         "versions": {
@@ -147441,10 +147442,24 @@
                 ],
                 "hasErrata": "https://www.w3.org/Payments/WG/errata.html",
                 "source": "https://api.w3.org/specifications/payment-method-id/versions/20220908"
+            },
+            "20261118": {
+                "authors": [
+                    "Marcos Caceres",
+                    "Stephen McGruer"
+                ],
+                "href": "https://www.w3.org/TR/2026/REC-payment-method-id-20261118/",
+                "title": "Payment Method Identifiers",
+                "rawDate": "2026-11-18",
+                "status": "REC",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/groups/wg/payments/"
+                ],
+                "source": "https://api.w3.org/specifications/payment-method-id/versions/20261118"
             }
         },
-        "repository": "https://github.com/w3c/payment-method-id",
-        "hasErrata": "https://www.w3.org/Payments/WG/errata.html"
+        "repository": "https://github.com/w3c/payment-method-id"
     },
     "payment-method-manifest": {
         "authors": [
