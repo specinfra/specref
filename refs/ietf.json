@@ -141685,6 +141685,7 @@
         "updates": [
             "RFC7432"
         ],
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9161",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -155066,6 +155067,7 @@
         ],
         "rawDate": "2026-06",
         "status": "Proposed Standard",
+        "hasErrata": "https://www.rfc-editor.org/errata/rfc9942",
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
