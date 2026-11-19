@@ -3628,6 +3628,41 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10056": {
+        "rfcNumber": "RFC10056",
+        "href": "https://www.rfc-editor.org/info/rfc10056/",
+        "title": "Common YANG Data Types for Traffic Engineering",
+        "authors": [
+            "I. Busi",
+            "A. Guo",
+            "X. Liu",
+            "T. Saad",
+            "I. Bryskin"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "obsoletes": [
+            "RFC8776"
+        ],
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10057": {
+        "rfcNumber": "RFC10057",
+        "href": "https://www.rfc-editor.org/info/rfc10057/",
+        "title": "A YANG Data Model for Traffic Engineering Tunnels, Label Switched Paths, and Interfaces",
+        "authors": [
+            "T. Saad",
+            "R. Gandhi",
+            "X. Liu",
+            "V. P. Beeram",
+            "I. Bryskin"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc1006": {
         "rfcNumber": "RFC1006",
         "href": "https://www.rfc-editor.org/info/rfc1006/",
@@ -3924,6 +3959,23 @@
         "status": "Proposed Standard",
         "updates": [
             "RFC8754"
+        ],
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10097": {
+        "rfcNumber": "RFC10097",
+        "href": "https://www.rfc-editor.org/info/rfc10097/",
+        "title": "Tiebreaking Resource Public Key Infrastructure (RPKI) Trust Anchors",
+        "authors": [
+            "J. Snijders",
+            "T. Buehler",
+            "T. de Kock"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC8630"
         ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
@@ -132480,6 +132532,9 @@
         ],
         "rawDate": "2019-08",
         "status": "Proposed Standard",
+        "updatedBy": [
+            "RFC10097"
+        ],
         "obsoletes": [
             "RFC7730"
         ],
@@ -134906,6 +134961,9 @@
         ],
         "rawDate": "2020-06",
         "status": "Proposed Standard",
+        "obsoletedBy": [
+            "RFC10056"
+        ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
