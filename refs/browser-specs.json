@@ -2219,6 +2219,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/tc39/proposal-await-dictionary"
     },
+    "TC39-BIGINT-MATH": {
+        "href": "https://tc39.es/proposal-bigint-math/",
+        "title": "ES BigInt Math (2025)",
+        "status": "Editor's Draft",
+        "publisher": "Ecma International",
+        "deliveredBy": [
+            "https://tc39.es/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/tc39/proposal-bigint-math"
+    },
     "TC39-CANONICAL-TZ": {
         "href": "https://tc39.es/proposal-canonical-tz/",
         "title": "Time Zone Canonicalization proposal",
@@ -3578,7 +3589,11 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/webrtc-diagnostic-logging"
+        "repository": "https://github.com/WICG/webrtc-diagnostic-logging",
+        "obsoletedBy": [
+            "WEBRTC-EXTENSIONS"
+        ],
+        "isSuperseded": true
     },
     "WEBRTC-EXTENSIONS": {
         "href": "https://w3c.github.io/webrtc-extensions/",

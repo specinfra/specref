@@ -74793,7 +74793,7 @@
         "repository": "https://github.com/w3c/differential-privacy-guidance"
     },
     "digital-credentials": {
-        "rawDate": "2026-11-05",
+        "rawDate": "2026-11-19",
         "href": "https://www.w3.org/TR/digital-credentials/",
         "title": "Digital Credentials",
         "edDraft": "https://w3c-fedid.github.io/digital-credentials/",
@@ -97757,7 +97757,7 @@
         ],
         "href": "https://www.w3.org/TR/gamepad/",
         "title": "Gamepad",
-        "rawDate": "2026-11-14",
+        "rawDate": "2026-11-19",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -120187,12 +120187,12 @@
         ],
         "href": "https://www.w3.org/TR/jpan-gap/",
         "title": "Japanese Gap Analysis",
-        "rawDate": "2025-05-31",
+        "rawDate": "2026-11-19",
         "status": "DNOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/jlreq/gap-analysis/",
         "deliveredBy": [
-            "https://www.w3.org/International/core/"
+            "https://www.w3.org/International/i18n-activity/i18n-wg/"
         ],
         "source": "https://api.w3.org/specifications/jpan-gap",
         "versions": {
@@ -126605,7 +126605,7 @@
         ],
         "href": "https://www.w3.org/TR/mathml4/",
         "title": "Mathematical Markup Language (MathML) Version 4.0",
-        "rawDate": "2026-11-12",
+        "rawDate": "2026-11-19",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/mathml/",
@@ -186399,7 +186399,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-ui": {
-        "rawDate": "2026-11-18",
+        "rawDate": "2026-11-19",
         "href": "https://www.w3.org/TR/shacl12-ui/",
         "title": "SHACL 1.2 User Interfaces",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-ui/",
@@ -219711,7 +219711,7 @@
         "aliasOf": "vocab-ssn-2017-20171019"
     },
     "vocab-ssn-2023": {
-        "rawDate": "2026-11-16",
+        "rawDate": "2026-11-19",
         "href": "https://www.w3.org/TR/vocab-ssn-2023/",
         "title": "Semantic Sensor Network Ontology - 2023 Edition",
         "edDraft": "https://w3c.github.io/sdw-sosa-ssn/ssn/",
@@ -231412,7 +231412,7 @@
         ],
         "href": "https://www.w3.org/TR/webcodecs/",
         "title": "WebCodecs",
-        "rawDate": "2026-11-17",
+        "rawDate": "2026-11-19",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webcodecs/",
