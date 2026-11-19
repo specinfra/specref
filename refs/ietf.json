@@ -3186,6 +3186,42 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10020": {
+        "rfcNumber": "RFC10020",
+        "href": "https://www.rfc-editor.org/info/rfc10020/",
+        "title": "Group Communication for the Constrained Application Protocol (CoAP)",
+        "authors": [
+            "E. Dijk",
+            "M. Tiloca"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "updates": [
+            "RFC7252",
+            "RFC7641"
+        ],
+        "obsoletes": [
+            "RFC7390"
+        ],
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
+    "rfc10021": {
+        "rfcNumber": "RFC10021",
+        "href": "https://www.rfc-editor.org/info/rfc10021/",
+        "title": "Group Object Security for Constrained RESTful Environments (Group OSCORE)",
+        "authors": [
+            "M. Tiloca",
+            "G. Selander",
+            "F. Palombini",
+            "J. Preuß Mattsson",
+            "R. Höglund"
+        ],
+        "rawDate": "2026-11",
+        "status": "Proposed Standard",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc10022": {
         "rfcNumber": "RFC10022",
         "href": "https://www.rfc-editor.org/info/rfc10022/",
@@ -108543,7 +108579,8 @@
             "RFC8613",
             "RFC8974",
             "RFC9175",
-            "RFC9876"
+            "RFC9876",
+            "RFC10020"
         ],
         "hasErrata": "https://www.rfc-editor.org/errata/rfc7252",
         "publisher": "IETF",
@@ -110914,6 +110951,9 @@
         ],
         "rawDate": "2014-10",
         "status": "Experimental",
+        "obsoletedBy": [
+            "RFC10020"
+        ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
@@ -115313,7 +115353,8 @@
         "rawDate": "2015-09",
         "status": "Proposed Standard",
         "updatedBy": [
-            "RFC8323"
+            "RFC8323",
+            "RFC10020"
         ],
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
