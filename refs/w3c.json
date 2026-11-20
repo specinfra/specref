@@ -118069,7 +118069,7 @@
         ],
         "href": "https://www.w3.org/TR/input-events-2/",
         "title": "Input Events Level 2",
-        "rawDate": "2026-10-15",
+        "rawDate": "2026-11-20",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/input-events/",
@@ -124502,12 +124502,12 @@
         ],
         "href": "https://www.w3.org/TR/localizable-manifests/",
         "title": "Developing Localizable Manifests",
-        "rawDate": "2025-02-14",
+        "rawDate": "2026-11-20",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/localizable-manifests",
         "deliveredBy": [
-            "https://www.w3.org/International/core/"
+            "https://www.w3.org/International/i18n-activity/i18n-wg/"
         ],
         "source": "https://api.w3.org/specifications/localizable-manifests",
         "versions": {
@@ -124552,6 +124552,20 @@
                     "https://www.w3.org/International/core/"
                 ],
                 "source": "https://api.w3.org/specifications/localizable-manifests/versions/20250214"
+            },
+            "20261120": {
+                "authors": [
+                    "Addison Phillips"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-localizable-manifests-20261120/",
+                "title": "Developing Localizable Manifests",
+                "rawDate": "2026-11-20",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/International/i18n-activity/i18n-wg/"
+                ],
+                "source": "https://api.w3.org/specifications/localizable-manifests/versions/20261120"
             }
         },
         "repository": "https://github.com/w3c/localizable-manifests"
@@ -124917,14 +124931,15 @@
     },
     "ltli": {
         "authors": [
-            "Addison Phillips"
+            "Addison Phillips",
+            "Felix Sasaki"
         ],
         "href": "https://www.w3.org/TR/ltli/",
         "title": "Language Tags and Locale Identifiers for the World Wide Web",
-        "status": "WD",
+        "status": "DNOTE",
         "publisher": "W3C",
         "deliveredBy": [
-            "https://www.w3.org/International/core/"
+            "https://www.w3.org/International/i18n-activity/i18n-wg/"
         ],
         "versions": {
             "20060419": {
@@ -124985,7 +125000,7 @@
                 "source": "https://api.w3.org/specifications/ltli/versions/20201007"
             }
         },
-        "rawDate": "2020-10-07",
+        "rawDate": "2026-11-20",
         "source": "https://api.w3.org/specifications/ltli",
         "edDraft": "https://w3c.github.io/ltli/",
         "repository": "https://github.com/w3c/ltli"
@@ -165809,7 +165824,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-n-quads/",
         "title": "RDF 1.2 N-Quads",
-        "rawDate": "2026-11-05",
+        "rawDate": "2026-11-20",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-n-quads/spec/",
@@ -190756,7 +190771,7 @@
         ],
         "href": "https://www.w3.org/TR/sparql12-protocol/",
         "title": "SPARQL 1.2 Protocol",
-        "rawDate": "2026-11-19",
+        "rawDate": "2026-11-20",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sparql-protocol/spec/",
@@ -196104,10 +196119,10 @@
         "repository": "https://github.com/w3c/string-meta"
     },
     "string-search": {
-        "rawDate": "2026-09-30",
+        "rawDate": "2026-11-20",
         "href": "https://www.w3.org/TR/string-search/",
         "title": "String Searching",
-        "edDraft": "https://w3c.github.io/string-search/",
+        "edDraft": "https://www.w3.org/International/string-search/",
         "publisher": "W3C",
         "source": "https://api.w3.org/specifications/string-search",
         "versions": {
@@ -199187,7 +199202,7 @@
                 "source": "https://api.w3.org/specifications/timezone/versions/20250726"
             }
         },
-        "rawDate": "2025-07-26",
+        "rawDate": "2026-11-20",
         "source": "https://api.w3.org/specifications/timezone",
         "edDraft": "https://w3c.github.io/timezone/",
         "repository": "https://github.com/w3c/timezone"
@@ -269100,7 +269115,7 @@
         ],
         "href": "https://www.w3.org/TR/webnn/",
         "title": "Web Neural Network API",
-        "rawDate": "2026-11-17",
+        "rawDate": "2026-11-20",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://webmachinelearning.github.io/webnn/",
