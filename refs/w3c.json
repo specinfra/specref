@@ -185535,7 +185535,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-inference-rules": {
-        "rawDate": "2026-11-10",
+        "rawDate": "2026-11-19",
         "href": "https://www.w3.org/TR/shacl12-inference-rules/",
         "title": "SHACL 1.2 Inference Rules",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-inference-rules/",
@@ -185821,7 +185821,7 @@
         "aliasOf": "sparql12-rl-20260819"
     },
     "shacl12-sparql": {
-        "rawDate": "2026-10-22",
+        "rawDate": "2026-11-19",
         "href": "https://www.w3.org/TR/shacl12-sparql/",
         "title": "SHACL 1.2 SPARQL-Related Features",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-sparql/",
