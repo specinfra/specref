@@ -73039,7 +73039,7 @@
         ],
         "href": "https://www.w3.org/TR/did-resolution-1.0/",
         "title": "Decentralized Identifier Resolution (DID Resolution) v1",
-        "rawDate": "2026-11-18",
+        "rawDate": "2026-11-20",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/did-resolution/",
@@ -78370,7 +78370,7 @@
         ],
         "href": "https://www.w3.org/TR/dx-prof-conneg/",
         "title": "Content Negotiation by Profile",
-        "rawDate": "2026-11-04",
+        "rawDate": "2026-11-20",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/dx-connegp/connegp/",
@@ -178584,7 +178584,7 @@
                 "source": "https://api.w3.org/specifications/screen-orientation/versions/20260806"
             }
         },
-        "rawDate": "2026-11-17",
+        "rawDate": "2026-11-20",
         "source": "https://api.w3.org/specifications/screen-orientation",
         "edDraft": "https://w3c.github.io/screen-orientation/",
         "repository": "https://github.com/w3c/screen-orientation"
@@ -186414,7 +186414,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-ui": {
-        "rawDate": "2026-11-19",
+        "rawDate": "2026-11-20",
         "href": "https://www.w3.org/TR/shacl12-ui/",
         "title": "SHACL 1.2 User Interfaces",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-ui/",
