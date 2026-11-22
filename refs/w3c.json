@@ -6841,7 +6841,7 @@
                 "source": "https://api.w3.org/specifications/FileAPI/versions/20260912"
             }
         },
-        "rawDate": "2026-11-14",
+        "rawDate": "2026-11-22",
         "source": "https://api.w3.org/specifications/FileAPI",
         "edDraft": "https://w3c.github.io/FileAPI/",
         "repository": "https://github.com/w3c/FileAPI"
@@ -166443,7 +166443,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-n-triples/",
         "title": "RDF 1.2 N-Triples",
-        "rawDate": "2026-11-05",
+        "rawDate": "2026-11-22",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-n-triples/spec/",
