@@ -50753,7 +50753,7 @@
         ],
         "href": "https://www.w3.org/TR/css-color-4/",
         "title": "CSS Color Module Level 4",
-        "rawDate": "2026-11-18",
+        "rawDate": "2026-11-23",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://drafts.csswg.org/css-color-4/",
@@ -67065,7 +67065,7 @@
         ],
         "href": "https://www.w3.org/TR/design-principles/",
         "title": "Web Platform Design Principles",
-        "rawDate": "2026-11-02",
+        "rawDate": "2026-11-23",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3ctag.github.io/design-principles/",
@@ -67603,6 +67603,20 @@
                     "https://www.w3.org/2001/tag/"
                 ],
                 "source": "https://api.w3.org/specifications/design-principles/versions/20261102"
+            },
+            "20261123": {
+                "authors": [
+                    "Jeffrey Yasskin"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-design-principles-20261123/",
+                "title": "Web Platform Design Principles",
+                "rawDate": "2026-11-23",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/design-principles/versions/20261123"
             }
         },
         "repository": "https://github.com/w3ctag/design-principles"
@@ -74793,7 +74807,7 @@
         "repository": "https://github.com/w3c/differential-privacy-guidance"
     },
     "digital-credentials": {
-        "rawDate": "2026-11-19",
+        "rawDate": "2026-11-23",
         "href": "https://www.w3.org/TR/digital-credentials/",
         "title": "Digital Credentials",
         "edDraft": "https://w3c-fedid.github.io/digital-credentials/",
@@ -125458,7 +125472,7 @@
         "isRetired": true
     },
     "lws10-core": {
-        "rawDate": "2026-11-16",
+        "rawDate": "2026-11-23",
         "href": "https://www.w3.org/TR/lws10-core/",
         "title": "Linked Web Storage Protocol 1.0",
         "edDraft": "https://w3c.github.io/lws-protocol/lws10-core/",
@@ -138638,7 +138652,7 @@
         ],
         "href": "https://www.w3.org/TR/navigation-timing-2/",
         "title": "Navigation Timing Level 2",
-        "rawDate": "2026-11-02",
+        "rawDate": "2026-11-23",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -167247,7 +167261,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-schema/",
         "title": "RDF 1.2 Schema",
-        "rawDate": "2026-11-12",
+        "rawDate": "2026-11-23",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-schema/spec/",
@@ -183720,7 +183734,7 @@
         ],
         "href": "https://www.w3.org/TR/service-workers/",
         "title": "Service Workers Nightly",
-        "rawDate": "2026-11-17",
+        "rawDate": "2026-11-23",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/ServiceWorker/",
@@ -185675,7 +185689,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-profiling": {
-        "rawDate": "2026-07-02",
+        "rawDate": "2026-11-23",
         "href": "https://www.w3.org/TR/shacl12-profiling/",
         "title": "SHACL 1.2 Profiling",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-profiling/",
@@ -185701,12 +185715,12 @@
                 "source": "https://api.w3.org/specifications/shacl12-profiling/versions/20260702"
             }
         },
-        "status": "FPWD",
+        "status": "WD",
         "authors": [
             "Nicholas Car",
-            "Scott Henninger",
-            "Yousouf Taghzouti",
             "Alexander Nelson",
+            "Yousouf Taghzouti",
+            "Scott Henninger",
             "Matt Goldberg"
         ],
         "deliveredBy": [
@@ -193640,7 +193654,7 @@
         "repository": "https://github.com/w3c/sparql-results-xml"
     },
     "sparql12-rl": {
-        "rawDate": "2026-11-15",
+        "rawDate": "2026-11-23",
         "href": "https://www.w3.org/TR/sparql12-rl/",
         "title": "SPARQL 1.2 RL",
         "edDraft": "https://w3c.github.io/data-shapes/sparql12-rl/",
@@ -207400,7 +207414,7 @@
         "repository": "https://github.com/w3c/vc-data-integrity"
     },
     "vc-data-integrity-1.1": {
-        "rawDate": "2026-11-16",
+        "rawDate": "2026-11-23",
         "href": "https://www.w3.org/TR/vc-data-integrity-1.1/",
         "title": "Verifiable Credential Data Integrity 1.1",
         "edDraft": "https://w3c.github.io/vc-data-integrity/",
@@ -216463,7 +216477,7 @@
         "aliasOf": "vc-overview-1.0-20260618"
     },
     "vc-recognized-entities-1.0": {
-        "rawDate": "2026-11-15",
+        "rawDate": "2026-11-23",
         "href": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
         "title": "Recognized Entities v1.0",
         "edDraft": "https://w3c.github.io/vc-recognized-entities/",
