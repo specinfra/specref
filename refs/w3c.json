@@ -67065,7 +67065,7 @@
         ],
         "href": "https://www.w3.org/TR/design-principles/",
         "title": "Web Platform Design Principles",
-        "rawDate": "2026-11-23",
+        "rawDate": "2026-11-24",
         "status": "NOTE",
         "publisher": "W3C",
         "edDraft": "https://w3ctag.github.io/design-principles/",
@@ -67617,6 +67617,20 @@
                     "https://www.w3.org/2001/tag/"
                 ],
                 "source": "https://api.w3.org/specifications/design-principles/versions/20261123"
+            },
+            "20261124": {
+                "authors": [
+                    "Jeffrey Yasskin"
+                ],
+                "href": "https://www.w3.org/TR/2026/NOTE-design-principles-20261124/",
+                "title": "Web Platform Design Principles",
+                "rawDate": "2026-11-24",
+                "status": "NOTE",
+                "publisher": "W3C",
+                "deliveredBy": [
+                    "https://www.w3.org/2001/tag/"
+                ],
+                "source": "https://api.w3.org/specifications/design-principles/versions/20261124"
             }
         },
         "repository": "https://github.com/w3ctag/design-principles"
@@ -180462,7 +180476,7 @@
         ],
         "href": "https://www.w3.org/TR/secure-payment-confirmation/",
         "title": "Secure Payment Confirmation",
-        "rawDate": "2026-10-13",
+        "rawDate": "2026-11-24",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/secure-payment-confirmation/",
@@ -181367,7 +181381,7 @@
         "repository": "https://github.com/w3c/secure-payment-confirmation"
     },
     "security-disclosure": {
-        "rawDate": "2026-08-24",
+        "rawDate": "2026-11-24",
         "href": "https://www.w3.org/TR/security-disclosure/",
         "title": "W3C Standards Vulnerability Disclosure & Handling Process and Policy",
         "edDraft": "https://w3c.github.io/security-disclosure/",
