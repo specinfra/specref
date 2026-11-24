@@ -3968,6 +3968,22 @@
         "publisher": "IETF",
         "source": "https://www.ietf.org/rfc/rfc-index.xml"
     },
+    "rfc10090": {
+        "rfcNumber": "RFC10090",
+        "href": "https://www.rfc-editor.org/info/rfc10090/",
+        "title": "BGP Usage for Software-Defined WAN (SD-WAN) Overlay Networks",
+        "authors": [
+            "L. Dunbar",
+            "A. Sajassi",
+            "J. Drake",
+            "B. Najem",
+            "S. Hares"
+        ],
+        "rawDate": "2026-11",
+        "status": "Informational",
+        "publisher": "IETF",
+        "source": "https://www.ietf.org/rfc/rfc-index.xml"
+    },
     "rfc10091": {
         "rfcNumber": "RFC10091",
         "href": "https://www.rfc-editor.org/info/rfc10091/",

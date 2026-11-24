@@ -84547,7 +84547,7 @@
         "repository": "https://github.com/w3c/epub-specs"
     },
     "epub-34": {
-        "rawDate": "2026-11-19",
+        "rawDate": "2026-11-24",
         "href": "https://www.w3.org/TR/epub-34/",
         "title": "EPUB 3.4",
         "edDraft": "https://w3c.github.io/epub-specs/epub34/authoring/",
@@ -178609,7 +178609,7 @@
         ],
         "href": "https://www.w3.org/TR/screen-wake-lock/",
         "title": "Screen Wake Lock API",
-        "rawDate": "2026-11-21",
+        "rawDate": "2026-11-24",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/screen-wake-lock/",
@@ -185564,7 +185564,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-inference-rules": {
-        "rawDate": "2026-11-19",
+        "rawDate": "2026-11-23",
         "href": "https://www.w3.org/TR/shacl12-inference-rules/",
         "title": "SHACL 1.2 Inference Rules",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-inference-rules/",
