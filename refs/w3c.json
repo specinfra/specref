@@ -15954,7 +15954,7 @@
         ],
         "href": "https://www.w3.org/TR/WGSL/",
         "title": "WebGPU Shading Language",
-        "rawDate": "2026-11-06",
+        "rawDate": "2026-11-25",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://gpuweb.github.io/gpuweb/wgsl/",
@@ -74821,7 +74821,7 @@
         "repository": "https://github.com/w3c/differential-privacy-guidance"
     },
     "digital-credentials": {
-        "rawDate": "2026-11-23",
+        "rawDate": "2026-11-25",
         "href": "https://www.w3.org/TR/digital-credentials/",
         "title": "Digital Credentials",
         "edDraft": "https://w3c-fedid.github.io/digital-credentials/",
@@ -168347,7 +168347,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-trig/",
         "title": "RDF 1.2 TriG",
-        "rawDate": "2026-11-13",
+        "rawDate": "2026-11-25",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-trig/spec/",
@@ -194626,7 +194626,7 @@
         ],
         "href": "https://www.w3.org/TR/sparql12-update/",
         "title": "SPARQL 1.2 Update",
-        "rawDate": "2026-11-19",
+        "rawDate": "2026-11-25",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/sparql-update/spec/",
@@ -211058,7 +211058,7 @@
         "isSeriesAlias": true
     },
     "vc-data-model-threat-model-2.1": {
-        "rawDate": "2026-09-27",
+        "rawDate": "2026-11-25",
         "href": "https://www.w3.org/TR/vc-data-model-threat-model-2.1/",
         "title": "Verifiable Credentials Data Model Threat Model v2.1",
         "edDraft": "https://w3c.github.io/vc-data-model/threat-model/",
@@ -216491,7 +216491,7 @@
         "aliasOf": "vc-overview-1.0-20260618"
     },
     "vc-recognized-entities-1.0": {
-        "rawDate": "2026-11-23",
+        "rawDate": "2026-11-25",
         "href": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
         "title": "Recognized Entities v1.0",
         "edDraft": "https://w3c.github.io/vc-recognized-entities/",
@@ -268944,7 +268944,7 @@
         ],
         "href": "https://www.w3.org/TR/webmidi/",
         "title": "Web MIDI API",
-        "rawDate": "2026-10-31",
+        "rawDate": "2026-11-25",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -278811,7 +278811,7 @@
         ],
         "href": "https://www.w3.org/TR/webxrlayers-1/",
         "title": "WebXR Layers API Level 1",
-        "rawDate": "2026-08-11",
+        "rawDate": "2026-11-25",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://immersive-web.github.io/layers/",

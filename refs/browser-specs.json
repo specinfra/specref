@@ -441,6 +441,17 @@
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/w3c/csswg-drafts"
     },
+    "CSS-OVERSCROLL-2": {
+        "href": "https://drafts.csswg.org/css-overscroll-2/",
+        "title": "CSS Overscroll Behavior Module Level 2",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/css/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
     "CSS-PAGE-4": {
         "href": "https://drafts.csswg.org/css-page-4/",
         "title": "Proposals for the future of CSS Paged Media",
@@ -488,6 +499,17 @@
     "CSS-SIZE-ADJUST-1": {
         "href": "https://drafts.csswg.org/css-size-adjust-1/",
         "title": "CSS Mobile Text Size Adjustment Module Level 1",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/groups/wg/css/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/w3c/csswg-drafts"
+    },
+    "CSS-SPATIAL-1": {
+        "href": "https://drafts.csswg.org/css-spatial-1/",
+        "title": "CSS Spatial Layout Module Level 1",
         "status": "Editor's Draft",
         "publisher": "W3C",
         "deliveredBy": [
@@ -1590,7 +1612,8 @@
             "https://www.w3.org/community/wicg/"
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
-        "repository": "https://github.com/WICG/overscroll-scrollend-events"
+        "repository": "https://github.com/WICG/overscroll-scrollend-events",
+        "isRetired": true
     },
     "OVR_MULTIVIEW2": {
         "href": "https://registry.khronos.org/webgl/extensions/OVR_multiview2/",
@@ -3033,6 +3056,17 @@
         ],
         "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
         "repository": "https://github.com/WebAssembly/extended-const"
+    },
+    "WASM-CORE-2-FORK-EXTENDED-NAME-SECTION": {
+        "href": "https://webassembly.github.io/extended-name-section/core/bikeshed/",
+        "title": "WebAssembly Core: Extended Name Section",
+        "status": "Editor's Draft",
+        "publisher": "W3C",
+        "deliveredBy": [
+            "https://www.w3.org/community/webassembly/"
+        ],
+        "source": "https://raw.githubusercontent.com/w3c/browser-specs/web-specs%40latest/index.json",
+        "repository": "https://github.com/WebAssembly/extended-name-section"
     },
     "WASM-CORE-2-FORK-FUNCTION-REFERENCES": {
         "href": "https://webassembly.github.io/function-references/core/bikeshed/",
