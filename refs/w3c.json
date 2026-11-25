@@ -138666,7 +138666,7 @@
         ],
         "href": "https://www.w3.org/TR/navigation-timing-2/",
         "title": "Navigation Timing Level 2",
-        "rawDate": "2026-11-23",
+        "rawDate": "2026-11-25",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
@@ -185703,7 +185703,7 @@
         "repository": "https://github.com/w3c/data-shapes"
     },
     "shacl12-profiling": {
-        "rawDate": "2026-11-23",
+        "rawDate": "2026-11-25",
         "href": "https://www.w3.org/TR/shacl12-profiling/",
         "title": "SHACL 1.2 Profiling",
         "edDraft": "https://w3c.github.io/data-shapes/shacl12-profiling/",
@@ -202297,13 +202297,13 @@
             "Richard Ishida"
         ],
         "href": "https://www.w3.org/TR/typography/",
-        "title": "Language enablement index",
-        "rawDate": "2024-11-15",
+        "title": "Language Enablement Index",
+        "rawDate": "2026-11-25",
         "status": "DNOTE",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/typography/",
         "deliveredBy": [
-            "https://www.w3.org/International/core/"
+            "https://www.w3.org/International/i18n-activity/i18n-wg/"
         ],
         "source": "https://api.w3.org/specifications/typography",
         "versions": {
