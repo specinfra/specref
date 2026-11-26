@@ -15954,7 +15954,7 @@
         ],
         "href": "https://www.w3.org/TR/WGSL/",
         "title": "WebGPU Shading Language",
-        "rawDate": "2026-11-25",
+        "rawDate": "2026-11-26",
         "status": "CRD",
         "publisher": "W3C",
         "edDraft": "https://gpuweb.github.io/gpuweb/wgsl/",
@@ -168347,7 +168347,7 @@
         ],
         "href": "https://www.w3.org/TR/rdf12-trig/",
         "title": "RDF 1.2 TriG",
-        "rawDate": "2026-11-25",
+        "rawDate": "2026-11-26",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/rdf-trig/spec/",
@@ -178612,7 +178612,7 @@
                 "source": "https://api.w3.org/specifications/screen-orientation/versions/20260806"
             }
         },
-        "rawDate": "2026-11-20",
+        "rawDate": "2026-11-26",
         "source": "https://api.w3.org/specifications/screen-orientation",
         "edDraft": "https://w3c.github.io/screen-orientation/",
         "repository": "https://github.com/w3c/screen-orientation"
@@ -181381,7 +181381,7 @@
         "repository": "https://github.com/w3c/secure-payment-confirmation"
     },
     "security-disclosure": {
-        "rawDate": "2026-11-24",
+        "rawDate": "2026-11-26",
         "href": "https://www.w3.org/TR/security-disclosure/",
         "title": "W3C Standards Vulnerability Disclosure & Handling Process and Policy",
         "edDraft": "https://w3c.github.io/security-disclosure/",
@@ -193668,7 +193668,7 @@
         "repository": "https://github.com/w3c/sparql-results-xml"
     },
     "sparql12-rl": {
-        "rawDate": "2026-11-23",
+        "rawDate": "2026-11-26",
         "href": "https://www.w3.org/TR/sparql12-rl/",
         "title": "SPARQL 1.2 RL",
         "edDraft": "https://w3c.github.io/data-shapes/sparql12-rl/",
@@ -260019,7 +260019,7 @@
         ],
         "href": "https://www.w3.org/TR/webdriver2/",
         "title": "WebDriver",
-        "rawDate": "2026-11-09",
+        "rawDate": "2026-11-26",
         "status": "WD",
         "publisher": "W3C",
         "edDraft": "https://w3c.github.io/webdriver/",
