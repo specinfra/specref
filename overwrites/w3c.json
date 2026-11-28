@@ -1,0 +1,26 @@
+[
+    {
+        "id": "alreq",
+        "action": "replaceProp",
+        "prop": "authors",
+        "value": [
+            "Behnam Esfahbod",
+            "Mostafa Hajizadeh",
+            "Najib Tounsi",
+            "Richard Ishida",
+            "Shervin Afshar",
+            "Titus Nemeth"
+        ]
+    },
+    {
+        "id": "arabic-math",
+        "action": "replaceProp",
+        "prop": "authors",
+        "value": [
+            "Azzeddine Lazrek",
+            "Mustapha Eddahibi",
+            "Khalid Sami",
+            "Bruce R. Miller"
+        ]
+    }
+]
