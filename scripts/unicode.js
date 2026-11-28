@@ -29,15 +29,31 @@ const skip = new Set([
     // Not in HTML
     25, 54,
 ]);
+const MAX_CONCURRENCY = 5;
+const REFETCH_OLD_VERSIONS = false;
 
-async.each(range(1, MAX_REPORT), (num, cb) => {
+async.eachLimit(range(1, MAX_REPORT), MAX_CONCURRENCY, (num, cb) => {
     if (skip.has(num)) {
         console.log('Skipping report #' + num);
         cb();
         return;
     }
 
-    const url = `https://www.unicode.org/reports/tr${num}/`;
+    recurseStandard(num, `https://www.unicode.org/reports/tr${num}/`, null, cb);
+}, (err) => {
+    if (err) {
+        console.log('there was an error');
+        console.error(err);
+        return;
+    }
+    const output = {};
+    for (const key of Object.keys(current).sort()) {
+        output[key] = current[key];
+    }
+    helper.writeBiblio(FILENAME, output);
+});
+
+function recurseStandard(num, url, latestId, cb) {
     console.log('Fetching', url, '...');
     request({
         url,
@@ -53,13 +69,7 @@ async.each(range(1, MAX_REPORT), (num, cb) => {
         console.log('Parsing', url, '...');
         const dom = new JSDOM(body, { url });
         const { document } = dom.window;
-        const type = document.title.slice(0, 3);
-        if (type !== 'UTS' && type !== 'UTR' && type !== 'UAX') {
-            console.log('Unable to parse title', document.title);
-            cb();
-            return;
-        }
-        const id = type + num;
+
         const statusEl = document.querySelector('.body > h2');
         if (!statusEl) {
             console.log('Unable to find status');
@@ -67,6 +77,24 @@ async.each(range(1, MAX_REPORT), (num, cb) => {
             return;
         }
         const status = trimText(statusEl.textContent);
+
+        let type = document.title.match(/\b(UTS|UTR|UAX)/);
+        if (type !== 'UTS' && type !== 'UTR' && type !== 'UAX') {
+            // Fallback for https://www.unicode.org/reports/tr35/
+            const lowerStatus = status.toLowerCase();
+            if (lowerStatus.indexOf('technical standard') != -1) {
+                type = 'UTS';
+            } else if (lowerStatus.indexOf('standard annex') != -1) {
+                type = 'UAX';
+            } else if (lowerStatus.indexOf('technical report') != -1) {
+                type = 'UTR';
+            } else {
+                console.log('Unable to parse document type');
+                cb();
+                return;
+            }
+        }
+        const thisId = type + num;
 
         const titleEl = statusEl.nextElementSibling;
         if (!titleEl || titleEl.tagName !== 'H1') {
@@ -86,54 +114,84 @@ async.each(range(1, MAX_REPORT), (num, cb) => {
             return;
         }
 
+        if (latestId == null) {
+            // This is first scanned document, so the latest version.
+            latestId = thisId;
+
+            const authors = infoTable.Editor && parseEditor(infoTable.Editor);
+            if (!authors) {
+                console.log('Unable to find/parse editors in table');
+                cb();
+                return;
+            }
+
+            current[thisId] = {
+                href: url,
+                authors,
+                etAl: authors.etAl,
+                title,
+                status,
+                publisher: 'Unicode Consortium',
+                versions: current[latestId]?.versions ?? {}
+            };
+        } else if (thisId != latestId) {
+            // The document was renamed at some point - create link
+            current[thisId] = { aliasOf: latestId };
+        }
+
         const date = trimText(infoTable.Date);
-        if (!date) {
+        if (!date || !/\d{4}-\d{2}-\d{2}/.test(date)) {
             console.log('Unable to find date in table');
             cb();
             return;
         }
-        let isRawDate = /\d{4}-\d{2}-\d{2}/.test(date);
 
-        const href = processURL(infoTable['This Version'] || url);
-
-        const authors = infoTable.Editor && parseEditor(infoTable.Editor);
-        if (!authors) {
-            console.log('Unable to find/parse editors in table');
+        const href = processURL(infoTable['This Version']);
+        if (!href) {
+            console.log('Failed to extract version URL');
             cb();
             return;
         }
 
-        if (type !== 'UAX' && current[`UAX${num}`])
-            current[`UAX${num}`] = { aliasOf: id };
-        if (type !== 'UTR' && current[`UTR${num}`])
-            current[`UTR${num}`] = { aliasOf: id };
-        if (type !== 'UTS' && current[`UTS${num}`])
-            current[`UTS${num}`] = { aliasOf: id };
+        const revision = parseRevision(href);
+        if (!revision) {
+            console.log('Failed to extract revision');
+            cb();
+            return;
+        }
 
-        current[id] = {
-            authors,
-            etAl: authors.etAl,
+        const version = parseVersion(infoTable.Version);
+
+        if (version)
+            title = `${title} version ${version}`;
+        else
+            title = `${title} revision ${revision}`;
+
+        const wasAlreadyDefined = revision in current[latestId].versions;
+        current[latestId].versions[revision] = {
             href,
+            rawDate: date,
             title,
-            date: isRawDate ? undefined : date,
-            rawDate: isRawDate ? date : undefined,
-            status,
-            publisher: 'Unicode Consortium'
+            status: current[latestId].status != status ? status : undefined,
         };
+
+        /*
+         * If this revision was already defined, then don't waste time and bandwidth fetching
+         * previous revisions which should have no changes.
+         *
+         * We're running this check after updating the information for this version in case this
+         * is the latest and is a WIP, as we have already downloaded it anyway.
+         */
+        if (!wasAlreadyDefined || REFETCH_OLD_VERSIONS) {
+            const previousUrl = processURL(infoTable['Previous Version']);
+            if (previousUrl) {
+                recurseStandard(num, previousUrl, latestId, cb);
+                return;
+            }
+        }
         cb();
     });
-}, (err) => {
-    if (err) {
-        console.log('there was an error');
-        console.error(err);
-        return;
-    }
-    const output = {};
-    for (const key of Object.keys(current).sort()) {
-        output[key] = current[key];
-    }
-    helper.writeBiblio(FILENAME, output);
-});
+}
 
 function* range(from, until) {
     for (let i = from; i <= until; i++)
@@ -141,7 +199,21 @@ function* range(from, until) {
 }
 
 function trimText(str) {
-    return str.replace(/®/g, '').trim().replace(/\s+/g, ' ');
+    if (!str)
+        return str;
+    str = str.replace(/®/g, '').trim();
+
+    /*
+     * Replace consecutive newlines (with any surrounding spaces) with a single newline.
+     * Technically the first [\s--\n]* could be simply \s* but writing it this way avoids
+     * heavy backtracking for long stretches of spaces.
+     */
+    str = str.replace(/[\s--\n]*\n\s*/gv, '\n');
+
+    // Now replace all other spans of spaces, excluding new lines, with a single space
+    str = str.replace(/[\s--\n]+/gv, ' ');
+
+    return str;
 }
 
 function titleCase(str) {
@@ -154,9 +226,9 @@ function gatherText(element) {
         if (node.nodeType === node.ELEMENT_NODE && node.tagName === 'BR')
             str += '\n';
         else
-            str += trimText(node.textContent) + ' ';
+            str += node.textContent;
     }
-    return str;
+    return trimText(str);
 }
 
 function parseTable(tableEl) {
@@ -173,7 +245,16 @@ function parseTable(tableEl) {
 }
 
 function processURL(str) {
-    return trimText(str).replace(/^http:/, 'https:');
+    if (!str)
+        return null;
+    str = trimText(str);
+    /*
+     * Check for "Previous Version" in https://www.unicode.org/reports/tr38/tr38-5.html and
+     * others, where it is "n/a".
+     */
+    if (str.substring(0, 4) != 'http')
+        return null;
+    return str.replace(/^http:/, 'https:');
 }
 
 function parseEditor(str) {
@@ -183,4 +264,23 @@ function parseEditor(str) {
         arr.etAl = true;
     }
     return arr;
+}
+
+function parseRevision(url) {
+    if (!url)
+        return null;
+    /*
+     * Find a in the URL the pattern "/tr<num>/tr<num>-<revision>". This works for the two cases:
+     *   - /tr<num>/tr<num>-<rev>/tr<num>.html (only UTS #35?)
+     *   - /tr<num>/tr<num>-<rev>.html (all others)
+     */
+    const match = url.match(/\/(tr\d+)\/\1-(?<rev>\d+)/, url);
+    return match ? match.groups.rev : null;
+}
+
+function parseVersion(str) {
+    if (!str)
+        return null;
+    // Some have "Unicode 11.0.0" instead of the version alone. Strip it.
+    return trimText(str).replace(/^Unicode\s*/, '');
 }
