@@ -74821,7 +74821,7 @@
         "repository": "https://github.com/w3c/differential-privacy-guidance"
     },
     "digital-credentials": {
-        "rawDate": "2026-11-27",
+        "rawDate": "2026-11-28",
         "href": "https://www.w3.org/TR/digital-credentials/",
         "title": "Digital Credentials",
         "edDraft": "https://w3c-fedid.github.io/digital-credentials/",
@@ -138666,7 +138666,7 @@
         ],
         "href": "https://www.w3.org/TR/navigation-timing-2/",
         "title": "Navigation Timing Level 2",
-        "rawDate": "2026-11-25",
+        "rawDate": "2026-11-28",
         "status": "WD",
         "publisher": "W3C",
         "deliveredBy": [
